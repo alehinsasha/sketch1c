@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+	<CommandBarLocation>None</CommandBarLocation>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаРаботаСФайломПроекта" id="42">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа работа с файлом проекта</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа работа с файлом проекта</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаРаботаСФайломПроектаРасширеннаяПодсказка" id="43"/>
+			<ChildItems>
+				<InputField name="РасположениеПроекта" id="39">
+					<DataPath>РасположениеПроекта</DataPath>
+					<ChoiceButton>true</ChoiceButton>
+					<ClearButton>true</ClearButton>
+					<OpenButton>true</OpenButton>
+					<TextEdit>false</TextEdit>
+					<ContextMenu name="РасположениеПроектаКонтекстноеМеню" id="40"/>
+					<ExtendedTooltip name="РасположениеПроектаРасширеннаяПодсказка" id="41"/>
+					<Events>
+						<Event name="StartChoice">ВыбратьПроект</Event>
+						<Event name="Opening">ОткрытьПроект</Event>
+					</Events>
+				</InputField>
+				<Button name="СохранитьПроект" id="44">
+					<Type>UsualButton</Type>
+					<DefaultButton>true</DefaultButton>
+					<CommandName>Form.Command.СохранитьПроект</CommandName>
+					<ExtendedTooltip name="СохранитьПроектРасширеннаяПодсказка" id="45"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаПрототипы" id="46">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Прототипы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа прототипы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Behavior>Collapsible</Behavior>
+			<ControlRepresentation>Picture</ControlRepresentation>
+			<ExtendedTooltip name="ГруппаПрототипыРасширеннаяПодсказка" id="47"/>
+			<ChildItems>
+				<Table name="Прототипы" id="1">
+					<Representation>Tree</Representation>
+					<TitleLocation>Top</TitleLocation>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>Прототипы</DataPath>
+					<ContextMenu name="ПрототипыКонтекстноеМеню" id="2"/>
+					<AutoCommandBar name="ПрототипыКоманднаяПанель" id="3"/>
+					<ExtendedTooltip name="ПрототипыРасширеннаяПодсказка" id="4"/>
+					<SearchStringAddition name="ПрототипыСтрокаПоиска" id="5">
+						<AdditionSource>
+							<Item>Прототипы</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ПрототипыСтрокаПоискаКонтекстноеМеню" id="6"/>
+						<ExtendedTooltip name="ПрототипыСтрокаПоискаРасширеннаяПодсказка" id="7"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="ПрототипыСостояниеПросмотра" id="8">
+						<AdditionSource>
+							<Item>Прототипы</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ПрототипыСостояниеПросмотраКонтекстноеМеню" id="9"/>
+						<ExtendedTooltip name="ПрототипыСостояниеПросмотраРасширеннаяПодсказка" id="10"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="ПрототипыУправлениеПоиском" id="11">
+						<AdditionSource>
+							<Item>Прототипы</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="ПрототипыУправлениеПоискомКонтекстноеМеню" id="12"/>
+						<ExtendedTooltip name="ПрототипыУправлениеПоискомРасширеннаяПодсказка" id="13"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<InputField name="ПрототипыИмя" id="14">
+							<DataPath>Прототипы.Имя</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ПрототипыИмяКонтекстноеМеню" id="15"/>
+							<ExtendedTooltip name="ПрототипыИмяРасширеннаяПодсказка" id="16"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="СвойстваПрототипа" id="17">
+			<Representation>List</Representation>
+			<TitleLocation>Top</TitleLocation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>СвойстваПрототипа</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="СвойстваПрототипаКонтекстноеМеню" id="18"/>
+			<AutoCommandBar name="СвойстваПрототипаКоманднаяПанель" id="19"/>
+			<ExtendedTooltip name="СвойстваПрототипаРасширеннаяПодсказка" id="20"/>
+			<SearchStringAddition name="СвойстваПрототипаСтрокаПоиска" id="21">
+				<AdditionSource>
+					<Item>СвойстваПрототипа</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СвойстваПрототипаСтрокаПоискаКонтекстноеМеню" id="22"/>
+				<ExtendedTooltip name="СвойстваПрототипаСтрокаПоискаРасширеннаяПодсказка" id="23"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СвойстваПрототипаСостояниеПросмотра" id="24">
+				<AdditionSource>
+					<Item>СвойстваПрототипа</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СвойстваПрототипаСостояниеПросмотраКонтекстноеМеню" id="25"/>
+				<ExtendedTooltip name="СвойстваПрототипаСостояниеПросмотраРасширеннаяПодсказка" id="26"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СвойстваПрототипаУправлениеПоиском" id="27">
+				<AdditionSource>
+					<Item>СвойстваПрототипа</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СвойстваПрототипаУправлениеПоискомКонтекстноеМеню" id="28"/>
+				<ExtendedTooltip name="СвойстваПрототипаУправлениеПоискомРасширеннаяПодсказка" id="29"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<InputField name="СвойстваПрототипаИмя" id="30">
+					<DataPath>СвойстваПрототипа.Имя</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СвойстваПрототипаИмяКонтекстноеМеню" id="31"/>
+					<ExtendedTooltip name="СвойстваПрототипаИмяРасширеннаяПодсказка" id="32"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:ExternalDataProcessorObject.Эскиз</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Прототипы" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Прототипы</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTree</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Имя" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="СвойстваПрототипа" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Свойства прототипа</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Имя" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="РасположениеПроекта" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проект</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="СохранитьПроект" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить проект</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Write</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>СохранитьПроект</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+	</Commands>
+</Form>
