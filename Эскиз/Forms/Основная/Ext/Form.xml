@@ -47,32 +47,82 @@
 				</Button>
 			</ChildItems>
 		</UsualGroup>
-		<UsualGroup name="ГруппаПрототипы" id="46">
+		<UsualGroup name="ГруппаФормыИЭлементы" id="46">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Прототипы</v8:content>
+					<v8:content>Формы и элементы</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Группа прототипы</v8:content>
+					<v8:content>Группа формы и элементы</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Behavior>Collapsible</Behavior>
 			<ControlRepresentation>Picture</ControlRepresentation>
-			<ExtendedTooltip name="ГруппаПрототипыРасширеннаяПодсказка" id="47"/>
+			<ExtendedTooltip name="ГруппаФормыИЭлементыРасширеннаяПодсказка" id="47"/>
 			<ChildItems>
 				<Table name="Прототипы" id="1">
 					<Representation>Tree</Representation>
-					<TitleLocation>Top</TitleLocation>
 					<AutoInsertNewRow>true</AutoInsertNewRow>
 					<EnableStartDrag>true</EnableStartDrag>
 					<EnableDrag>true</EnableDrag>
 					<DataPath>Прототипы</DataPath>
 					<ContextMenu name="ПрототипыКонтекстноеМеню" id="2"/>
-					<AutoCommandBar name="ПрототипыКоманднаяПанель" id="3"/>
+					<AutoCommandBar name="ПрототипыКоманднаяПанель" id="3">
+						<Autofill>false</Autofill>
+						<ChildItems>
+							<Popup name="ПрототипыГруппаДобавить" id="48">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Добавить</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Прототипы группа добавить</v8:content>
+									</v8:item>
+								</ToolTip>
+								<ExtendedTooltip name="ПрототипыГруппаДобавитьРасширеннаяПодсказка" id="49"/>
+								<ChildItems>
+									<Button name="ПрототипыДобавитьФорму" id="50">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ДобавитьФорму</CommandName>
+										<ExtendedTooltip name="ПрототипыДобавитьФормуРасширеннаяПодсказка" id="51"/>
+									</Button>
+									<Button name="ПрототипыДобавитьГруппу" id="52">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ДобавитьГруппу</CommandName>
+										<ExtendedTooltip name="ПрототипыДобавитьГруппуРасширеннаяПодсказка" id="53"/>
+									</Button>
+									<Button name="ПрототипыДобавитьПоле" id="54">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ДобавитьПоле</CommandName>
+										<ExtendedTooltip name="ПрототипыДобавитьПолеРасширеннаяПодсказка" id="55"/>
+									</Button>
+									<Button name="ПрототипыДобавитьКнопку" id="56">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ДобавитьКнопку</CommandName>
+										<ExtendedTooltip name="ПрототипыДобавитьКнопкуРасширеннаяПодсказка" id="57"/>
+									</Button>
+									<Button name="ПрототипыДобавитьТаблицу" id="58">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ДобавитьТаблицу</CommandName>
+										<ExtendedTooltip name="ПрототипыДобавитьТаблицуРасширеннаяПодсказка" id="59"/>
+									</Button>
+									<Button name="ПрототипыДобавитьДекорацию" id="60">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ДобавитьДекорацию</CommandName>
+										<ExtendedTooltip name="ПрототипыДобавитьДекорациюРасширеннаяПодсказка" id="61"/>
+									</Button>
+								</ChildItems>
+							</Popup>
+						</ChildItems>
+					</AutoCommandBar>
 					<ExtendedTooltip name="ПрототипыРасширеннаяПодсказка" id="4"/>
 					<SearchStringAddition name="ПрототипыСтрокаПоиска" id="5">
 						<AdditionSource>
@@ -253,6 +303,91 @@
 			</Picture>
 			<Action>СохранитьПроект</Action>
 			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="ДобавитьФорму" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Форму</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить форму</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ДобавитьФорму</Action>
+		</Command>
+		<Command name="ДобавитьГруппу" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группу</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить группу</v8:content>
+				</v8:item>
+			</ToolTip>
+		</Command>
+		<Command name="ДобавитьПоле" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поле</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить поле</v8:content>
+				</v8:item>
+			</ToolTip>
+		</Command>
+		<Command name="ДобавитьКнопку" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Кнопку</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить кнопку</v8:content>
+				</v8:item>
+			</ToolTip>
+		</Command>
+		<Command name="ДобавитьТаблицу" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Таблицу</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить таблицу</v8:content>
+				</v8:item>
+			</ToolTip>
+		</Command>
+		<Command name="ДобавитьДекорацию" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Декорацию</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить декорацию</v8:content>
+				</v8:item>
+			</ToolTip>
 		</Command>
 	</Commands>
 </Form>
