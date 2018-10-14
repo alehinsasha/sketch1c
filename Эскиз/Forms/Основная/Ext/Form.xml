@@ -24,10 +24,12 @@
 			<Group>AlwaysHorizontal</Group>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
+			<BackColor>style:ToolTipBackColor</BackColor>
 			<ExtendedTooltip name="ГруппаРаботаСФайломПроектаРасширеннаяПодсказка" id="43"/>
 			<ChildItems>
 				<InputField name="РасположениеПроекта" id="39">
 					<DataPath>РасположениеПроекта</DataPath>
+					<TitleFont ref="style:NormalTextFont" height="9" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 					<ChoiceButton>true</ChoiceButton>
 					<ClearButton>true</ClearButton>
 					<OpenButton>true</OpenButton>
@@ -47,125 +49,153 @@
 				</Button>
 			</ChildItems>
 		</UsualGroup>
-		<UsualGroup name="ГруппаФормыИЭлементы" id="46">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Формы и элементы</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Группа формы и элементы</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Behavior>Collapsible</Behavior>
-			<ControlRepresentation>Picture</ControlRepresentation>
-			<ExtendedTooltip name="ГруппаФормыИЭлементыРасширеннаяПодсказка" id="47"/>
-			<ChildItems>
-				<Table name="Прототипы" id="1">
-					<Representation>Tree</Representation>
-					<AutoInsertNewRow>true</AutoInsertNewRow>
-					<EnableStartDrag>true</EnableStartDrag>
-					<EnableDrag>true</EnableDrag>
-					<DataPath>Прототипы</DataPath>
-					<ContextMenu name="ПрототипыКонтекстноеМеню" id="2"/>
-					<AutoCommandBar name="ПрототипыКоманднаяПанель" id="3">
-						<Autofill>false</Autofill>
-						<ChildItems>
-							<Popup name="ПрототипыГруппаДобавить" id="48">
-								<Title>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Добавить</v8:content>
-									</v8:item>
-								</Title>
-								<ToolTip>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Прототипы группа добавить</v8:content>
-									</v8:item>
-								</ToolTip>
-								<ExtendedTooltip name="ПрототипыГруппаДобавитьРасширеннаяПодсказка" id="49"/>
-								<ChildItems>
-									<Button name="ПрототипыДобавитьФорму" id="50">
-										<Type>CommandBarButton</Type>
-										<CommandName>Form.Command.ДобавитьФорму</CommandName>
-										<ExtendedTooltip name="ПрототипыДобавитьФормуРасширеннаяПодсказка" id="51"/>
-									</Button>
-									<Button name="ПрототипыДобавитьГруппу" id="52">
-										<Type>CommandBarButton</Type>
-										<CommandName>Form.Command.ДобавитьГруппу</CommandName>
-										<ExtendedTooltip name="ПрототипыДобавитьГруппуРасширеннаяПодсказка" id="53"/>
-									</Button>
-									<Button name="ПрототипыДобавитьПоле" id="54">
-										<Type>CommandBarButton</Type>
-										<CommandName>Form.Command.ДобавитьПоле</CommandName>
-										<ExtendedTooltip name="ПрототипыДобавитьПолеРасширеннаяПодсказка" id="55"/>
-									</Button>
-									<Button name="ПрототипыДобавитьКнопку" id="56">
-										<Type>CommandBarButton</Type>
-										<CommandName>Form.Command.ДобавитьКнопку</CommandName>
-										<ExtendedTooltip name="ПрототипыДобавитьКнопкуРасширеннаяПодсказка" id="57"/>
-									</Button>
-									<Button name="ПрототипыДобавитьТаблицу" id="58">
-										<Type>CommandBarButton</Type>
-										<CommandName>Form.Command.ДобавитьТаблицу</CommandName>
-										<ExtendedTooltip name="ПрототипыДобавитьТаблицуРасширеннаяПодсказка" id="59"/>
-									</Button>
-									<Button name="ПрототипыДобавитьДекорацию" id="60">
-										<Type>CommandBarButton</Type>
-										<CommandName>Form.Command.ДобавитьДекорацию</CommandName>
-										<ExtendedTooltip name="ПрототипыДобавитьДекорациюРасширеннаяПодсказка" id="61"/>
-									</Button>
-								</ChildItems>
-							</Popup>
-						</ChildItems>
-					</AutoCommandBar>
-					<ExtendedTooltip name="ПрототипыРасширеннаяПодсказка" id="4"/>
-					<SearchStringAddition name="ПрототипыСтрокаПоиска" id="5">
-						<AdditionSource>
-							<Item>Прототипы</Item>
-							<Type>SearchStringRepresentation</Type>
-						</AdditionSource>
-						<ContextMenu name="ПрототипыСтрокаПоискаКонтекстноеМеню" id="6"/>
-						<ExtendedTooltip name="ПрототипыСтрокаПоискаРасширеннаяПодсказка" id="7"/>
-					</SearchStringAddition>
-					<ViewStatusAddition name="ПрототипыСостояниеПросмотра" id="8">
-						<AdditionSource>
-							<Item>Прототипы</Item>
-							<Type>ViewStatusRepresentation</Type>
-						</AdditionSource>
-						<ContextMenu name="ПрототипыСостояниеПросмотраКонтекстноеМеню" id="9"/>
-						<ExtendedTooltip name="ПрототипыСостояниеПросмотраРасширеннаяПодсказка" id="10"/>
-					</ViewStatusAddition>
-					<SearchControlAddition name="ПрототипыУправлениеПоиском" id="11">
-						<AdditionSource>
-							<Item>Прототипы</Item>
-							<Type>SearchControl</Type>
-						</AdditionSource>
-						<ContextMenu name="ПрототипыУправлениеПоискомКонтекстноеМеню" id="12"/>
-						<ExtendedTooltip name="ПрототипыУправлениеПоискомРасширеннаяПодсказка" id="13"/>
-					</SearchControlAddition>
-					<ChildItems>
-						<InputField name="ПрототипыИмя" id="14">
-							<DataPath>Прототипы.Имя</DataPath>
-							<EditMode>EnterOnInput</EditMode>
-							<ContextMenu name="ПрототипыИмяКонтекстноеМеню" id="15"/>
-							<ExtendedTooltip name="ПрототипыИмяРасширеннаяПодсказка" id="16"/>
-						</InputField>
-					</ChildItems>
-				</Table>
-			</ChildItems>
-		</UsualGroup>
-		<Table name="СвойстваПрототипа" id="17">
-			<Representation>List</Representation>
+		<Table name="Прототипы" id="1">
+			<Representation>Tree</Representation>
 			<TitleLocation>Top</TitleLocation>
+			<Header>false</Header>
 			<AutoInsertNewRow>true</AutoInsertNewRow>
 			<EnableStartDrag>true</EnableStartDrag>
 			<EnableDrag>true</EnableDrag>
-			<DataPath>СвойстваПрототипа</DataPath>
+			<DataPath>ФормыИЭлементыУправления</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Формы и элементы управления</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="ПрототипыКонтекстноеМеню" id="2"/>
+			<AutoCommandBar name="ПрототипыКоманднаяПанель" id="3">
+				<Autofill>false</Autofill>
+				<ChildItems>
+					<Popup name="ПрототипыГруппаДобавить" id="48">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Добавить</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Прототипы группа добавить</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="ПрототипыГруппаДобавитьРасширеннаяПодсказка" id="49"/>
+						<ChildItems>
+							<Button name="ПрототипыДобавитьФорму" id="50">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.ДобавитьФорму</CommandName>
+								<ExtendedTooltip name="ПрототипыДобавитьФормуРасширеннаяПодсказка" id="51"/>
+							</Button>
+							<Button name="ПрототипыДобавитьГруппу" id="52">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.ДобавитьГруппу</CommandName>
+								<ExtendedTooltip name="ПрототипыДобавитьГруппуРасширеннаяПодсказка" id="53"/>
+							</Button>
+							<Button name="ПрототипыДобавитьПоле" id="54">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.ДобавитьПоле</CommandName>
+								<ExtendedTooltip name="ПрототипыДобавитьПолеРасширеннаяПодсказка" id="55"/>
+							</Button>
+							<Button name="ПрототипыДобавитьКнопку" id="56">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.ДобавитьКнопку</CommandName>
+								<ExtendedTooltip name="ПрототипыДобавитьКнопкуРасширеннаяПодсказка" id="57"/>
+							</Button>
+							<Button name="ПрототипыДобавитьТаблицу" id="58">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.ДобавитьТаблицу</CommandName>
+								<ExtendedTooltip name="ПрототипыДобавитьТаблицуРасширеннаяПодсказка" id="59"/>
+							</Button>
+							<Button name="ПрототипыДобавитьДекорацию" id="60">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.ДобавитьДекорацию</CommandName>
+								<ExtendedTooltip name="ПрототипыДобавитьДекорациюРасширеннаяПодсказка" id="61"/>
+							</Button>
+						</ChildItems>
+					</Popup>
+					<Button name="ПрототипыУдалить" id="68">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.Удалить</CommandName>
+						<ExtendedTooltip name="ПрототипыУдалитьРасширеннаяПодсказка" id="69"/>
+					</Button>
+					<ButtonGroup name="ГруппаПеремещения" id="62">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа перемещения</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа перемещения</v8:content>
+							</v8:item>
+						</ToolTip>
+						<Representation>Compact</Representation>
+						<ExtendedTooltip name="ГруппаПеремещенияРасширеннаяПодсказка" id="63"/>
+						<ChildItems>
+							<Button name="ПрототипыПереместитьВверх" id="64">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.ПереместитьВверх</CommandName>
+								<ExtendedTooltip name="ПрототипыПереместитьВверхРасширеннаяПодсказка" id="65"/>
+							</Button>
+							<Button name="ПрототипыПереместитьВниз" id="66">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.ПереместитьВниз</CommandName>
+								<ExtendedTooltip name="ПрототипыПереместитьВнизРасширеннаяПодсказка" id="67"/>
+							</Button>
+						</ChildItems>
+					</ButtonGroup>
+					<Button name="ПрототипыПроверитьФорму" id="70">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ПроверитьФорму</CommandName>
+						<ExtendedTooltip name="ПрототипыПроверитьФормуРасширеннаяПодсказка" id="71"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="ПрототипыРасширеннаяПодсказка" id="4"/>
+			<SearchStringAddition name="ПрототипыСтрокаПоиска" id="5">
+				<AdditionSource>
+					<Item>Прототипы</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ПрототипыСтрокаПоискаКонтекстноеМеню" id="6"/>
+				<ExtendedTooltip name="ПрототипыСтрокаПоискаРасширеннаяПодсказка" id="7"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ПрототипыСостояниеПросмотра" id="8">
+				<AdditionSource>
+					<Item>Прототипы</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ПрототипыСостояниеПросмотраКонтекстноеМеню" id="9"/>
+				<ExtendedTooltip name="ПрототипыСостояниеПросмотраРасширеннаяПодсказка" id="10"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ПрототипыУправлениеПоиском" id="11">
+				<AdditionSource>
+					<Item>Прототипы</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ПрототипыУправлениеПоискомКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="ПрототипыУправлениеПоискомРасширеннаяПодсказка" id="13"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<InputField name="ПрототипыИмя" id="14">
+					<DataPath>ФормыИЭлементыУправления.Имя</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПрототипыИмяКонтекстноеМеню" id="15"/>
+					<ExtendedTooltip name="ПрототипыИмяРасширеннаяПодсказка" id="16"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<Table name="СвойстваПрототипа" id="17">
+			<Representation>List</Representation>
+			<TitleLocation>Top</TitleLocation>
+			<CommandBarLocation>None</CommandBarLocation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>СвойстваФормИЭлементовУправления</DataPath>
 			<RowFilter xsi:nil="true"/>
 			<ContextMenu name="СвойстваПрототипаКонтекстноеМеню" id="18"/>
 			<AutoCommandBar name="СвойстваПрототипаКоманднаяПанель" id="19"/>
@@ -196,7 +226,7 @@
 			</SearchControlAddition>
 			<ChildItems>
 				<InputField name="СвойстваПрототипаИмя" id="30">
-					<DataPath>СвойстваПрототипа.Имя</DataPath>
+					<DataPath>СвойстваФормИЭлементовУправления.Имя</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="СвойстваПрототипаИмяКонтекстноеМеню" id="31"/>
 					<ExtendedTooltip name="СвойстваПрототипаИмяРасширеннаяПодсказка" id="32"/>
@@ -211,11 +241,11 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 		</Attribute>
-		<Attribute name="Прототипы" id="2">
+		<Attribute name="ФормыИЭлементыУправления" id="2">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Прототипы</v8:content>
+					<v8:content>Формы и элементы управления</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -239,11 +269,11 @@
 				</Column>
 			</Columns>
 		</Attribute>
-		<Attribute name="СвойстваПрототипа" id="3">
+		<Attribute name="СвойстваФормИЭлементовУправления" id="3">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Свойства прототипа</v8:content>
+					<v8:content>Свойства форм и элементов управления</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -388,6 +418,78 @@
 					<v8:content>Добавить декорацию</v8:content>
 				</v8:item>
 			</ToolTip>
+		</Command>
+		<Command name="Удалить" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Delete</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+		</Command>
+		<Command name="ПереместитьВверх" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вверх</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Переместить вверх</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.MoveUp</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+		</Command>
+		<Command name="ПереместитьВниз" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Переместить вниз</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Переместить вниз</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.MoveDown</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+		</Command>
+		<Command name="ПроверитьФорму" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить форму</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.GenerateReport</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
 		</Command>
 	</Commands>
 </Form>
