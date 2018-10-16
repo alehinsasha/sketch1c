@@ -21,6 +21,7 @@
 					<v8:content>Группа работа с файлом проекта</v8:content>
 				</v8:item>
 			</ToolTip>
+			<HorizontalStretch>true</HorizontalStretch>
 			<Group>AlwaysHorizontal</Group>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
@@ -30,6 +31,7 @@
 				<InputField name="РасположениеПроекта" id="39">
 					<DataPath>РасположениеПроекта</DataPath>
 					<TitleFont ref="style:NormalTextFont" height="9" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<AutoMaxWidth>false</AutoMaxWidth>
 					<ChoiceButton>true</ChoiceButton>
 					<ClearButton>true</ClearButton>
 					<OpenButton>true</OpenButton>
@@ -50,7 +52,7 @@
 				</Button>
 			</ChildItems>
 		</UsualGroup>
-		<Table name="Прототипы" id="1">
+		<Table name="ФормыИЭлементыУправления" id="1">
 			<Representation>Tree</Representation>
 			<TitleLocation>Top</TitleLocation>
 			<Header>false</Header>
@@ -64,8 +66,8 @@
 					<v8:content>Формы и элементы управления</v8:content>
 				</v8:item>
 			</Title>
-			<ContextMenu name="ПрототипыКонтекстноеМеню" id="2"/>
-			<AutoCommandBar name="ПрототипыКоманднаяПанель" id="3">
+			<ContextMenu name="ФормыИЭлементыУправленияКонтекстноеМеню" id="2"/>
+			<AutoCommandBar name="ФормыИЭлементыУправленияКоманднаяПанель" id="3">
 				<Autofill>false</Autofill>
 				<ChildItems>
 					<Popup name="ПрототипыГруппаДобавить" id="48">
@@ -155,30 +157,30 @@
 					</Button>
 				</ChildItems>
 			</AutoCommandBar>
-			<ExtendedTooltip name="ПрототипыРасширеннаяПодсказка" id="4"/>
-			<SearchStringAddition name="ПрототипыСтрокаПоиска" id="5">
+			<ExtendedTooltip name="ФормыИЭлементыУправленияРасширеннаяПодсказка" id="4"/>
+			<SearchStringAddition name="ФормыИЭлементыУправленияСтрокаПоиска" id="5">
 				<AdditionSource>
-					<Item>Прототипы</Item>
+					<Item>ФормыИЭлементыУправления</Item>
 					<Type>SearchStringRepresentation</Type>
 				</AdditionSource>
-				<ContextMenu name="ПрототипыСтрокаПоискаКонтекстноеМеню" id="6"/>
-				<ExtendedTooltip name="ПрототипыСтрокаПоискаРасширеннаяПодсказка" id="7"/>
+				<ContextMenu name="ФормыИЭлементыУправленияСтрокаПоискаКонтекстноеМеню" id="6"/>
+				<ExtendedTooltip name="ФормыИЭлементыУправленияСтрокаПоискаРасширеннаяПодсказка" id="7"/>
 			</SearchStringAddition>
-			<ViewStatusAddition name="ПрототипыСостояниеПросмотра" id="8">
+			<ViewStatusAddition name="ФормыИЭлементыУправленияСостояниеПросмотра" id="8">
 				<AdditionSource>
-					<Item>Прототипы</Item>
+					<Item>ФормыИЭлементыУправления</Item>
 					<Type>ViewStatusRepresentation</Type>
 				</AdditionSource>
-				<ContextMenu name="ПрототипыСостояниеПросмотраКонтекстноеМеню" id="9"/>
-				<ExtendedTooltip name="ПрототипыСостояниеПросмотраРасширеннаяПодсказка" id="10"/>
+				<ContextMenu name="ФормыИЭлементыУправленияСостояниеПросмотраКонтекстноеМеню" id="9"/>
+				<ExtendedTooltip name="ФормыИЭлементыУправленияСостояниеПросмотраРасширеннаяПодсказка" id="10"/>
 			</ViewStatusAddition>
-			<SearchControlAddition name="ПрототипыУправлениеПоиском" id="11">
+			<SearchControlAddition name="ФормыИЭлементыУправленияУправлениеПоиском" id="11">
 				<AdditionSource>
-					<Item>Прототипы</Item>
+					<Item>ФормыИЭлементыУправления</Item>
 					<Type>SearchControl</Type>
 				</AdditionSource>
-				<ContextMenu name="ПрототипыУправлениеПоискомКонтекстноеМеню" id="12"/>
-				<ExtendedTooltip name="ПрототипыУправлениеПоискомРасширеннаяПодсказка" id="13"/>
+				<ContextMenu name="ФормыИЭлементыУправленияУправлениеПоискомКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="ФормыИЭлементыУправленияУправлениеПоискомРасширеннаяПодсказка" id="13"/>
 			</SearchControlAddition>
 			<ChildItems>
 				<InputField name="ПрототипыИмя" id="14">
@@ -189,7 +191,7 @@
 				</InputField>
 			</ChildItems>
 		</Table>
-		<Table name="СвойстваПрототипа" id="17">
+		<Table name="СвойстваФормИЭлементовУправления" id="17">
 			<Representation>List</Representation>
 			<TitleLocation>Top</TitleLocation>
 			<CommandBarLocation>None</CommandBarLocation>
@@ -198,32 +200,32 @@
 			<EnableDrag>true</EnableDrag>
 			<DataPath>СвойстваФормИЭлементовУправления</DataPath>
 			<RowFilter xsi:nil="true"/>
-			<ContextMenu name="СвойстваПрототипаКонтекстноеМеню" id="18"/>
-			<AutoCommandBar name="СвойстваПрототипаКоманднаяПанель" id="19"/>
-			<ExtendedTooltip name="СвойстваПрототипаРасширеннаяПодсказка" id="20"/>
-			<SearchStringAddition name="СвойстваПрототипаСтрокаПоиска" id="21">
+			<ContextMenu name="СвойстваФормИЭлементовУправленияКонтекстноеМеню" id="18"/>
+			<AutoCommandBar name="СвойстваФормИЭлементовУправленияКоманднаяПанель" id="19"/>
+			<ExtendedTooltip name="СвойстваФормИЭлементовУправленияРасширеннаяПодсказка" id="20"/>
+			<SearchStringAddition name="СвойстваФормИЭлементовУправленияСтрокаПоиска" id="21">
 				<AdditionSource>
-					<Item>СвойстваПрототипа</Item>
+					<Item>СвойстваФормИЭлементовУправления</Item>
 					<Type>SearchStringRepresentation</Type>
 				</AdditionSource>
-				<ContextMenu name="СвойстваПрототипаСтрокаПоискаКонтекстноеМеню" id="22"/>
-				<ExtendedTooltip name="СвойстваПрототипаСтрокаПоискаРасширеннаяПодсказка" id="23"/>
+				<ContextMenu name="СвойстваФормИЭлементовУправленияСтрокаПоискаКонтекстноеМеню" id="22"/>
+				<ExtendedTooltip name="СвойстваФормИЭлементовУправленияСтрокаПоискаРасширеннаяПодсказка" id="23"/>
 			</SearchStringAddition>
-			<ViewStatusAddition name="СвойстваПрототипаСостояниеПросмотра" id="24">
+			<ViewStatusAddition name="СвойстваФормИЭлементовУправленияСостояниеПросмотра" id="24">
 				<AdditionSource>
-					<Item>СвойстваПрототипа</Item>
+					<Item>СвойстваФормИЭлементовУправления</Item>
 					<Type>ViewStatusRepresentation</Type>
 				</AdditionSource>
-				<ContextMenu name="СвойстваПрототипаСостояниеПросмотраКонтекстноеМеню" id="25"/>
-				<ExtendedTooltip name="СвойстваПрототипаСостояниеПросмотраРасширеннаяПодсказка" id="26"/>
+				<ContextMenu name="СвойстваФормИЭлементовУправленияСостояниеПросмотраКонтекстноеМеню" id="25"/>
+				<ExtendedTooltip name="СвойстваФормИЭлементовУправленияСостояниеПросмотраРасширеннаяПодсказка" id="26"/>
 			</ViewStatusAddition>
-			<SearchControlAddition name="СвойстваПрототипаУправлениеПоиском" id="27">
+			<SearchControlAddition name="СвойстваФормИЭлементовУправленияУправлениеПоиском" id="27">
 				<AdditionSource>
-					<Item>СвойстваПрототипа</Item>
+					<Item>СвойстваФормИЭлементовУправления</Item>
 					<Type>SearchControl</Type>
 				</AdditionSource>
-				<ContextMenu name="СвойстваПрототипаУправлениеПоискомКонтекстноеМеню" id="28"/>
-				<ExtendedTooltip name="СвойстваПрототипаУправлениеПоискомРасширеннаяПодсказка" id="29"/>
+				<ContextMenu name="СвойстваФормИЭлементовУправленияУправлениеПоискомКонтекстноеМеню" id="28"/>
+				<ExtendedTooltip name="СвойстваФормИЭлементовУправленияУправлениеПоискомРасширеннаяПодсказка" id="29"/>
 			</SearchControlAddition>
 			<ChildItems>
 				<InputField name="СвойстваПрототипаИмя" id="30">
@@ -478,19 +480,20 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Проверить</v8:content>
+					<v8:content>Открыть</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Проверить форму</v8:content>
+					<v8:content>Открыть форму</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
 				<xr:Ref>StdPicture.GenerateReport</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
+			<Action>ПроверитьФорму</Action>
 		</Command>
 	</Commands>
 </Form>
