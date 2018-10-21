@@ -56,9 +56,14 @@
 			<DataPath>Роль</DataPath>
 			<AutoMaxWidth>false</AutoMaxWidth>
 			<HorizontalStretch>true</HorizontalStretch>
-			<ListChoiceMode>true</ListChoiceMode>
+			<ChoiceButton>true</ChoiceButton>
+			<ChooseType>false</ChooseType>
 			<ContextMenu name="РольКонтекстноеМеню" id="73"/>
 			<ExtendedTooltip name="РольРасширеннаяПодсказка" id="74"/>
+			<Events>
+				<Event name="StartChoice">РольНачалоВыбора</Event>
+				<Event name="ChoiceProcessing">РольОбработкаВыбора</Event>
+			</Events>
 		</InputField>
 		<Table name="ФормыИЭлементыУправления" id="1">
 			<Representation>Tree</Representation>
