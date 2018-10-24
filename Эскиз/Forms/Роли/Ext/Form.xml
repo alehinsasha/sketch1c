@@ -2,221 +2,141 @@
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
-		<ChildItems>
-			<Button name="ФормаОк" id="52">
-				<Type>CommandBarButton</Type>
-				<DefaultButton>true</DefaultButton>
-				<CommandName>Form.Command.Ок</CommandName>
-				<ExtendedTooltip name="ФормаОкРасширеннаяПодсказка" id="53"/>
-			</Button>
-		</ChildItems>
 	</AutoCommandBar>
 	<Events>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
-		<Pages name="ГруппаРежимы" id="17">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Группа режимы</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Группа режимы</v8:content>
-				</v8:item>
-			</ToolTip>
-			<PagesRepresentation>None</PagesRepresentation>
-			<ExtendedTooltip name="ГруппаРежимыРасширеннаяПодсказка" id="18"/>
+		<Table name="Роли" id="54">
+			<Representation>List</Representation>
+			<ChangeRowOrder>false</ChangeRowOrder>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Роли</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="РолиКонтекстноеМеню" id="55"/>
+			<AutoCommandBar name="РолиКоманднаяПанель" id="56">
+				<Autofill>false</Autofill>
+				<ChildItems>
+					<Button name="РолиЗакончитьРедактирование" id="82">
+						<Type>CommandBarButton</Type>
+						<DefaultButton>true</DefaultButton>
+						<CommandName>Form.Command.ЗакончитьРедактирование</CommandName>
+						<ExtendedTooltip name="РолиЗакончитьРедактированиеРасширеннаяПодсказка" id="83"/>
+					</Button>
+					<ButtonGroup name="РолиГруппаСтандартныеКоманды" id="84">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Роли группа стандартные команды</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Роли группа стандартные команды</v8:content>
+							</v8:item>
+						</ToolTip>
+						<Representation>Compact</Representation>
+						<ExtendedTooltip name="РолиГруппаСтандартныеКомандыРасширеннаяПодсказка" id="85"/>
+						<ChildItems>
+							<Button name="РолиДобавить" id="86">
+								<Type>CommandBarButton</Type>
+								<Representation>PictureAndText</Representation>
+								<CommandName>Form.Item.Роли.StandardCommand.Add</CommandName>
+								<ExtendedTooltip name="РолиДобавитьРасширеннаяПодсказка" id="87"/>
+							</Button>
+							<Button name="РолиСкопировать" id="88">
+								<Type>CommandBarButton</Type>
+								<Representation>Picture</Representation>
+								<OnlyInAllActions>true</OnlyInAllActions>
+								<CommandName>Form.Item.Роли.StandardCommand.Copy</CommandName>
+								<ExtendedTooltip name="РолиСкопироватьРасширеннаяПодсказка" id="89"/>
+							</Button>
+							<Button name="РолиИзменить" id="90">
+								<Type>CommandBarButton</Type>
+								<Representation>Picture</Representation>
+								<OnlyInAllActions>true</OnlyInAllActions>
+								<CommandName>Form.Item.Роли.StandardCommand.Change</CommandName>
+								<ExtendedTooltip name="РолиИзменитьРасширеннаяПодсказка" id="91"/>
+							</Button>
+							<Button name="РолиУдалить" id="92">
+								<Type>CommandBarButton</Type>
+								<Representation>Picture</Representation>
+								<OnlyInAllActions>true</OnlyInAllActions>
+								<CommandName>Form.Item.Роли.StandardCommand.Delete</CommandName>
+								<ExtendedTooltip name="РолиУдалитьРасширеннаяПодсказка" id="93"/>
+							</Button>
+						</ChildItems>
+					</ButtonGroup>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="РолиРасширеннаяПодсказка" id="57"/>
+			<SearchStringAddition name="РолиСтрокаПоиска" id="58">
+				<AdditionSource>
+					<Item>Роли</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="РолиСтрокаПоискаКонтекстноеМеню" id="59"/>
+				<ExtendedTooltip name="РолиСтрокаПоискаРасширеннаяПодсказка" id="60"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="РолиСостояниеПросмотра" id="61">
+				<AdditionSource>
+					<Item>Роли</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="РолиСостояниеПросмотраКонтекстноеМеню" id="62"/>
+				<ExtendedTooltip name="РолиСостояниеПросмотраРасширеннаяПодсказка" id="63"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="РолиУправлениеПоиском" id="64">
+				<AdditionSource>
+					<Item>Роли</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="РолиУправлениеПоискомКонтекстноеМеню" id="65"/>
+				<ExtendedTooltip name="РолиУправлениеПоискомРасширеннаяПодсказка" id="66"/>
+			</SearchControlAddition>
 			<ChildItems>
-				<Page name="ГруппаРедактирование" id="19">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Группа редактирование</v8:content>
-						</v8:item>
-					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Группа редактирование</v8:content>
-						</v8:item>
-					</ToolTip>
-					<ExtendedTooltip name="ГруппаРедактированиеРасширеннаяПодсказка" id="20"/>
-					<ChildItems>
-						<Table name="РолиРедактирование" id="1">
-							<Representation>List</Representation>
-							<Header>false</Header>
-							<HorizontalLines>false</HorizontalLines>
-							<VerticalLines>false</VerticalLines>
-							<AutoInsertNewRow>true</AutoInsertNewRow>
-							<DataPath>Роли</DataPath>
-							<RowPictureDataPath>Роли.Picture</RowPictureDataPath>
-							<CommandSet>
-								<ExcludedCommand>CheckAll</ExcludedCommand>
-								<ExcludedCommand>CopyToClipboard</ExcludedCommand>
-								<ExcludedCommand>EndEdit</ExcludedCommand>
-								<ExcludedCommand>MoveDown</ExcludedCommand>
-								<ExcludedCommand>MoveUp</ExcludedCommand>
-								<ExcludedCommand>Pickup</ExcludedCommand>
-								<ExcludedCommand>SelectAll</ExcludedCommand>
-								<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
-								<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
-								<ExcludedCommand>SortListAsc</ExcludedCommand>
-								<ExcludedCommand>SortListDesc</ExcludedCommand>
-								<ExcludedCommand>UncheckAll</ExcludedCommand>
-							</CommandSet>
-							<ContextMenu name="РолиРедактированиеКонтекстноеМеню" id="2"/>
-							<AutoCommandBar name="РолиРедактированиеКоманднаяПанель" id="3">
-								<Autofill>false</Autofill>
-								<ChildItems>
-									<ButtonGroup name="РолиГруппа1" id="31">
-										<Representation>Compact</Representation>
-										<ExtendedTooltip name="РолиГруппа1РасширеннаяПодсказка" id="32"/>
-										<ChildItems>
-											<Button name="РолиДобавить" id="23">
-												<Type>CommandBarButton</Type>
-												<Representation>PictureAndText</Representation>
-												<CommandName>Form.Item.РолиРедактирование.StandardCommand.Add</CommandName>
-												<ExtendedTooltip name="РолиДобавитьРасширеннаяПодсказка" id="24"/>
-											</Button>
-											<Button name="РолиСкопировать" id="25">
-												<Type>CommandBarButton</Type>
-												<Representation>Picture</Representation>
-												<OnlyInAllActions>true</OnlyInAllActions>
-												<CommandName>Form.Item.РолиРедактирование.StandardCommand.Copy</CommandName>
-												<ExtendedTooltip name="РолиСкопироватьРасширеннаяПодсказка" id="26"/>
-											</Button>
-											<Button name="РолиИзменить" id="27">
-												<Type>CommandBarButton</Type>
-												<Representation>Picture</Representation>
-												<OnlyInAllActions>true</OnlyInAllActions>
-												<CommandName>Form.Item.РолиРедактирование.StandardCommand.Change</CommandName>
-												<ExtendedTooltip name="РолиИзменитьРасширеннаяПодсказка" id="28"/>
-											</Button>
-											<Button name="РолиУдалить" id="29">
-												<Type>CommandBarButton</Type>
-												<Representation>Picture</Representation>
-												<OnlyInAllActions>true</OnlyInAllActions>
-												<CommandName>Form.Item.РолиРедактирование.StandardCommand.Delete</CommandName>
-												<ExtendedTooltip name="РолиУдалитьРасширеннаяПодсказка" id="30"/>
-											</Button>
-										</ChildItems>
-									</ButtonGroup>
-								</ChildItems>
-							</AutoCommandBar>
-							<ExtendedTooltip name="РолиРедактированиеРасширеннаяПодсказка" id="4"/>
-							<SearchStringAddition name="РолиРедактированиеСтрокаПоиска" id="5">
-								<AdditionSource>
-									<Item>РолиРедактирование</Item>
-									<Type>SearchStringRepresentation</Type>
-								</AdditionSource>
-								<ContextMenu name="РолиРедактированиеСтрокаПоискаКонтекстноеМеню" id="6"/>
-								<ExtendedTooltip name="РолиРедактированиеСтрокаПоискаРасширеннаяПодсказка" id="7"/>
-							</SearchStringAddition>
-							<ViewStatusAddition name="РолиРедактированиеСостояниеПросмотра" id="8">
-								<AdditionSource>
-									<Item>РолиРедактирование</Item>
-									<Type>ViewStatusRepresentation</Type>
-								</AdditionSource>
-								<ContextMenu name="РолиРедактированиеСостояниеПросмотраКонтекстноеМеню" id="9"/>
-								<ExtendedTooltip name="РолиРедактированиеСостояниеПросмотраРасширеннаяПодсказка" id="10"/>
-							</ViewStatusAddition>
-							<SearchControlAddition name="РолиРедактированиеУправлениеПоиском" id="11">
-								<AdditionSource>
-									<Item>РолиРедактирование</Item>
-									<Type>SearchControl</Type>
-								</AdditionSource>
-								<ContextMenu name="РолиРедактированиеУправлениеПоискомКонтекстноеМеню" id="12"/>
-								<ExtendedTooltip name="РолиРедактированиеУправлениеПоискомРасширеннаяПодсказка" id="13"/>
-							</SearchControlAddition>
-							<ChildItems>
-								<InputField name="РолиЗначение" id="14">
-									<DataPath>Роли.Value</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="РолиЗначениеКонтекстноеМеню" id="15"/>
-									<ExtendedTooltip name="РолиЗначениеРасширеннаяПодсказка" id="16"/>
-								</InputField>
-							</ChildItems>
-						</Table>
-					</ChildItems>
-				</Page>
-				<Page name="ГруппаВыбор" id="21">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Группа выбор</v8:content>
-						</v8:item>
-					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Группа выбор</v8:content>
-						</v8:item>
-					</ToolTip>
-					<ExtendedTooltip name="ГруппаВыборРасширеннаяПодсказка" id="22"/>
-					<ChildItems>
-						<Table name="РолиВыбор" id="33">
-							<Representation>List</Representation>
-							<CommandBarLocation>None</CommandBarLocation>
-							<Header>false</Header>
-							<HorizontalLines>false</HorizontalLines>
-							<VerticalLines>false</VerticalLines>
-							<AutoInsertNewRow>true</AutoInsertNewRow>
-							<DataPath>Роли</DataPath>
-							<RowPictureDataPath>Роли.Picture</RowPictureDataPath>
-							<ContextMenu name="РолиВыборКонтекстноеМеню" id="34"/>
-							<AutoCommandBar name="РолиВыборКоманднаяПанель" id="35"/>
-							<ExtendedTooltip name="РолиВыборРасширеннаяПодсказка" id="36"/>
-							<SearchStringAddition name="РолиВыборСтрокаПоиска" id="37">
-								<AdditionSource>
-									<Item>РолиВыбор</Item>
-									<Type>SearchStringRepresentation</Type>
-								</AdditionSource>
-								<ContextMenu name="РолиВыборСтрокаПоискаКонтекстноеМеню" id="38"/>
-								<ExtendedTooltip name="РолиВыборСтрокаПоискаРасширеннаяПодсказка" id="39"/>
-							</SearchStringAddition>
-							<ViewStatusAddition name="РолиВыборСостояниеПросмотра" id="40">
-								<AdditionSource>
-									<Item>РолиВыбор</Item>
-									<Type>ViewStatusRepresentation</Type>
-								</AdditionSource>
-								<ContextMenu name="РолиВыборСостояниеПросмотраКонтекстноеМеню" id="41"/>
-								<ExtendedTooltip name="РолиВыборСостояниеПросмотраРасширеннаяПодсказка" id="42"/>
-							</ViewStatusAddition>
-							<SearchControlAddition name="РолиВыборУправлениеПоиском" id="43">
-								<AdditionSource>
-									<Item>РолиВыбор</Item>
-									<Type>SearchControl</Type>
-								</AdditionSource>
-								<ContextMenu name="РолиВыборУправлениеПоискомКонтекстноеМеню" id="44"/>
-								<ExtendedTooltip name="РолиВыборУправлениеПоискомРасширеннаяПодсказка" id="45"/>
-							</SearchControlAddition>
-							<ChildItems>
-								<InputField name="РолиВыборЗначение" id="46">
-									<DataPath>Роли.Value</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="РолиВыборЗначениеКонтекстноеМеню" id="47"/>
-									<ExtendedTooltip name="РолиВыборЗначениеРасширеннаяПодсказка" id="48"/>
-								</InputField>
-								<CheckBoxField name="РолиВыборПометка" id="49">
-									<DataPath>Роли.Check</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
-									<ContextMenu name="РолиВыборПометкаКонтекстноеМеню" id="50"/>
-									<ExtendedTooltip name="РолиВыборПометкаРасширеннаяПодсказка" id="51"/>
-								</CheckBoxField>
-							</ChildItems>
-						</Table>
-					</ChildItems>
-				</Page>
+				<InputField name="РолиИмя" id="67">
+					<DataPath>Роли.Имя</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="РолиИмяКонтекстноеМеню" id="68"/>
+					<ExtendedTooltip name="РолиИмяРасширеннаяПодсказка" id="69"/>
+				</InputField>
+				<InputField name="РолиФорма" id="70">
+					<DataPath>Роли.Форма</DataPath>
+					<Visible>false</Visible>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="РолиФормаКонтекстноеМеню" id="71"/>
+					<ExtendedTooltip name="РолиФормаРасширеннаяПодсказка" id="72"/>
+				</InputField>
+				<InputField name="РолиЭлемент" id="73">
+					<DataPath>Роли.Элемент</DataPath>
+					<Visible>false</Visible>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="РолиЭлементКонтекстноеМеню" id="74"/>
+					<ExtendedTooltip name="РолиЭлементРасширеннаяПодсказка" id="75"/>
+				</InputField>
+				<CheckBoxField name="РолиВидимость" id="76">
+					<DataPath>Роли.Видимость</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="РолиВидимостьКонтекстноеМеню" id="77"/>
+					<ExtendedTooltip name="РолиВидимостьРасширеннаяПодсказка" id="78"/>
+				</CheckBoxField>
+				<CheckBoxField name="РолиДоступность" id="79">
+					<DataPath>Роли.Доступность</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="РолиДоступностьКонтекстноеМеню" id="80"/>
+					<ExtendedTooltip name="РолиДоступностьРасширеннаяПодсказка" id="81"/>
+				</CheckBoxField>
 			</ChildItems>
-		</Pages>
+		</Table>
 	</ChildItems>
 	<Attributes>
-		<Attribute name="Роли" id="2">
+		<Attribute name="Роли" id="1">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -224,19 +144,81 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:Type>v8:ValueListType</v8:Type>
+				<v8:Type>v8:ValueTable</v8:Type>
 			</Type>
-			<Settings xsi:type="v8:TypeDescription">
-				<v8:Type>xs:string</v8:Type>
-				<v8:StringQualifiers>
-					<v8:Length>0</v8:Length>
-					<v8:AllowedLength>Variable</v8:AllowedLength>
-				</v8:StringQualifiers>
-			</Settings>
+			<Columns>
+				<Column name="Имя" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Форма" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Форма</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Элемент" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Элемент</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Видимость" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Видимость</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Доступность" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доступность</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
 		</Attribute>
 	</Attributes>
 	<Commands>
-		<Command name="Ок" id="1">
+		<Command name="ЗакончитьРедактирование" id="1">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -246,18 +228,9 @@
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Ок</v8:content>
+					<v8:content>Закончить редактирование</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>Ок</Action>
 		</Command>
 	</Commands>
-	<Parameters>
-		<Parameter name="РежимРедактированияРолей">
-			<Type>
-				<v8:Type>xs:boolean</v8:Type>
-			</Type>
-			<KeyParameter>true</KeyParameter>
-		</Parameter>
-	</Parameters>
 </Form>
