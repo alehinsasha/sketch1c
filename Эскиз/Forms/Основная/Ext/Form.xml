@@ -84,53 +84,76 @@
 			<AutoCommandBar name="ФормыИЭлементыУправленияКоманднаяПанель" id="3">
 				<Autofill>false</Autofill>
 				<ChildItems>
-					<Popup name="ПрототипыГруппаДобавить" id="48">
+					<ButtonGroup name="ГруппаДобавитьИПреднастройки" id="75">
 						<Title>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
-								<v8:content>Добавить</v8:content>
+								<v8:content>Группа добавить и преднастройки</v8:content>
 							</v8:item>
 						</Title>
 						<ToolTip>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
-								<v8:content>Прототипы группа добавить</v8:content>
+								<v8:content>Группа добавить и преднастройки</v8:content>
 							</v8:item>
 						</ToolTip>
-						<ExtendedTooltip name="ПрототипыГруппаДобавитьРасширеннаяПодсказка" id="49"/>
+						<Representation>Compact</Representation>
+						<ExtendedTooltip name="ГруппаДобавитьИПреднастройкиРасширеннаяПодсказка" id="76"/>
 						<ChildItems>
-							<Button name="ПрототипыДобавитьФорму" id="50">
+							<Popup name="ПрототипыГруппаДобавить" id="48">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Добавить</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Прототипы группа добавить</v8:content>
+									</v8:item>
+								</ToolTip>
+								<ExtendedTooltip name="ПрототипыГруппаДобавитьРасширеннаяПодсказка" id="49"/>
+								<ChildItems>
+									<Button name="ПрототипыДобавитьФорму" id="50">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ДобавитьФорму</CommandName>
+										<ExtendedTooltip name="ПрототипыДобавитьФормуРасширеннаяПодсказка" id="51"/>
+									</Button>
+									<Button name="ПрототипыДобавитьГруппу" id="52">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ДобавитьГруппу</CommandName>
+										<ExtendedTooltip name="ПрототипыДобавитьГруппуРасширеннаяПодсказка" id="53"/>
+									</Button>
+									<Button name="ПрототипыДобавитьПоле" id="54">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ДобавитьПоле</CommandName>
+										<ExtendedTooltip name="ПрототипыДобавитьПолеРасширеннаяПодсказка" id="55"/>
+									</Button>
+									<Button name="ПрототипыДобавитьКнопку" id="56">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ДобавитьКнопку</CommandName>
+										<ExtendedTooltip name="ПрототипыДобавитьКнопкуРасширеннаяПодсказка" id="57"/>
+									</Button>
+									<Button name="ПрототипыДобавитьТаблицу" id="58">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ДобавитьТаблицу</CommandName>
+										<ExtendedTooltip name="ПрототипыДобавитьТаблицуРасширеннаяПодсказка" id="59"/>
+									</Button>
+									<Button name="ПрототипыДобавитьДекорацию" id="60">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ДобавитьДекорацию</CommandName>
+										<ExtendedTooltip name="ПрототипыДобавитьДекорациюРасширеннаяПодсказка" id="61"/>
+									</Button>
+								</ChildItems>
+							</Popup>
+							<Button name="ФормыИЭлементыУправленияПредастройки" id="77">
 								<Type>CommandBarButton</Type>
-								<CommandName>Form.Command.ДобавитьФорму</CommandName>
-								<ExtendedTooltip name="ПрототипыДобавитьФормуРасширеннаяПодсказка" id="51"/>
-							</Button>
-							<Button name="ПрототипыДобавитьГруппу" id="52">
-								<Type>CommandBarButton</Type>
-								<CommandName>Form.Command.ДобавитьГруппу</CommandName>
-								<ExtendedTooltip name="ПрототипыДобавитьГруппуРасширеннаяПодсказка" id="53"/>
-							</Button>
-							<Button name="ПрототипыДобавитьПоле" id="54">
-								<Type>CommandBarButton</Type>
-								<CommandName>Form.Command.ДобавитьПоле</CommandName>
-								<ExtendedTooltip name="ПрототипыДобавитьПолеРасширеннаяПодсказка" id="55"/>
-							</Button>
-							<Button name="ПрототипыДобавитьКнопку" id="56">
-								<Type>CommandBarButton</Type>
-								<CommandName>Form.Command.ДобавитьКнопку</CommandName>
-								<ExtendedTooltip name="ПрототипыДобавитьКнопкуРасширеннаяПодсказка" id="57"/>
-							</Button>
-							<Button name="ПрототипыДобавитьТаблицу" id="58">
-								<Type>CommandBarButton</Type>
-								<CommandName>Form.Command.ДобавитьТаблицу</CommandName>
-								<ExtendedTooltip name="ПрототипыДобавитьТаблицуРасширеннаяПодсказка" id="59"/>
-							</Button>
-							<Button name="ПрототипыДобавитьДекорацию" id="60">
-								<Type>CommandBarButton</Type>
-								<CommandName>Form.Command.ДобавитьДекорацию</CommandName>
-								<ExtendedTooltip name="ПрототипыДобавитьДекорациюРасширеннаяПодсказка" id="61"/>
+								<CommandName>Form.Command.Предастройки</CommandName>
+								<ExtendedTooltip name="ФормыИЭлементыУправленияПредастройкиРасширеннаяПодсказка" id="78"/>
 							</Button>
 						</ChildItems>
-					</Popup>
+					</ButtonGroup>
 					<Button name="ПрототипыУдалить" id="68">
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.Удалить</CommandName>
@@ -523,6 +546,25 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ПроверитьФорму</Action>
+		</Command>
+		<Command name="Предастройки" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Предастройки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Предастройки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.QueryWizardTableParameters</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>Предастройки</Action>
 		</Command>
 	</Commands>
 </Form>
