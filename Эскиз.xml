@@ -19,7 +19,7 @@
 					<v8:content>Эскиз</v8:content>
 				</v8:item>
 			</Synonym>
-			<Comment/>
+			<Comment>Горизонтальный прототип</Comment>
 			<DefaultForm>ExternalDataProcessor.Эскиз.Form.Основная</DefaultForm>
 			<AuxiliaryForm/>
 		</Properties>
