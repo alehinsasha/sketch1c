@@ -130,6 +130,7 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<CommonForm>ФормаТест</CommonForm>
 			<Catalog>Справочник1</Catalog>
 		</ChildObjects>
 	</Configuration>
