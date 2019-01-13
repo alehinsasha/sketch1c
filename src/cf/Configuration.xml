@@ -1,30 +1,30 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
-	<Configuration uuid="788c6d44-bf55-4f7a-beba-b70223f08a1b">
+	<Configuration uuid="ac64064b-3b6e-49f6-b3dc-68bae13cc4e8">
 		<InternalInfo>
 			<xr:ContainedObject>
 				<xr:ClassId>9cd510cd-abfc-11d4-9434-004095e12fc7</xr:ClassId>
-				<xr:ObjectId>0b44918a-6e34-4d69-b6a4-5e3a64c682d6</xr:ObjectId>
+				<xr:ObjectId>5dea9dfc-c34b-4aa0-8d18-cc75e4a840cf</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>9fcd25a0-4822-11d4-9414-008048da11f9</xr:ClassId>
-				<xr:ObjectId>fa1b0930-6635-46a4-a188-eda1c18aa0b4</xr:ObjectId>
+				<xr:ObjectId>81b662d1-6752-4de8-8e14-932d33aaa4c1</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>e3687481-0a87-462c-a166-9f34594f9bba</xr:ClassId>
-				<xr:ObjectId>e29ab055-a681-44a9-a4f3-6de29a81095a</xr:ObjectId>
+				<xr:ObjectId>636eaaee-512e-495b-88d1-688656ffd4ad</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>9de14907-ec23-4a07-96f0-85521cb6b53b</xr:ClassId>
-				<xr:ObjectId>e0a500b8-cf56-4c78-a6aa-4330b59f007c</xr:ObjectId>
+				<xr:ObjectId>dbe22de8-215b-43e9-990f-37af9c3aa6c0</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>51f2d5d8-ea4d-4064-8892-82951750031e</xr:ClassId>
-				<xr:ObjectId>28cdea29-b652-4325-bdc7-c0b7c86e93a4</xr:ObjectId>
+				<xr:ObjectId>b70f0a2a-da5f-43df-95a9-ca16e038e001</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>e68182ea-4237-4383-967f-90c1e3370bc7</xr:ClassId>
-				<xr:ObjectId>087fbb0b-1f9b-4611-b658-fc7d1d2c5667</xr:ObjectId>
+				<xr:ObjectId>12306999-f08a-450a-8550-c7d68f7ae9c7</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -130,7 +130,6 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
-			<CommonForm>ФормаТест</CommonForm>
 			<Catalog>Справочник1</Catalog>
 		</ChildObjects>
 	</Configuration>

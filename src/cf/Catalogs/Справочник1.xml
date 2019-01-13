@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
-	<Catalog uuid="55931630-2aae-4fb8-90dd-9f793dd7e2ed">
+	<Catalog uuid="a5b02ce2-451e-4c2d-be1b-e8b517f256a2">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.Справочник1" category="Object">
-				<xr:TypeId>e6028483-f07b-406e-a509-a919f9fdcb1c</xr:TypeId>
-				<xr:ValueId>728f647f-5a25-4505-950c-eacaa5d3d336</xr:ValueId>
+				<xr:TypeId>378ca32e-7187-4733-8dfa-abd4fe8341ab</xr:TypeId>
+				<xr:ValueId>1ae41ac1-efc7-41e9-9e45-90eab22fd586</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.Справочник1" category="Ref">
-				<xr:TypeId>94d7822c-d1f0-46e2-9da7-d9d99a22fbb5</xr:TypeId>
-				<xr:ValueId>4b23547c-0724-4d4c-b460-56e6af72a01f</xr:ValueId>
+				<xr:TypeId>4cac8917-8ff4-4bbf-8e21-ffc0cd80ee1c</xr:TypeId>
+				<xr:ValueId>f9d5fb50-6101-43f7-95b5-8b49bca6b277</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.Справочник1" category="Selection">
-				<xr:TypeId>02a66b9d-e086-4533-a713-bafdc294f056</xr:TypeId>
-				<xr:ValueId>7df775ae-37a0-4a9e-896d-8ce9f41f4eff</xr:ValueId>
+				<xr:TypeId>36743550-4da9-4505-a881-eef28a8d8a16</xr:TypeId>
+				<xr:ValueId>9dff641e-3d73-48e2-a95a-c7710a90ceba</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.Справочник1" category="List">
-				<xr:TypeId>a59f1481-2eb7-4940-966d-deff7107dcad</xr:TypeId>
-				<xr:ValueId>1253c7c6-f2da-4e76-bd6a-84463ba5ae9a</xr:ValueId>
+				<xr:TypeId>cd37480b-f203-4474-ae07-81a0c57db2c0</xr:TypeId>
+				<xr:ValueId>6d814b00-79a4-4bb4-ae8a-3a663946b86e</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.Справочник1" category="Manager">
-				<xr:TypeId>78ccc542-4963-469d-ab2c-138c0aaf34a7</xr:TypeId>
-				<xr:ValueId>5dd1513c-f357-4915-98d4-768913167103</xr:ValueId>
+				<xr:TypeId>7e1f89f5-a42b-4abc-b65d-fb5b2fd6f8b9</xr:TypeId>
+				<xr:ValueId>09763652-c1b9-4fd6-98c6-5896bcd33301</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
