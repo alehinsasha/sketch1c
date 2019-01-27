@@ -69,6 +69,7 @@
 		<Table name="ФормыИЭлементыУправления" id="1">
 			<Representation>Tree</Representation>
 			<TitleLocation>Top</TitleLocation>
+			<RowSelectionMode>Row</RowSelectionMode>
 			<Header>false</Header>
 			<AutoInsertNewRow>true</AutoInsertNewRow>
 			<EnableStartDrag>true</EnableStartDrag>
@@ -401,6 +402,21 @@
 						</v8:StringQualifiers>
 					</Type>
 				</Column>
+				<Column name="Тип" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тип</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
 			</Columns>
 		</Attribute>
 		<Attribute name="СвойстваФормИЭлементовУправления" id="3">
@@ -553,6 +569,7 @@
 					<v8:content>Добавить поле</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action>ДобавитьПоле</Action>
 		</Command>
 		<Command name="ДобавитьКнопку" id="5">
 			<Title>
