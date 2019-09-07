@@ -210,17 +210,6 @@
 									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
 									<ExtendedTooltip name="ДобавитьСтраницыРасширеннаяПодсказка" id="161"/>
 								</Button>
-								<Button name="ДобавитьПоле" id="144">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ДобавитьПоле</CommandName>
-									<Picture>
-										<xr:Abs>Picture.png</xr:Abs>
-										<xr:LoadTransparent>true</xr:LoadTransparent>
-										<xr:TransparentPixel x="335" y="15"/>
-									</Picture>
-									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
-									<ExtendedTooltip name="ДобавитьПолеРасширеннаяПодсказка" id="145"/>
-								</Button>
 								<Button name="ДобавитьКнопку1" id="184">
 									<Type>UsualButton</Type>
 									<CommandName>Form.Command.ДобавитьКнопку</CommandName>
@@ -242,16 +231,16 @@
 									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
 									<ExtendedTooltip name="ДобавитьГиперссылкуРасширеннаяПодсказка" id="187"/>
 								</Button>
-								<Button name="ДобавитьНадпись" id="146">
+								<Button name="ДобавитьПоле" id="144">
 									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ДобавитьНадпись</CommandName>
+									<CommandName>Form.Command.ДобавитьПоле</CommandName>
 									<Picture>
 										<xr:Abs>Picture.png</xr:Abs>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 										<xr:TransparentPixel x="335" y="15"/>
 									</Picture>
 									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
-									<ExtendedTooltip name="ДобавитьНадписьРасширеннаяПодсказка" id="147"/>
+									<ExtendedTooltip name="ДобавитьПолеРасширеннаяПодсказка" id="145"/>
 								</Button>
 								<Button name="ДобавитьФлажок" id="154">
 									<Type>UsualButton</Type>
@@ -275,17 +264,6 @@
 									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
 									<ExtendedTooltip name="ДобавитьПереключательРасширеннаяПодсказка" id="157"/>
 								</Button>
-								<Button name="ДобавитьКартинку1" id="158">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ДобавитьКартинку</CommandName>
-									<Picture>
-										<xr:Abs>Picture.png</xr:Abs>
-										<xr:LoadTransparent>true</xr:LoadTransparent>
-										<xr:TransparentPixel x="335" y="15"/>
-									</Picture>
-									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
-									<ExtendedTooltip name="ДобавитьКартинку1РасширеннаяПодсказка" id="159"/>
-								</Button>
 								<Button name="ДобавитьТаблицу" id="148">
 									<Type>UsualButton</Type>
 									<CommandName>Form.Command.ДобавитьТаблицу</CommandName>
@@ -306,6 +284,27 @@
 									</Picture>
 									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
 									<ExtendedTooltip name="ДобавитьДеревоРасширеннаяПодсказка" id="151"/>
+								</Button>
+								<Button name="ДобавитьНадпись" id="146">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ДобавитьНадпись</CommandName>
+									<Picture>
+										<xr:Abs>Picture.png</xr:Abs>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+										<xr:TransparentPixel x="335" y="15"/>
+									</Picture>
+									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+									<ExtendedTooltip name="ДобавитьНадписьРасширеннаяПодсказка" id="147"/>
+								</Button>
+								<Button name="ДобавитьКартинку1" id="158">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ДобавитьКартинку</CommandName>
+									<Picture>
+										<xr:Abs>Picture.png</xr:Abs>
+										<xr:LoadTransparent>false</xr:LoadTransparent>
+									</Picture>
+									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+									<ExtendedTooltip name="ДобавитьКартинку1РасширеннаяПодсказка" id="159"/>
 								</Button>
 								<Button name="ДобавитьИндикатор" id="164">
 									<Type>UsualButton</Type>
@@ -338,6 +337,46 @@
 									</Picture>
 									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
 									<ExtendedTooltip name="ДобавитьКалендарьРасширеннаяПодсказка" id="169"/>
+								</Button>
+								<Button name="ДобавитьФорматированныйДокумент" id="236">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ДобавитьФорматированныйДокумент</CommandName>
+									<Picture>
+										<xr:Abs>Picture.png</xr:Abs>
+										<xr:LoadTransparent>false</xr:LoadTransparent>
+									</Picture>
+									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+									<ExtendedTooltip name="ДобавитьФорматированныйДокументРасширеннаяПодсказка" id="237"/>
+								</Button>
+								<Button name="ДобавитьФорматированнуюСтроку" id="238">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ДобавитьФорматированнуюСтроку</CommandName>
+									<Picture>
+										<xr:Abs>Picture.png</xr:Abs>
+										<xr:LoadTransparent>false</xr:LoadTransparent>
+									</Picture>
+									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+									<ExtendedTooltip name="ДобавитьФорматированнуюСтрокуРасширеннаяПодсказка" id="239"/>
+								</Button>
+								<Button name="ДобавитьТекстовыйДокумент" id="240">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ДобавитьТекстовыйДокумент</CommandName>
+									<Picture>
+										<xr:Abs>Picture.png</xr:Abs>
+										<xr:LoadTransparent>false</xr:LoadTransparent>
+									</Picture>
+									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+									<ExtendedTooltip name="ДобавитьТекстовыйДокументРасширеннаяПодсказка" id="241"/>
+								</Button>
+								<Button name="ДобавитьТабличныйДокумент" id="242">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ДобавитьТабличныйДокумент</CommandName>
+									<Picture>
+										<xr:Abs>Picture.png</xr:Abs>
+										<xr:LoadTransparent>false</xr:LoadTransparent>
+									</Picture>
+									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+									<ExtendedTooltip name="ДобавитьТабличныйДокументРасширеннаяПодсказка" id="243"/>
 								</Button>
 								<LabelDecoration name="Декорация2" id="201">
 									<VerticalStretch>true</VerticalStretch>
@@ -440,7 +479,7 @@
 								</Button>
 								<Button name="ДобавитьКнопку" id="176">
 									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ДобавитьКнопку</CommandName>
+									<CommandName>Form.Command.ДобавитьКнопкуКоманднойПанели</CommandName>
 									<Picture>
 										<xr:Abs>Picture.png</xr:Abs>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -451,11 +490,11 @@
 								</Button>
 								<Button name="ДобавитьГиперссылку1" id="188">
 									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ДобавитьГиперссылку</CommandName>
+									<CommandName>Form.Command.ДобавитьГиперссылкуКоманднойПанели</CommandName>
 									<Picture>
 										<xr:Abs>Picture.png</xr:Abs>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
-										<xr:TransparentPixel x="351" y="15"/>
+										<xr:TransparentPixel x="431" y="15"/>
 									</Picture>
 									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
 									<ExtendedTooltip name="ДобавитьГиперссылку1РасширеннаяПодсказка" id="189"/>
@@ -504,7 +543,7 @@
 									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
 									<ExtendedTooltip name="ДобавитьКолонкуРасширеннаяПодсказка" id="179"/>
 								</Button>
-								<Button name="ДобавитьГруппуКолонок" id="180">
+								<Button name="ДобавитьГруппуКолонок1" id="244">
 									<Type>UsualButton</Type>
 									<CommandName>Form.Command.ДобавитьГруппуКолонок</CommandName>
 									<Picture>
@@ -513,7 +552,7 @@
 										<xr:TransparentPixel x="335" y="15"/>
 									</Picture>
 									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
-									<ExtendedTooltip name="ДобавитьГруппуКолонокРасширеннаяПодсказка" id="181"/>
+									<ExtendedTooltip name="ДобавитьГруппуКолонок1РасширеннаяПодсказка" id="245"/>
 								</Button>
 								<LabelDecoration name="Декорация5" id="219">
 									<VerticalStretch>true</VerticalStretch>
@@ -528,92 +567,6 @@
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</Picture>
 									<ExtendedTooltip name="ВидимостьПодсказокКоманд4РасширеннаяПодсказка" id="223"/>
-								</Button>
-							</ChildItems>
-						</Page>
-						<Page name="ГруппаКоманды_ГруппаКолонок" id="134">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа команды группа колонок</v8:content>
-								</v8:item>
-							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа команды группа колонок</v8:content>
-								</v8:item>
-							</ToolTip>
-							<HorizontalSpacing>None</HorizontalSpacing>
-							<VerticalSpacing>None</VerticalSpacing>
-							<ExtendedTooltip name="ГруппаКоманды_ГруппаКолонокРасширеннаяПодсказка" id="135"/>
-							<ChildItems>
-								<Button name="ДобавитьКолонку1" id="182">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ДобавитьКолонку</CommandName>
-									<Picture>
-										<xr:Abs>Picture.png</xr:Abs>
-										<xr:LoadTransparent>true</xr:LoadTransparent>
-										<xr:TransparentPixel x="335" y="15"/>
-									</Picture>
-									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
-									<ExtendedTooltip name="ДобавитьКолонку1РасширеннаяПодсказка" id="183"/>
-								</Button>
-								<LabelDecoration name="Декорация6" id="224">
-									<VerticalStretch>true</VerticalStretch>
-									<ContextMenu name="Декорация6КонтекстноеМеню" id="225"/>
-									<ExtendedTooltip name="Декорация6РасширеннаяПодсказка" id="226"/>
-								</LabelDecoration>
-								<Button name="ВидимостьПодсказокКоманд5" id="227">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ВидимостьПодсказокКоманд</CommandName>
-									<Picture>
-										<xr:Abs>Picture.png</xr:Abs>
-										<xr:LoadTransparent>false</xr:LoadTransparent>
-									</Picture>
-									<ExtendedTooltip name="ВидимостьПодсказокКоманд5РасширеннаяПодсказка" id="228"/>
-								</Button>
-							</ChildItems>
-						</Page>
-						<Page name="ГруппаКоманды_ГруппаКнопок" id="190">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа команды группа кнопок</v8:content>
-								</v8:item>
-							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа команды группа кнопок</v8:content>
-								</v8:item>
-							</ToolTip>
-							<ExtendedTooltip name="ГруппаКоманды_ГруппаКнопокРасширеннаяПодсказка" id="191"/>
-							<ChildItems>
-								<Button name="ДобавитьКнопку2" id="192">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ДобавитьКнопку</CommandName>
-									<Picture>
-										<xr:Abs>Picture.png</xr:Abs>
-										<xr:LoadTransparent>true</xr:LoadTransparent>
-										<xr:TransparentPixel x="351" y="15"/>
-									</Picture>
-									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
-									<ExtendedTooltip name="ДобавитьКнопку2РасширеннаяПодсказка" id="193"/>
-								</Button>
-								<LabelDecoration name="Декорация7" id="229">
-									<VerticalStretch>true</VerticalStretch>
-									<ContextMenu name="Декорация7КонтекстноеМеню" id="230"/>
-									<ExtendedTooltip name="Декорация7РасширеннаяПодсказка" id="231"/>
-								</LabelDecoration>
-								<Button name="ВидимостьПодсказокКоманд6" id="232">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ВидимостьПодсказокКоманд</CommandName>
-									<Picture>
-										<xr:Abs>Picture.png</xr:Abs>
-										<xr:LoadTransparent>false</xr:LoadTransparent>
-									</Picture>
-									<ExtendedTooltip name="ВидимостьПодсказокКоманд6РасширеннаяПодсказка" id="233"/>
 								</Button>
 							</ChildItems>
 						</Page>
@@ -865,7 +818,6 @@
 													<ExtendedTooltip name="ЗначениеРасширеннаяПодсказка" id="114"/>
 													<Events>
 														<Event name="OnChange">ЗначениеПриИзменении</Event>
-														<Event name="StartChoice">ЗначениеНачалоВыбора</Event>
 													</Events>
 												</InputField>
 											</ChildItems>
@@ -1511,7 +1463,7 @@
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Картинку</v8:content>
+					<v8:content>Картинка</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ДобавитьКартинку</Action>
@@ -1751,6 +1703,102 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ВидимостьПодсказокКоманд</Action>
+			<Representation>Picture</Representation>
+		</Command>
+		<Command name="ДобавитьФорматированныйДокумент" id="30">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить форматированный документ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Форматированный документ</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ДобавитьФорматированныйДокумент</Action>
+			<Representation>Picture</Representation>
+		</Command>
+		<Command name="ДобавитьФорматированнуюСтроку" id="31">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить форматированную строку</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Форматированная строка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ДобавитьФорматированнуюСтроку</Action>
+			<Representation>Picture</Representation>
+		</Command>
+		<Command name="ДобавитьТекстовыйДокумент" id="32">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить текстовый документ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текстовый документ</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ДобавитьТекстовыйДокумент</Action>
+			<Representation>Picture</Representation>
+		</Command>
+		<Command name="ДобавитьТабличныйДокумент" id="33">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить табличный документ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Табличный документ</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ДобавитьТабличныйДокумент</Action>
+			<Representation>Picture</Representation>
+		</Command>
+		<Command name="ДобавитьКнопкуКоманднойПанели" id="29">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Кнопку</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Кнопка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ДобавитьКнопкуКоманднойПанели</Action>
+			<Representation>Picture</Representation>
+		</Command>
+		<Command name="ДобавитьГиперссылкуКоманднойПанели" id="34">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить гиперссылку</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Гиперссылка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ДобавитьГиперссылкуКоманднойПанели</Action>
 			<Representation>Picture</Representation>
 		</Command>
 	</Commands>
