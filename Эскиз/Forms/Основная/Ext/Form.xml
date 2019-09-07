@@ -1626,6 +1626,7 @@
 					<v8:content>Подменю</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action>ДобавитьПодменю</Action>
 			<Representation>Picture</Representation>
 		</Command>
 		<Command name="ДобавитьГруппуКнопок" id="24">
@@ -1641,6 +1642,7 @@
 					<v8:content>Группа кнопок</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action>ДобавитьГруппуКнопок</Action>
 			<Representation>Picture</Representation>
 		</Command>
 		<Command name="ДобавитьКолонку" id="25">
@@ -1656,6 +1658,7 @@
 					<v8:content>Колонка</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action>ДобавитьКолонку</Action>
 			<Representation>Picture</Representation>
 		</Command>
 		<Command name="ДобавитьГруппуКолонок" id="26">
@@ -1671,6 +1674,7 @@
 					<v8:content>Группа колонок</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action>ДобавитьГруппуКолонок</Action>
 			<Representation>Picture</Representation>
 		</Command>
 		<Command name="ДобавитьГиперссылку" id="27">
