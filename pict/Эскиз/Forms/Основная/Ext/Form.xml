@@ -2549,6 +2549,7 @@
 					<v8:content>Сохранить свойства в файл</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action>СохранитьСвойстваВФайл</Action>
 		</Command>
 		<Command name="ЗагрузитьСвойстваИзФайла" id="37">
 			<Title>
