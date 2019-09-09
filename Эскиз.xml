@@ -27,6 +27,7 @@
 			<Form>Основная</Form>
 			<Form>Проект</Form>
 			<Form>Прототип</Form>
+			<Form>НастройкиПроекта</Form>
 			<Form>Роли</Form>
 			<Form>Поле</Form>
 			<Template>Макет</Template>
