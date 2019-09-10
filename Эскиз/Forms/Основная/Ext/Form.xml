@@ -125,6 +125,7 @@
 								<Button name="ДобавитьФорму1" id="138">
 									<Type>UsualButton</Type>
 									<CommandName>Form.Command.ДобавитьФорму</CommandName>
+									<BackColor>web:MediumGreen</BackColor>
 									<Picture>
 										<xr:Abs>Picture.png</xr:Abs>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -169,6 +170,7 @@
 								<Button name="ДобавитьФорму2" id="140">
 									<Type>UsualButton</Type>
 									<CommandName>Form.Command.ДобавитьФорму</CommandName>
+									<BackColor>web:MediumGreen</BackColor>
 									<Picture>
 										<xr:Abs>Picture.png</xr:Abs>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -414,6 +416,7 @@
 								<Button name="ДобавитьФорму3" id="248">
 									<Type>UsualButton</Type>
 									<CommandName>Form.Command.ДобавитьФорму</CommandName>
+									<BackColor>web:MediumGreen</BackColor>
 									<Picture>
 										<xr:Abs>Picture.png</xr:Abs>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -469,6 +472,7 @@
 								<Button name="ДобавитьФорму4" id="250">
 									<Type>UsualButton</Type>
 									<CommandName>Form.Command.ДобавитьФорму</CommandName>
+									<BackColor>web:MediumGreen</BackColor>
 									<Picture>
 										<xr:Abs>Picture.png</xr:Abs>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -557,6 +561,7 @@
 								<Button name="ДобавитьФорму5" id="252">
 									<Type>UsualButton</Type>
 									<CommandName>Form.Command.ДобавитьФорму</CommandName>
+									<BackColor>web:MediumGreen</BackColor>
 									<Picture>
 										<xr:Abs>Picture.png</xr:Abs>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -692,7 +697,6 @@
 									</Button>
 									<Button name="ОткрытьПрототип" id="70">
 										<Type>CommandBarButton</Type>
-										<DefaultButton>true</DefaultButton>
 										<CommandName>Form.Command.ОткрытьПрототип</CommandName>
 										<Picture>
 											<xr:Abs>Picture.png</xr:Abs>
@@ -1418,11 +1422,7 @@
 						</v8:item>
 					</Title>
 					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>0</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
+						<v8:Type>xs:boolean</v8:Type>
 					</Type>
 				</Column>
 			</Columns>
