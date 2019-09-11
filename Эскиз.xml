@@ -28,9 +28,8 @@
 			<Form>Проект</Form>
 			<Form>Прототип</Form>
 			<Form>НастройкиПроекта</Form>
-			<Form>Роли</Form>
-			<Form>Поле</Form>
 			<Form>ДанныеВыбораСвойства</Form>
+			<Form>Роли</Form>
 			<Template>Макет</Template>
 			<Template>Свойства</Template>
 		</ChildObjects>
