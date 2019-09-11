@@ -7,7 +7,6 @@
 	</AutoCommandBar>
 	<Events>
 		<Event name="OnOpen">ПриОткрытии</Event>
-		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
 		<UsualGroup name="ГруппаРаботаСФайломПроекта" id="42">
@@ -697,7 +696,9 @@
 									</Button>
 									<Button name="ОткрытьПрототип" id="70">
 										<Type>CommandBarButton</Type>
+										<DefaultButton>true</DefaultButton>
 										<CommandName>Form.Command.ОткрытьПрототип</CommandName>
+										<BackColor>web:Khaki</BackColor>
 										<Picture>
 											<xr:Abs>Picture.png</xr:Abs>
 											<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -776,36 +777,25 @@
 									<ChildItems>
 										<Table name="СвойстваФормИЭлементовУправления" id="17">
 											<Representation>List</Representation>
-											<CommandBarLocation>None</CommandBarLocation>
 											<SelectionMode>SingleRow</SelectionMode>
 											<AutoAddIncomplete>false</AutoAddIncomplete>
 											<AutoMarkIncomplete>false</AutoMarkIncomplete>
 											<SearchOnInput>Use</SearchOnInput>
 											<FileDragMode>AsFile</FileDragMode>
 											<DataPath>СвойстваФормИЭлементовУправления</DataPath>
-											<CommandSet>
-												<ExcludedCommand>Add</ExcludedCommand>
-												<ExcludedCommand>Change</ExcludedCommand>
-												<ExcludedCommand>Copy</ExcludedCommand>
-												<ExcludedCommand>CopyToClipboard</ExcludedCommand>
-												<ExcludedCommand>Delete</ExcludedCommand>
-												<ExcludedCommand>EndEdit</ExcludedCommand>
-												<ExcludedCommand>MoveDown</ExcludedCommand>
-												<ExcludedCommand>MoveUp</ExcludedCommand>
-												<ExcludedCommand>OutputList</ExcludedCommand>
-												<ExcludedCommand>SearchEverywhere</ExcludedCommand>
-												<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
-												<ExcludedCommand>SortListAsc</ExcludedCommand>
-												<ExcludedCommand>SortListDesc</ExcludedCommand>
-											</CommandSet>
 											<SearchStringLocation>CommandBar</SearchStringLocation>
 											<SearchControlLocation>CommandBar</SearchControlLocation>
 											<RowFilter xsi:nil="true"/>
 											<ContextMenu name="СвойстваФормИЭлементовУправленияКонтекстноеМеню" id="18"/>
 											<AutoCommandBar name="СвойстваФормИЭлементовУправленияКоманднаяПанель" id="19">
+												<Autofill>false</Autofill>
 												<ChildItems>
+													<Button name="СвойстваФормИЭлементовУправленияДобавить" id="382">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Item.СвойстваФормИЭлементовУправления.StandardCommand.Add</CommandName>
+														<ExtendedTooltip name="СвойстваФормИЭлементовУправленияДобавитьРасширеннаяПодсказка" id="383"/>
+													</Button>
 													<ButtonGroup name="ГруппаКнопокРежимРедактированияСвойств" id="358">
-														<Visible>false</Visible>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -864,9 +854,8 @@
 												<Event name="OnStartEdit">СвойстваФормИЭлементовУправленияПриНачалеРедактирования</Event>
 											</Events>
 											<ChildItems>
-												<InputField name="Свойство" id="109">
+												<InputField name="СвойствоПредставление" id="109">
 													<DataPath>СвойстваФормИЭлементовУправления.СвойствоПредставление</DataPath>
-													<ReadOnly>true</ReadOnly>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -875,8 +864,21 @@
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
 													<FixingInTable>Left</FixingInTable>
-													<ContextMenu name="СвойствоКонтекстноеМеню" id="110"/>
-													<ExtendedTooltip name="СвойствоРасширеннаяПодсказка" id="111"/>
+													<ContextMenu name="СвойствоПредставлениеКонтекстноеМеню" id="110"/>
+													<ExtendedTooltip name="СвойствоПредставлениеРасширеннаяПодсказка" id="111"/>
+												</InputField>
+												<InputField name="Свойство" id="379">
+													<DataPath>СвойстваФормИЭлементовУправления.Свойство</DataPath>
+													<Visible>false</Visible>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Свойство (значение)</v8:content>
+														</v8:item>
+													</Title>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="СвойствоКонтекстноеМеню" id="380"/>
+													<ExtendedTooltip name="СвойствоРасширеннаяПодсказка" id="381"/>
 												</InputField>
 												<InputField name="Значение" id="112">
 													<DataPath>СвойстваФормИЭлементовУправления.ЗначениеПредставление</DataPath>
@@ -970,12 +972,40 @@
 															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_СтраницыКонтекстноеМеню" id="281"/>
 															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_СтраницыРасширеннаяПодсказка" id="282"/>
 														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода" id="283">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеВвода</DataPath>
+														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_Строка" id="364">
+															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеВвода_Строка</DataPath>
 															<EditMode>EnterOnInput</EditMode>
 															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВводаКонтекстноеМеню" id="284"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВводаРасширеннаяПодсказка" id="285"/>
+															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_СтрокаКонтекстноеМеню" id="365"/>
+															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_СтрокаРасширеннаяПодсказка" id="366"/>
+														</CheckBoxField>
+														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_Число" id="367">
+															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеВвода_Число</DataPath>
+															<EditMode>EnterOnInput</EditMode>
+															<CheckBoxType>Auto</CheckBoxType>
+															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_ЧислоКонтекстноеМеню" id="368"/>
+															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_ЧислоРасширеннаяПодсказка" id="369"/>
+														</CheckBoxField>
+														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_Булево" id="370">
+															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеВвода_Булево</DataPath>
+															<EditMode>EnterOnInput</EditMode>
+															<CheckBoxType>Auto</CheckBoxType>
+															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_БулевоКонтекстноеМеню" id="371"/>
+															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_БулевоРасширеннаяПодсказка" id="372"/>
+														</CheckBoxField>
+														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_Дата" id="373">
+															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеВвода_Дата</DataPath>
+															<EditMode>EnterOnInput</EditMode>
+															<CheckBoxType>Auto</CheckBoxType>
+															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_ДатаКонтекстноеМеню" id="374"/>
+															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_ДатаРасширеннаяПодсказка" id="375"/>
+														</CheckBoxField>
+														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_СтандартныйПериод" id="376">
+															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеВвода_СтандартныйПериод</DataPath>
+															<EditMode>EnterOnInput</EditMode>
+															<CheckBoxType>Auto</CheckBoxType>
+															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_СтандартныйПериодКонтекстноеМеню" id="377"/>
+															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_СтандартныйПериодРасширеннаяПодсказка" id="378"/>
 														</CheckBoxField>
 														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеИндикатора" id="286">
 															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеИндикатора</DataPath>
@@ -1429,6 +1459,53 @@
 						<v8:Type>xs:boolean</v8:Type>
 					</Type>
 				</Column>
+				<Column name="Длина" id="14">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Длина</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="Точность" id="15">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Точность</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="СоставДаты" id="16">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Состав даты</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
 			</Columns>
 		</Attribute>
 		<Attribute name="СвойстваФормИЭлементовУправления" id="3">
@@ -1609,17 +1686,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Отбор_ГруппаФормы_Страницы</v8:content>
-						</v8:item>
-					</Title>
-					<Type>
-						<v8:Type>xs:boolean</v8:Type>
-					</Type>
-				</Column>
-				<Column name="Отбор_ПолеФормы_ПолеВвода" id="16">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Отбор_ПолеФормы_ПолеВвода</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -1884,6 +1950,61 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Отбор_Пусто</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Отбор_ПолеФормы_ПолеВвода_Строка" id="15">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отбор_ПолеФормы_ПолеВвода_Строка</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Отбор_ПолеФормы_ПолеВвода_Число" id="40">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отбор_ПолеФормы_ПолеВвода_Число</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Отбор_ПолеФормы_ПолеВвода_Булево" id="41">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отбор_ПолеФормы_ПолеВвода_Булево</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Отбор_ПолеФормы_ПолеВвода_Дата" id="42">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отбор_ПолеФормы_ПолеВвода_Дата</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Отбор_ПолеФормы_ПолеВвода_СтандартныйПериод" id="43">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отбор_ПолеФормы_ПолеВвода_СтандартныйПериод</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
