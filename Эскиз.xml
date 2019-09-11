@@ -30,6 +30,7 @@
 			<Form>НастройкиПроекта</Form>
 			<Form>Роли</Form>
 			<Form>Поле</Form>
+			<Form>ДанныеВыбораСвойства</Form>
 			<Template>Макет</Template>
 		</ChildObjects>
 	</ExternalDataProcessor>
