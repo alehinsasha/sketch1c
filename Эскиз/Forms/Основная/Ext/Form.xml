@@ -733,7 +733,11 @@
 								<ExtendedTooltip name="ФормыИЭлементыУправленияУправлениеПоискомРасширеннаяПодсказка" id="13"/>
 							</SearchControlAddition>
 							<Events>
+								<Event name="DragCheck">ФормыИЭлементыУправленияПроверкаПеретаскивания</Event>
 								<Event name="OnActivateRow">ФормыИЭлементыУправленияПриАктивизацииСтроки</Event>
+								<Event name="DragStart">ФормыИЭлементыУправленияНачалоПеретаскивания</Event>
+								<Event name="Drag">ФормыИЭлементыУправленияПеретаскивание</Event>
+								<Event name="DragEnd">ФормыИЭлементыУправленияОкончаниеПеретаскивания</Event>
 							</Events>
 							<ChildItems>
 								<InputField name="Заголовок" id="106">
@@ -2280,6 +2284,7 @@
 				<xr:Ref>StdPicture.MoveUp</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
+			<Action>ПереместитьВверх</Action>
 		</Command>
 		<Command name="ПереместитьВниз" id="10">
 			<Title>
@@ -2298,6 +2303,7 @@
 				<xr:Ref>StdPicture.MoveDown</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
+			<Action>ПереместитьВниз</Action>
 		</Command>
 		<Command name="ОткрытьПрототип" id="11">
 			<Title>
