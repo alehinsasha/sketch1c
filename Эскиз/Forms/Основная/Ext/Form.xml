@@ -733,9 +733,7 @@
 								<ExtendedTooltip name="ФормыИЭлементыУправленияУправлениеПоискомРасширеннаяПодсказка" id="13"/>
 							</SearchControlAddition>
 							<Events>
-								<Event name="DragCheck">ФормыИЭлементыУправленияПроверкаПеретаскивания</Event>
 								<Event name="OnActivateRow">ФормыИЭлементыУправленияПриАктивизацииСтроки</Event>
-								<Event name="DragStart">ФормыИЭлементыУправленияНачалоПеретаскивания</Event>
 								<Event name="Drag">ФормыИЭлементыУправленияПеретаскивание</Event>
 								<Event name="DragEnd">ФормыИЭлементыУправленияОкончаниеПеретаскивания</Event>
 							</Events>
