@@ -10,7 +10,6 @@
 	</Events>
 	<ChildItems>
 		<UsualGroup name="ГруппаРаботаСФайломПроекта" id="42">
-			<Visible>false</Visible>
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -39,6 +38,10 @@
 					<ClearButton>true</ClearButton>
 					<OpenButton>true</OpenButton>
 					<TextEdit>false</TextEdit>
+					<ChoiceButtonPicture>
+						<xr:Ref>StdPicture.OpenFile</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</ChoiceButtonPicture>
 					<ContextMenu name="РасположениеПроектаКонтекстноеМеню" id="40"/>
 					<ExtendedTooltip name="РасположениеПроектаРасширеннаяПодсказка" id="41"/>
 					<Events>
