@@ -45,7 +45,7 @@
 					<ContextMenu name="РасположениеПроектаКонтекстноеМеню" id="40"/>
 					<ExtendedTooltip name="РасположениеПроектаРасширеннаяПодсказка" id="41"/>
 					<Events>
-						<Event name="StartChoice">ЗагрузитьПроект</Event>
+						<Event name="StartChoice">ВыбратьПроект</Event>
 						<Event name="Opening">ОткрытьПроект</Event>
 						<Event name="Clearing">РасположениеПроектаОчистка</Event>
 					</Events>
