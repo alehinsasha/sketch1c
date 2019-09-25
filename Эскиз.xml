@@ -32,7 +32,6 @@
 			<Form>Роли</Form>
 			<Template>Макет</Template>
 			<Template>Свойства</Template>
-			<Template>Макет1</Template>
 		</ChildObjects>
 	</ExternalDataProcessor>
 </MetaDataObject>
