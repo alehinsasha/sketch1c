@@ -660,7 +660,9 @@
 								</v8:item>
 							</Title>
 							<TreeSpecialSearch>false</TreeSpecialSearch>
-							<ContextMenu name="ФормыИЭлементыУправленияКонтекстноеМеню" id="2"/>
+							<ContextMenu name="ФормыИЭлементыУправленияКонтекстноеМеню" id="2">
+								<Autofill>false</Autofill>
+							</ContextMenu>
 							<AutoCommandBar name="ФормыИЭлементыУправленияКоманднаяПанель" id="3">
 								<Autofill>false</Autofill>
 								<ChildItems>
