@@ -29,6 +29,7 @@
 			<Form>Прототип</Form>
 			<Form>НастройкиПроекта</Form>
 			<Form>ДанныеВыбораСвойства</Form>
+			<Form>СписокВыбораПереключателя</Form>
 			<Form>Роли</Form>
 			<Template>Макет</Template>
 			<Template>Свойства</Template>
