@@ -9,1253 +9,1359 @@
 		<Event name="OnOpen">ПриОткрытии</Event>
 	</Events>
 	<ChildItems>
-		<UsualGroup name="ГруппаРаботаСФайломПроекта" id="42">
+		<Pages name="ГруппаРежимыЭскиза" id="394">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Группа работа с файлом проекта</v8:content>
+					<v8:content>Группа режимы эскиза</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Группа работа с файлом проекта</v8:content>
+					<v8:content>Группа режимы эскиза</v8:content>
 				</v8:item>
 			</ToolTip>
-			<HorizontalStretch>true</HorizontalStretch>
-			<Group>AlwaysHorizontal</Group>
-			<HorizontalSpacing>Half</HorizontalSpacing>
-			<Representation>None</Representation>
-			<ShowTitle>false</ShowTitle>
-			<BackColor>style:ToolTipBackColor</BackColor>
-			<ExtendedTooltip name="ГруппаРаботаСФайломПроектаРасширеннаяПодсказка" id="43"/>
+			<PagesRepresentation>None</PagesRepresentation>
+			<ExtendedTooltip name="ГруппаРежимыЭскизаРасширеннаяПодсказка" id="395"/>
 			<ChildItems>
-				<InputField name="РасположениеПроекта" id="39">
-					<DataPath>РасположениеПроекта</DataPath>
-					<TitleFont ref="style:NormalTextFont" height="9" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
-					<AutoMaxWidth>false</AutoMaxWidth>
-					<ChoiceButton>true</ChoiceButton>
-					<ClearButton>true</ClearButton>
-					<OpenButton>true</OpenButton>
-					<TextEdit>false</TextEdit>
-					<ChoiceButtonPicture>
-						<xr:Ref>StdPicture.OpenFile</xr:Ref>
-						<xr:LoadTransparent>true</xr:LoadTransparent>
-					</ChoiceButtonPicture>
-					<ContextMenu name="РасположениеПроектаКонтекстноеМеню" id="40"/>
-					<ExtendedTooltip name="РасположениеПроектаРасширеннаяПодсказка" id="41"/>
-					<Events>
-						<Event name="StartChoice">ВыбратьПроект</Event>
-						<Event name="Opening">ОткрытьПроект</Event>
-						<Event name="Clearing">РасположениеПроектаОчистка</Event>
-					</Events>
-				</InputField>
-				<Button name="СохранитьПроект" id="44">
-					<Type>UsualButton</Type>
-					<CommandName>Form.Command.СохранитьПроект</CommandName>
-					<ShapeRepresentation>None</ShapeRepresentation>
-					<ExtendedTooltip name="СохранитьПроектРасширеннаяПодсказка" id="45"/>
-				</Button>
-			</ChildItems>
-		</UsualGroup>
-		<InputField name="Роль" id="72">
-			<DataPath>Роль</DataPath>
-			<Visible>false</Visible>
-			<AutoMaxWidth>false</AutoMaxWidth>
-			<HorizontalStretch>true</HorizontalStretch>
-			<DropListButton>true</DropListButton>
-			<ChoiceButton>true</ChoiceButton>
-			<ChooseType>false</ChooseType>
-			<TextEdit>false</TextEdit>
-			<ContextMenu name="РольКонтекстноеМеню" id="73"/>
-			<ExtendedTooltip name="РольРасширеннаяПодсказка" id="74"/>
-			<Events>
-				<Event name="StartChoice">РедактироватьРоли</Event>
-			</Events>
-		</InputField>
-		<UsualGroup name="ГруппаКомандыИПроект" id="120">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Формы и элементы управления</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Группа команды и проект</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Group>AlwaysHorizontal</Group>
-			<Representation>None</Representation>
-			<ExtendedTooltip name="ГруппаКомандыИПроектРасширеннаяПодсказка" id="121"/>
-			<ChildItems>
-				<Pages name="ГруппаКоманды" id="124">
+				<Page name="ГруппаОбычныйРежим" id="398">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Группа команды</v8:content>
+							<v8:content>Группа обычный режим</v8:content>
 						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Группа команды</v8:content>
+							<v8:content>Группа обычный режим</v8:content>
 						</v8:item>
 					</ToolTip>
-					<VerticalStretch>true</VerticalStretch>
-					<PagesRepresentation>None</PagesRepresentation>
-					<ExtendedTooltip name="ГруппаКомандыРасширеннаяПодсказка" id="125"/>
+					<ExtendedTooltip name="ГруппаОбычныйРежимРасширеннаяПодсказка" id="399"/>
 					<ChildItems>
-						<Page name="ГруппаКоманды_НачалоРаботы" id="126">
+						<UsualGroup name="ГруппаРаботаСФайломПроекта" id="42">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Группа команды начало работы</v8:content>
+									<v8:content>Группа работа с файлом проекта</v8:content>
 								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Группа команды начало работы</v8:content>
+									<v8:content>Группа работа с файлом проекта</v8:content>
 								</v8:item>
 							</ToolTip>
-							<HorizontalSpacing>None</HorizontalSpacing>
-							<VerticalSpacing>None</VerticalSpacing>
-							<ExtendedTooltip name="ГруппаКоманды_НачалоРаботыРасширеннаяПодсказка" id="127"/>
+							<HorizontalStretch>true</HorizontalStretch>
+							<Group>AlwaysHorizontal</Group>
+							<HorizontalSpacing>Half</HorizontalSpacing>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<BackColor>style:ToolTipBackColor</BackColor>
+							<ExtendedTooltip name="ГруппаРаботаСФайломПроектаРасширеннаяПодсказка" id="43"/>
 							<ChildItems>
-								<Button name="ДобавитьФорму1" id="138">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ДобавитьФорму</CommandName>
-									<BackColor>web:MediumGreen</BackColor>
-									<Picture>
-										<xr:Abs>Picture.png</xr:Abs>
+								<InputField name="РасположениеПроекта" id="39">
+									<DataPath>РасположениеПроекта</DataPath>
+									<TitleFont ref="style:NormalTextFont" height="9" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<ChoiceButton>true</ChoiceButton>
+									<ClearButton>true</ClearButton>
+									<OpenButton>true</OpenButton>
+									<TextEdit>false</TextEdit>
+									<ChoiceButtonPicture>
+										<xr:Ref>StdPicture.OpenFile</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
-										<xr:TransparentPixel x="335" y="15"/>
-									</Picture>
-									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
-									<ExtendedTooltip name="ДобавитьФорму1РасширеннаяПодсказка" id="139"/>
-								</Button>
-								<LabelDecoration name="Декорация1" id="196">
-									<VerticalStretch>true</VerticalStretch>
-									<ContextMenu name="Декорация1КонтекстноеМеню" id="197"/>
-									<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="198"/>
-								</LabelDecoration>
-								<Button name="ВидимостьПодсказокКоманд" id="199">
+									</ChoiceButtonPicture>
+									<ContextMenu name="РасположениеПроектаКонтекстноеМеню" id="40"/>
+									<ExtendedTooltip name="РасположениеПроектаРасширеннаяПодсказка" id="41"/>
+									<Events>
+										<Event name="StartChoice">ВыбратьПроект</Event>
+										<Event name="Opening">ОткрытьПроект</Event>
+										<Event name="Clearing">РасположениеПроектаОчистка</Event>
+									</Events>
+								</InputField>
+								<Button name="СохранитьПроект" id="44">
 									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ВидимостьПодсказокКоманд</CommandName>
-									<Picture>
-										<xr:Abs>Picture.png</xr:Abs>
-										<xr:LoadTransparent>false</xr:LoadTransparent>
-									</Picture>
-									<ExtendedTooltip name="ВидимостьПодсказокКомандРасширеннаяПодсказка" id="200"/>
+									<CommandName>Form.Command.СохранитьПроект</CommandName>
+									<ShapeRepresentation>None</ShapeRepresentation>
+									<ExtendedTooltip name="СохранитьПроектРасширеннаяПодсказка" id="45"/>
 								</Button>
 							</ChildItems>
-						</Page>
-						<Page name="ГруппаКоманды_Все" id="136">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа команды все</v8:content>
-								</v8:item>
-							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа команды все</v8:content>
-								</v8:item>
-							</ToolTip>
-							<HorizontalSpacing>None</HorizontalSpacing>
-							<VerticalSpacing>None</VerticalSpacing>
-							<ExtendedTooltip name="ГруппаКоманды_ВсеРасширеннаяПодсказка" id="137"/>
-							<ChildItems>
-								<Button name="ДобавитьФорму2" id="140">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ДобавитьФорму</CommandName>
-									<BackColor>web:MediumGreen</BackColor>
-									<Picture>
-										<xr:Abs>Picture.png</xr:Abs>
-										<xr:LoadTransparent>true</xr:LoadTransparent>
-										<xr:TransparentPixel x="335" y="15"/>
-									</Picture>
-									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
-									<ExtendedTooltip name="ДобавитьФорму2РасширеннаяПодсказка" id="141"/>
-								</Button>
-								<Button name="ДобавитьГруппу1" id="142">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ДобавитьГруппу</CommandName>
-									<Picture>
-										<xr:Abs>Picture.png</xr:Abs>
-										<xr:LoadTransparent>true</xr:LoadTransparent>
-										<xr:TransparentPixel x="335" y="15"/>
-									</Picture>
-									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
-									<ExtendedTooltip name="ДобавитьГруппу1РасширеннаяПодсказка" id="143"/>
-								</Button>
-								<Button name="ДобавитьКоманднуюПанель" id="162">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ДобавитьКоманднуюПанель</CommandName>
-									<Picture>
-										<xr:Abs>Picture.png</xr:Abs>
-										<xr:LoadTransparent>true</xr:LoadTransparent>
-										<xr:TransparentPixel x="335" y="15"/>
-									</Picture>
-									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
-									<ExtendedTooltip name="ДобавитьКоманднуюПанельРасширеннаяПодсказка" id="163"/>
-								</Button>
-								<Button name="ДобавитьСтраницы" id="160">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ДобавитьСтраницы</CommandName>
-									<Picture>
-										<xr:Abs>Picture.png</xr:Abs>
-										<xr:LoadTransparent>true</xr:LoadTransparent>
-										<xr:TransparentPixel x="335" y="15"/>
-									</Picture>
-									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
-									<ExtendedTooltip name="ДобавитьСтраницыРасширеннаяПодсказка" id="161"/>
-								</Button>
-								<Button name="ДобавитьКнопку1" id="184">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ДобавитьКнопку</CommandName>
-									<Picture>
-										<xr:Abs>Picture.png</xr:Abs>
-										<xr:LoadTransparent>true</xr:LoadTransparent>
-										<xr:TransparentPixel x="335" y="15"/>
-									</Picture>
-									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
-									<ExtendedTooltip name="ДобавитьКнопку1РасширеннаяПодсказка" id="185"/>
-								</Button>
-								<Button name="ДобавитьГиперссылку" id="186">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ДобавитьГиперссылку</CommandName>
-									<Picture>
-										<xr:Abs>Picture.png</xr:Abs>
-										<xr:LoadTransparent>false</xr:LoadTransparent>
-									</Picture>
-									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
-									<ExtendedTooltip name="ДобавитьГиперссылкуРасширеннаяПодсказка" id="187"/>
-								</Button>
-								<Button name="ДобавитьПоле" id="144">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ДобавитьПоле</CommandName>
-									<Picture>
-										<xr:Abs>Picture.png</xr:Abs>
-										<xr:LoadTransparent>true</xr:LoadTransparent>
-										<xr:TransparentPixel x="335" y="15"/>
-									</Picture>
-									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
-									<ExtendedTooltip name="ДобавитьПолеРасширеннаяПодсказка" id="145"/>
-								</Button>
-								<Button name="ДобавитьФлажок" id="154">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ДобавитьФлажок</CommandName>
-									<Picture>
-										<xr:Abs>Picture.png</xr:Abs>
-										<xr:LoadTransparent>true</xr:LoadTransparent>
-										<xr:TransparentPixel x="335" y="15"/>
-									</Picture>
-									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
-									<ExtendedTooltip name="ДобавитьФлажокРасширеннаяПодсказка" id="155"/>
-								</Button>
-								<Button name="ДобавитьПереключатель" id="156">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ДобавитьПереключатель</CommandName>
-									<Picture>
-										<xr:Abs>Picture.png</xr:Abs>
-										<xr:LoadTransparent>true</xr:LoadTransparent>
-										<xr:TransparentPixel x="335" y="15"/>
-									</Picture>
-									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
-									<ExtendedTooltip name="ДобавитьПереключательРасширеннаяПодсказка" id="157"/>
-								</Button>
-								<Button name="ДобавитьТаблицу" id="148">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ДобавитьТаблицу</CommandName>
-									<Picture>
-										<xr:Abs>Picture.png</xr:Abs>
-										<xr:LoadTransparent>true</xr:LoadTransparent>
-										<xr:TransparentPixel x="335" y="15"/>
-									</Picture>
-									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
-									<ExtendedTooltip name="ДобавитьТаблицуРасширеннаяПодсказка" id="149"/>
-								</Button>
-								<Button name="ДобавитьДерево" id="150">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ДобавитьДерево</CommandName>
-									<Picture>
-										<xr:Abs>Picture.png</xr:Abs>
-										<xr:LoadTransparent>false</xr:LoadTransparent>
-									</Picture>
-									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
-									<ExtendedTooltip name="ДобавитьДеревоРасширеннаяПодсказка" id="151"/>
-								</Button>
-								<Button name="ДобавитьНадпись" id="146">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ДобавитьНадпись</CommandName>
-									<Picture>
-										<xr:Abs>Picture.png</xr:Abs>
-										<xr:LoadTransparent>true</xr:LoadTransparent>
-										<xr:TransparentPixel x="335" y="15"/>
-									</Picture>
-									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
-									<ExtendedTooltip name="ДобавитьНадписьРасширеннаяПодсказка" id="147"/>
-								</Button>
-								<Button name="ДобавитьКартинку1" id="158">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ДобавитьКартинку</CommandName>
-									<Picture>
-										<xr:Abs>Picture.png</xr:Abs>
-										<xr:LoadTransparent>false</xr:LoadTransparent>
-									</Picture>
-									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
-									<ExtendedTooltip name="ДобавитьКартинку1РасширеннаяПодсказка" id="159"/>
-								</Button>
-								<Button name="ДобавитьИндикатор" id="164">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ДобавитьИндикатор</CommandName>
-									<Picture>
-										<xr:Abs>Picture.png</xr:Abs>
-										<xr:LoadTransparent>false</xr:LoadTransparent>
-									</Picture>
-									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
-									<ExtendedTooltip name="ДобавитьИндикаторРасширеннаяПодсказка" id="165"/>
-								</Button>
-								<Button name="ДобавитьПолосуРегулирования" id="166">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ДобавитьПолосуРегулирования</CommandName>
-									<Picture>
-										<xr:Abs>Picture.png</xr:Abs>
-										<xr:LoadTransparent>true</xr:LoadTransparent>
-										<xr:TransparentPixel x="335" y="15"/>
-									</Picture>
-									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
-									<ExtendedTooltip name="ДобавитьПолосуРегулированияРасширеннаяПодсказка" id="167"/>
-								</Button>
-								<Button name="ДобавитьКалендарь" id="168">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ДобавитьКалендарь</CommandName>
-									<Picture>
-										<xr:Abs>Picture.png</xr:Abs>
-										<xr:LoadTransparent>true</xr:LoadTransparent>
-										<xr:TransparentPixel x="335" y="15"/>
-									</Picture>
-									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
-									<ExtendedTooltip name="ДобавитьКалендарьРасширеннаяПодсказка" id="169"/>
-								</Button>
-								<Button name="ДобавитьФорматированныйДокумент" id="236">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ДобавитьФорматированныйДокумент</CommandName>
-									<Picture>
-										<xr:Abs>Picture.png</xr:Abs>
-										<xr:LoadTransparent>false</xr:LoadTransparent>
-									</Picture>
-									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
-									<ExtendedTooltip name="ДобавитьФорматированныйДокументРасширеннаяПодсказка" id="237"/>
-								</Button>
-								<Button name="ДобавитьФорматированнуюСтроку" id="238">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ДобавитьФорматированнуюСтроку</CommandName>
-									<Picture>
-										<xr:Abs>Picture.png</xr:Abs>
-										<xr:LoadTransparent>false</xr:LoadTransparent>
-									</Picture>
-									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
-									<ExtendedTooltip name="ДобавитьФорматированнуюСтрокуРасширеннаяПодсказка" id="239"/>
-								</Button>
-								<Button name="ДобавитьТекстовыйДокумент" id="240">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ДобавитьТекстовыйДокумент</CommandName>
-									<Picture>
-										<xr:Abs>Picture.png</xr:Abs>
-										<xr:LoadTransparent>false</xr:LoadTransparent>
-									</Picture>
-									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
-									<ExtendedTooltip name="ДобавитьТекстовыйДокументРасширеннаяПодсказка" id="241"/>
-								</Button>
-								<Button name="ДобавитьТабличныйДокумент" id="242">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ДобавитьТабличныйДокумент</CommandName>
-									<Picture>
-										<xr:Abs>Picture.png</xr:Abs>
-										<xr:LoadTransparent>false</xr:LoadTransparent>
-									</Picture>
-									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
-									<ExtendedTooltip name="ДобавитьТабличныйДокументРасширеннаяПодсказка" id="243"/>
-								</Button>
-								<LabelDecoration name="Декорация2" id="201">
-									<VerticalStretch>true</VerticalStretch>
-									<ContextMenu name="Декорация2КонтекстноеМеню" id="202"/>
-									<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="203"/>
-								</LabelDecoration>
-								<Button name="ВидимостьПодсказокКоманд1" id="204">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ВидимостьПодсказокКоманд</CommandName>
-									<Picture>
-										<xr:Abs>Picture.png</xr:Abs>
-										<xr:LoadTransparent>false</xr:LoadTransparent>
-									</Picture>
-									<ExtendedTooltip name="ВидимостьПодсказокКоманд1РасширеннаяПодсказка" id="205"/>
-								</Button>
-							</ChildItems>
-						</Page>
-						<Page name="ГруппаКоманды_Страницы" id="128">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа команды страницы</v8:content>
-								</v8:item>
-							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа команды страницы</v8:content>
-								</v8:item>
-							</ToolTip>
-							<HorizontalSpacing>None</HorizontalSpacing>
-							<VerticalSpacing>None</VerticalSpacing>
-							<ExtendedTooltip name="ГруппаКоманды_СтраницыРасширеннаяПодсказка" id="129"/>
-							<ChildItems>
-								<Button name="ДобавитьФорму3" id="248">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ДобавитьФорму</CommandName>
-									<BackColor>web:MediumGreen</BackColor>
-									<Picture>
-										<xr:Abs>Picture.png</xr:Abs>
-										<xr:LoadTransparent>true</xr:LoadTransparent>
-										<xr:TransparentPixel x="335" y="15"/>
-									</Picture>
-									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
-									<ExtendedTooltip name="ДобавитьФорму3РасширеннаяПодсказка" id="249"/>
-								</Button>
-								<Button name="ДобавитьСтраницу" id="170">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ДобавитьСтраницу</CommandName>
-									<Picture>
-										<xr:Abs>Picture.png</xr:Abs>
-										<xr:LoadTransparent>true</xr:LoadTransparent>
-										<xr:TransparentPixel x="335" y="15"/>
-									</Picture>
-									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
-									<ExtendedTooltip name="ДобавитьСтраницуРасширеннаяПодсказка" id="171"/>
-								</Button>
-								<LabelDecoration name="Декорация3" id="206">
-									<VerticalStretch>true</VerticalStretch>
-									<ContextMenu name="Декорация3КонтекстноеМеню" id="207"/>
-									<ExtendedTooltip name="Декорация3РасширеннаяПодсказка" id="208"/>
-								</LabelDecoration>
-								<Button name="ВидимостьПодсказокКоманд2" id="209">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ВидимостьПодсказокКоманд</CommandName>
-									<Picture>
-										<xr:Abs>Picture.png</xr:Abs>
-										<xr:LoadTransparent>false</xr:LoadTransparent>
-									</Picture>
-									<ExtendedTooltip name="ВидимостьПодсказокКоманд2РасширеннаяПодсказка" id="210"/>
-								</Button>
-							</ChildItems>
-						</Page>
-						<Page name="ГруппаКоманды_КоманднаяПанель" id="130">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа команды командная панель</v8:content>
-								</v8:item>
-							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа команды командная панель</v8:content>
-								</v8:item>
-							</ToolTip>
-							<HorizontalSpacing>None</HorizontalSpacing>
-							<VerticalSpacing>None</VerticalSpacing>
-							<ExtendedTooltip name="ГруппаКоманды_КоманднаяПанельРасширеннаяПодсказка" id="131"/>
-							<ChildItems>
-								<Button name="ДобавитьФорму4" id="250">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ДобавитьФорму</CommandName>
-									<BackColor>web:MediumGreen</BackColor>
-									<Picture>
-										<xr:Abs>Picture.png</xr:Abs>
-										<xr:LoadTransparent>true</xr:LoadTransparent>
-										<xr:TransparentPixel x="335" y="15"/>
-									</Picture>
-									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
-									<ExtendedTooltip name="ДобавитьФорму4РасширеннаяПодсказка" id="251"/>
-								</Button>
-								<Button name="ДобавитьПодменю" id="172">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ДобавитьПодменю</CommandName>
-									<Picture>
-										<xr:Abs>Picture.png</xr:Abs>
-										<xr:LoadTransparent>true</xr:LoadTransparent>
-										<xr:TransparentPixel x="335" y="15"/>
-									</Picture>
-									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
-									<ExtendedTooltip name="ДобавитьПодменюРасширеннаяПодсказка" id="173"/>
-								</Button>
-								<Button name="ДобавитьГруппуКнопок" id="174">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ДобавитьГруппуКнопок</CommandName>
-									<Picture>
-										<xr:Abs>Picture.png</xr:Abs>
-										<xr:LoadTransparent>true</xr:LoadTransparent>
-										<xr:TransparentPixel x="335" y="15"/>
-									</Picture>
-									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
-									<ExtendedTooltip name="ДобавитьГруппуКнопокРасширеннаяПодсказка" id="175"/>
-								</Button>
-								<Button name="ДобавитьКнопку" id="176">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ДобавитьКнопкуКоманднойПанели</CommandName>
-									<Picture>
-										<xr:Abs>Picture.png</xr:Abs>
-										<xr:LoadTransparent>true</xr:LoadTransparent>
-										<xr:TransparentPixel x="335" y="15"/>
-									</Picture>
-									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
-									<ExtendedTooltip name="ДобавитьКнопкуРасширеннаяПодсказка" id="177"/>
-								</Button>
-								<Button name="ДобавитьГиперссылку1" id="188">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ДобавитьГиперссылкуКоманднойПанели</CommandName>
-									<Picture>
-										<xr:Abs>Picture.png</xr:Abs>
-										<xr:LoadTransparent>true</xr:LoadTransparent>
-										<xr:TransparentPixel x="431" y="15"/>
-									</Picture>
-									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
-									<ExtendedTooltip name="ДобавитьГиперссылку1РасширеннаяПодсказка" id="189"/>
-								</Button>
-								<LabelDecoration name="Декорация4" id="211">
-									<VerticalStretch>true</VerticalStretch>
-									<ContextMenu name="Декорация4КонтекстноеМеню" id="212"/>
-									<ExtendedTooltip name="Декорация4РасширеннаяПодсказка" id="213"/>
-								</LabelDecoration>
-								<Button name="ВидимостьПодсказокКоманд3" id="217">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ВидимостьПодсказокКоманд</CommandName>
-									<Picture>
-										<xr:Abs>Picture.png</xr:Abs>
-										<xr:LoadTransparent>false</xr:LoadTransparent>
-									</Picture>
-									<ExtendedTooltip name="ВидимостьПодсказокКоманд3РасширеннаяПодсказка" id="218"/>
-								</Button>
-							</ChildItems>
-						</Page>
-						<Page name="ГруппаКоманды_Таблица" id="132">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа команды таблица</v8:content>
-								</v8:item>
-							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа команды таблица</v8:content>
-								</v8:item>
-							</ToolTip>
-							<HorizontalSpacing>None</HorizontalSpacing>
-							<VerticalSpacing>None</VerticalSpacing>
-							<ExtendedTooltip name="ГруппаКоманды_ТаблицаРасширеннаяПодсказка" id="133"/>
-							<ChildItems>
-								<Button name="ДобавитьФорму5" id="252">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ДобавитьФорму</CommandName>
-									<BackColor>web:MediumGreen</BackColor>
-									<Picture>
-										<xr:Abs>Picture.png</xr:Abs>
-										<xr:LoadTransparent>true</xr:LoadTransparent>
-										<xr:TransparentPixel x="335" y="15"/>
-									</Picture>
-									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
-									<ExtendedTooltip name="ДобавитьФорму5РасширеннаяПодсказка" id="253"/>
-								</Button>
-								<Button name="ДобавитьКолонку" id="178">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ДобавитьКолонку</CommandName>
-									<Picture>
-										<xr:Abs>Picture.png</xr:Abs>
-										<xr:LoadTransparent>true</xr:LoadTransparent>
-										<xr:TransparentPixel x="335" y="15"/>
-									</Picture>
-									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
-									<ExtendedTooltip name="ДобавитьКолонкуРасширеннаяПодсказка" id="179"/>
-								</Button>
-								<Button name="ДобавитьГруппуКолонок1" id="244">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ДобавитьГруппуКолонок</CommandName>
-									<Picture>
-										<xr:Abs>Picture.png</xr:Abs>
-										<xr:LoadTransparent>true</xr:LoadTransparent>
-										<xr:TransparentPixel x="335" y="15"/>
-									</Picture>
-									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
-									<ExtendedTooltip name="ДобавитьГруппуКолонок1РасширеннаяПодсказка" id="245"/>
-								</Button>
-								<Button name="ДобавитьКонтекстноеМеню" id="246">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ДобавитьКонтекстноеМеню</CommandName>
-									<Picture>
-										<xr:Abs>Picture.png</xr:Abs>
-										<xr:LoadTransparent>false</xr:LoadTransparent>
-									</Picture>
-									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
-									<ExtendedTooltip name="ДобавитьКонтекстноеМенюРасширеннаяПодсказка" id="247"/>
-								</Button>
-								<LabelDecoration name="Декорация5" id="219">
-									<VerticalStretch>true</VerticalStretch>
-									<ContextMenu name="Декорация5КонтекстноеМеню" id="220"/>
-									<ExtendedTooltip name="Декорация5РасширеннаяПодсказка" id="221"/>
-								</LabelDecoration>
-								<Button name="ВидимостьПодсказокКоманд4" id="222">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ВидимостьПодсказокКоманд</CommandName>
-									<Picture>
-										<xr:Abs>Picture.png</xr:Abs>
-										<xr:LoadTransparent>false</xr:LoadTransparent>
-									</Picture>
-									<ExtendedTooltip name="ВидимостьПодсказокКоманд4РасширеннаяПодсказка" id="223"/>
-								</Button>
-							</ChildItems>
-						</Page>
-					</ChildItems>
-				</Pages>
-				<UsualGroup name="ГруппаДеревоПроектаСвойстваИСобытия" id="122">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Группа дерево проекта свойства и события</v8:content>
-						</v8:item>
-					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Группа дерево проекта свойства и события</v8:content>
-						</v8:item>
-					</ToolTip>
-					<Group>Vertical</Group>
-					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="ГруппаДеревоПроектаСвойстваИСобытияРасширеннаяПодсказка" id="123"/>
-					<ChildItems>
-						<Table name="ФормыИЭлементыУправления" id="1">
-							<Representation>Tree</Representation>
-							<RowSelectionMode>Row</RowSelectionMode>
-							<Header>false</Header>
-							<AutoInsertNewRow>true</AutoInsertNewRow>
-							<EnableStartDrag>true</EnableStartDrag>
-							<EnableDrag>true</EnableDrag>
-							<FileDragMode>AsFile</FileDragMode>
-							<DataPath>ФормыИЭлементыУправления</DataPath>
-							<RowPictureDataPath>ФормыИЭлементыУправления.ИндексКартинки</RowPictureDataPath>
-							<RowsPicture>
-								<xr:Abs>RowsPicture.png</xr:Abs>
-								<xr:LoadTransparent>false</xr:LoadTransparent>
-							</RowsPicture>
+						</UsualGroup>
+						<InputField name="Роль" id="72">
+							<DataPath>Роль</DataPath>
+							<Visible>false</Visible>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<HorizontalStretch>true</HorizontalStretch>
+							<DropListButton>true</DropListButton>
+							<ChoiceButton>true</ChoiceButton>
+							<ChooseType>false</ChooseType>
+							<TextEdit>false</TextEdit>
+							<ContextMenu name="РольКонтекстноеМеню" id="73"/>
+							<ExtendedTooltip name="РольРасширеннаяПодсказка" id="74"/>
+							<Events>
+								<Event name="StartChoice">РедактироватьРоли</Event>
+							</Events>
+						</InputField>
+						<UsualGroup name="ГруппаКомандыИПроект" id="120">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Формы и элементы управления</v8:content>
 								</v8:item>
 							</Title>
-							<TreeSpecialSearch>false</TreeSpecialSearch>
-							<ContextMenu name="ФормыИЭлементыУправленияКонтекстноеМеню" id="2">
-								<Autofill>false</Autofill>
-							</ContextMenu>
-							<AutoCommandBar name="ФормыИЭлементыУправленияКоманднаяПанель" id="3">
-								<Autofill>false</Autofill>
-								<ChildItems>
-									<ButtonGroup name="ГруппаПеремещения" id="62">
-										<Title>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Группа перемещения</v8:content>
-											</v8:item>
-										</Title>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Группа перемещения</v8:content>
-											</v8:item>
-										</ToolTip>
-										<Representation>Compact</Representation>
-										<ExtendedTooltip name="ГруппаПеремещенияРасширеннаяПодсказка" id="63"/>
-										<ChildItems>
-											<Button name="ПереместитьВверх" id="64">
-												<Type>CommandBarButton</Type>
-												<CommandName>Form.Command.ПереместитьВверх</CommandName>
-												<ExtendedTooltip name="ПереместитьВверхРасширеннаяПодсказка" id="65"/>
-											</Button>
-											<Button name="ПереместитьВниз" id="66">
-												<Type>CommandBarButton</Type>
-												<CommandName>Form.Command.ПереместитьВниз</CommandName>
-												<ExtendedTooltip name="ПереместитьВнизРасширеннаяПодсказка" id="67"/>
-											</Button>
-										</ChildItems>
-									</ButtonGroup>
-									<Button name="НастройкиПроекта" id="194">
-										<Type>CommandBarButton</Type>
-										<CommandName>Form.Command.НастройкиПроекта</CommandName>
-										<ExtendedTooltip name="НастройкиПроектаРасширеннаяПодсказка" id="195"/>
-									</Button>
-									<Button name="ОткрытьПрототип" id="70">
-										<Type>CommandBarButton</Type>
-										<DefaultButton>true</DefaultButton>
-										<CommandName>Form.Command.ОткрытьПрототип</CommandName>
-										<BackColor>web:Khaki</BackColor>
-										<Picture>
-											<xr:Abs>Picture.png</xr:Abs>
-											<xr:LoadTransparent>false</xr:LoadTransparent>
-										</Picture>
-										<ExtendedTooltip name="ОткрытьПрототипРасширеннаяПодсказка" id="71"/>
-									</Button>
-								</ChildItems>
-							</AutoCommandBar>
-							<ExtendedTooltip name="ФормыИЭлементыУправленияРасширеннаяПодсказка" id="4"/>
-							<SearchStringAddition name="ФормыИЭлементыУправленияСтрокаПоиска" id="5">
-								<AdditionSource>
-									<Item>ФормыИЭлементыУправления</Item>
-									<Type>SearchStringRepresentation</Type>
-								</AdditionSource>
-								<ContextMenu name="ФормыИЭлементыУправленияСтрокаПоискаКонтекстноеМеню" id="6"/>
-								<ExtendedTooltip name="ФормыИЭлементыУправленияСтрокаПоискаРасширеннаяПодсказка" id="7"/>
-							</SearchStringAddition>
-							<ViewStatusAddition name="ФормыИЭлементыУправленияСостояниеПросмотра" id="8">
-								<AdditionSource>
-									<Item>ФормыИЭлементыУправления</Item>
-									<Type>ViewStatusRepresentation</Type>
-								</AdditionSource>
-								<ContextMenu name="ФормыИЭлементыУправленияСостояниеПросмотраКонтекстноеМеню" id="9"/>
-								<ExtendedTooltip name="ФормыИЭлементыУправленияСостояниеПросмотраРасширеннаяПодсказка" id="10"/>
-							</ViewStatusAddition>
-							<SearchControlAddition name="ФормыИЭлементыУправленияУправлениеПоиском" id="11">
-								<AdditionSource>
-									<Item>ФормыИЭлементыУправления</Item>
-									<Type>SearchControl</Type>
-								</AdditionSource>
-								<ContextMenu name="ФормыИЭлементыУправленияУправлениеПоискомКонтекстноеМеню" id="12"/>
-								<ExtendedTooltip name="ФормыИЭлементыУправленияУправлениеПоискомРасширеннаяПодсказка" id="13"/>
-							</SearchControlAddition>
-							<Events>
-								<Event name="OnActivateRow">ФормыИЭлементыУправленияПриАктивизацииСтроки</Event>
-								<Event name="Drag">ФормыИЭлементыУправленияПеретаскивание</Event>
-								<Event name="DragEnd">ФормыИЭлементыУправленияОкончаниеПеретаскивания</Event>
-							</Events>
-							<ChildItems>
-								<InputField name="Заголовок" id="106">
-									<DataPath>ФормыИЭлементыУправления.Заголовок</DataPath>
-									<ReadOnly>true</ReadOnly>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="ЗаголовокКонтекстноеМеню" id="107"/>
-									<ExtendedTooltip name="ЗаголовокРасширеннаяПодсказка" id="108"/>
-								</InputField>
-							</ChildItems>
-						</Table>
-						<Pages name="ГруппаСвойстваИСобытия" id="79">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа свойства и события</v8:content>
-								</v8:item>
-							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Группа свойства и события</v8:content>
+									<v8:content>Группа команды и проект</v8:content>
 								</v8:item>
 							</ToolTip>
-							<ExtendedTooltip name="ГруппаСвойстваИСобытияРасширеннаяПодсказка" id="80"/>
+							<Group>AlwaysHorizontal</Group>
+							<Representation>None</Representation>
+							<ExtendedTooltip name="ГруппаКомандыИПроектРасширеннаяПодсказка" id="121"/>
 							<ChildItems>
-								<Page name="ГруппаСвойстваФормИЭлементовУправления" id="81">
+								<Pages name="ГруппаКоманды" id="124">
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Свойства</v8:content>
+											<v8:content>Группа команды</v8:content>
 										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Группа свойства форм и элементов управления</v8:content>
+											<v8:content>Группа команды</v8:content>
 										</v8:item>
 									</ToolTip>
-									<ExtendedTooltip name="ГруппаСвойстваФормИЭлементовУправленияРасширеннаяПодсказка" id="82"/>
+									<VerticalStretch>true</VerticalStretch>
+									<PagesRepresentation>None</PagesRepresentation>
+									<ExtendedTooltip name="ГруппаКомандыРасширеннаяПодсказка" id="125"/>
 									<ChildItems>
-										<Table name="СвойстваФормИЭлементовУправления" id="17">
-											<Representation>List</Representation>
-											<SelectionMode>SingleRow</SelectionMode>
-											<AutoAddIncomplete>false</AutoAddIncomplete>
-											<AutoMarkIncomplete>false</AutoMarkIncomplete>
-											<SearchOnInput>Use</SearchOnInput>
+										<Page name="ГруппаКоманды_НачалоРаботы" id="126">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа команды начало работы</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа команды начало работы</v8:content>
+												</v8:item>
+											</ToolTip>
+											<HorizontalSpacing>None</HorizontalSpacing>
+											<VerticalSpacing>None</VerticalSpacing>
+											<ExtendedTooltip name="ГруппаКоманды_НачалоРаботыРасширеннаяПодсказка" id="127"/>
+											<ChildItems>
+												<Button name="ДобавитьФорму1" id="138">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.ДобавитьФорму</CommandName>
+													<BackColor>web:MediumGreen</BackColor>
+													<Picture>
+														<xr:Abs>Picture.png</xr:Abs>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+														<xr:TransparentPixel x="335" y="15"/>
+													</Picture>
+													<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+													<ExtendedTooltip name="ДобавитьФорму1РасширеннаяПодсказка" id="139"/>
+												</Button>
+												<LabelDecoration name="Декорация1" id="196">
+													<VerticalStretch>true</VerticalStretch>
+													<ContextMenu name="Декорация1КонтекстноеМеню" id="197"/>
+													<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="198"/>
+												</LabelDecoration>
+												<Button name="ВидимостьПодсказокКоманд" id="199">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.ВидимостьПодсказокКоманд</CommandName>
+													<Picture>
+														<xr:Abs>Picture.png</xr:Abs>
+														<xr:LoadTransparent>false</xr:LoadTransparent>
+													</Picture>
+													<ExtendedTooltip name="ВидимостьПодсказокКомандРасширеннаяПодсказка" id="200"/>
+												</Button>
+												<Button name="СкрытьЭскиз" id="384">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.СкрытьЭскиз</CommandName>
+													<Picture>
+														<xr:Ref>StdPicture.Back</xr:Ref>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+													</Picture>
+													<ExtendedTooltip name="СкрытьЭскизРасширеннаяПодсказка" id="385"/>
+												</Button>
+											</ChildItems>
+										</Page>
+										<Page name="ГруппаКоманды_Все" id="136">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа команды все</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа команды все</v8:content>
+												</v8:item>
+											</ToolTip>
+											<HorizontalSpacing>None</HorizontalSpacing>
+											<VerticalSpacing>None</VerticalSpacing>
+											<ExtendedTooltip name="ГруппаКоманды_ВсеРасширеннаяПодсказка" id="137"/>
+											<ChildItems>
+												<Button name="ДобавитьФорму2" id="140">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.ДобавитьФорму</CommandName>
+													<BackColor>web:MediumGreen</BackColor>
+													<Picture>
+														<xr:Abs>Picture.png</xr:Abs>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+														<xr:TransparentPixel x="335" y="15"/>
+													</Picture>
+													<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+													<ExtendedTooltip name="ДобавитьФорму2РасширеннаяПодсказка" id="141"/>
+												</Button>
+												<Button name="ДобавитьГруппу1" id="142">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.ДобавитьГруппу</CommandName>
+													<Picture>
+														<xr:Abs>Picture.png</xr:Abs>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+														<xr:TransparentPixel x="335" y="15"/>
+													</Picture>
+													<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+													<ExtendedTooltip name="ДобавитьГруппу1РасширеннаяПодсказка" id="143"/>
+												</Button>
+												<Button name="ДобавитьКоманднуюПанель" id="162">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.ДобавитьКоманднуюПанель</CommandName>
+													<Picture>
+														<xr:Abs>Picture.png</xr:Abs>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+														<xr:TransparentPixel x="335" y="15"/>
+													</Picture>
+													<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+													<ExtendedTooltip name="ДобавитьКоманднуюПанельРасширеннаяПодсказка" id="163"/>
+												</Button>
+												<Button name="ДобавитьСтраницы" id="160">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.ДобавитьСтраницы</CommandName>
+													<Picture>
+														<xr:Abs>Picture.png</xr:Abs>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+														<xr:TransparentPixel x="335" y="15"/>
+													</Picture>
+													<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+													<ExtendedTooltip name="ДобавитьСтраницыРасширеннаяПодсказка" id="161"/>
+												</Button>
+												<Button name="ДобавитьКнопку1" id="184">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.ДобавитьКнопку</CommandName>
+													<Picture>
+														<xr:Abs>Picture.png</xr:Abs>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+														<xr:TransparentPixel x="335" y="15"/>
+													</Picture>
+													<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+													<ExtendedTooltip name="ДобавитьКнопку1РасширеннаяПодсказка" id="185"/>
+												</Button>
+												<Button name="ДобавитьГиперссылку" id="186">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.ДобавитьГиперссылку</CommandName>
+													<Picture>
+														<xr:Abs>Picture.png</xr:Abs>
+														<xr:LoadTransparent>false</xr:LoadTransparent>
+													</Picture>
+													<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+													<ExtendedTooltip name="ДобавитьГиперссылкуРасширеннаяПодсказка" id="187"/>
+												</Button>
+												<Button name="ДобавитьПоле" id="144">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.ДобавитьПоле</CommandName>
+													<Picture>
+														<xr:Abs>Picture.png</xr:Abs>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+														<xr:TransparentPixel x="335" y="15"/>
+													</Picture>
+													<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+													<ExtendedTooltip name="ДобавитьПолеРасширеннаяПодсказка" id="145"/>
+												</Button>
+												<Button name="ДобавитьФлажок" id="154">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.ДобавитьФлажок</CommandName>
+													<Picture>
+														<xr:Abs>Picture.png</xr:Abs>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+														<xr:TransparentPixel x="335" y="15"/>
+													</Picture>
+													<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+													<ExtendedTooltip name="ДобавитьФлажокРасширеннаяПодсказка" id="155"/>
+												</Button>
+												<Button name="ДобавитьПереключатель" id="156">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.ДобавитьПереключатель</CommandName>
+													<Picture>
+														<xr:Abs>Picture.png</xr:Abs>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+														<xr:TransparentPixel x="335" y="15"/>
+													</Picture>
+													<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+													<ExtendedTooltip name="ДобавитьПереключательРасширеннаяПодсказка" id="157"/>
+												</Button>
+												<Button name="ДобавитьТаблицу" id="148">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.ДобавитьТаблицу</CommandName>
+													<Picture>
+														<xr:Abs>Picture.png</xr:Abs>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+														<xr:TransparentPixel x="335" y="15"/>
+													</Picture>
+													<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+													<ExtendedTooltip name="ДобавитьТаблицуРасширеннаяПодсказка" id="149"/>
+												</Button>
+												<Button name="ДобавитьДерево" id="150">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.ДобавитьДерево</CommandName>
+													<Picture>
+														<xr:Abs>Picture.png</xr:Abs>
+														<xr:LoadTransparent>false</xr:LoadTransparent>
+													</Picture>
+													<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+													<ExtendedTooltip name="ДобавитьДеревоРасширеннаяПодсказка" id="151"/>
+												</Button>
+												<Button name="ДобавитьНадпись" id="146">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.ДобавитьНадпись</CommandName>
+													<Picture>
+														<xr:Abs>Picture.png</xr:Abs>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+														<xr:TransparentPixel x="335" y="15"/>
+													</Picture>
+													<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+													<ExtendedTooltip name="ДобавитьНадписьРасширеннаяПодсказка" id="147"/>
+												</Button>
+												<Button name="ДобавитьКартинку1" id="158">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.ДобавитьКартинку</CommandName>
+													<Picture>
+														<xr:Abs>Picture.png</xr:Abs>
+														<xr:LoadTransparent>false</xr:LoadTransparent>
+													</Picture>
+													<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+													<ExtendedTooltip name="ДобавитьКартинку1РасширеннаяПодсказка" id="159"/>
+												</Button>
+												<Button name="ДобавитьИндикатор" id="164">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.ДобавитьИндикатор</CommandName>
+													<Picture>
+														<xr:Abs>Picture.png</xr:Abs>
+														<xr:LoadTransparent>false</xr:LoadTransparent>
+													</Picture>
+													<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+													<ExtendedTooltip name="ДобавитьИндикаторРасширеннаяПодсказка" id="165"/>
+												</Button>
+												<Button name="ДобавитьПолосуРегулирования" id="166">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.ДобавитьПолосуРегулирования</CommandName>
+													<Picture>
+														<xr:Abs>Picture.png</xr:Abs>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+														<xr:TransparentPixel x="335" y="15"/>
+													</Picture>
+													<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+													<ExtendedTooltip name="ДобавитьПолосуРегулированияРасширеннаяПодсказка" id="167"/>
+												</Button>
+												<Button name="ДобавитьКалендарь" id="168">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.ДобавитьКалендарь</CommandName>
+													<Picture>
+														<xr:Abs>Picture.png</xr:Abs>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+														<xr:TransparentPixel x="335" y="15"/>
+													</Picture>
+													<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+													<ExtendedTooltip name="ДобавитьКалендарьРасширеннаяПодсказка" id="169"/>
+												</Button>
+												<Button name="ДобавитьФорматированныйДокумент" id="236">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.ДобавитьФорматированныйДокумент</CommandName>
+													<Picture>
+														<xr:Abs>Picture.png</xr:Abs>
+														<xr:LoadTransparent>false</xr:LoadTransparent>
+													</Picture>
+													<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+													<ExtendedTooltip name="ДобавитьФорматированныйДокументРасширеннаяПодсказка" id="237"/>
+												</Button>
+												<Button name="ДобавитьФорматированнуюСтроку" id="238">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.ДобавитьФорматированнуюСтроку</CommandName>
+													<Picture>
+														<xr:Abs>Picture.png</xr:Abs>
+														<xr:LoadTransparent>false</xr:LoadTransparent>
+													</Picture>
+													<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+													<ExtendedTooltip name="ДобавитьФорматированнуюСтрокуРасширеннаяПодсказка" id="239"/>
+												</Button>
+												<Button name="ДобавитьТекстовыйДокумент" id="240">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.ДобавитьТекстовыйДокумент</CommandName>
+													<Picture>
+														<xr:Abs>Picture.png</xr:Abs>
+														<xr:LoadTransparent>false</xr:LoadTransparent>
+													</Picture>
+													<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+													<ExtendedTooltip name="ДобавитьТекстовыйДокументРасширеннаяПодсказка" id="241"/>
+												</Button>
+												<Button name="ДобавитьТабличныйДокумент" id="242">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.ДобавитьТабличныйДокумент</CommandName>
+													<Picture>
+														<xr:Abs>Picture.png</xr:Abs>
+														<xr:LoadTransparent>false</xr:LoadTransparent>
+													</Picture>
+													<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+													<ExtendedTooltip name="ДобавитьТабличныйДокументРасширеннаяПодсказка" id="243"/>
+												</Button>
+												<LabelDecoration name="Декорация2" id="201">
+													<VerticalStretch>true</VerticalStretch>
+													<ContextMenu name="Декорация2КонтекстноеМеню" id="202"/>
+													<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="203"/>
+												</LabelDecoration>
+												<Button name="ВидимостьПодсказокКоманд1" id="204">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.ВидимостьПодсказокКоманд</CommandName>
+													<Picture>
+														<xr:Abs>Picture.png</xr:Abs>
+														<xr:LoadTransparent>false</xr:LoadTransparent>
+													</Picture>
+													<ExtendedTooltip name="ВидимостьПодсказокКоманд1РасширеннаяПодсказка" id="205"/>
+												</Button>
+												<Button name="СкрытьЭскиз1" id="386">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.СкрытьЭскиз</CommandName>
+													<Picture>
+														<xr:Ref>StdPicture.Back</xr:Ref>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+													</Picture>
+													<ExtendedTooltip name="СкрытьЭскиз1РасширеннаяПодсказка" id="387"/>
+												</Button>
+											</ChildItems>
+										</Page>
+										<Page name="ГруппаКоманды_Страницы" id="128">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа команды страницы</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа команды страницы</v8:content>
+												</v8:item>
+											</ToolTip>
+											<HorizontalSpacing>None</HorizontalSpacing>
+											<VerticalSpacing>None</VerticalSpacing>
+											<ExtendedTooltip name="ГруппаКоманды_СтраницыРасширеннаяПодсказка" id="129"/>
+											<ChildItems>
+												<Button name="ДобавитьФорму3" id="248">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.ДобавитьФорму</CommandName>
+													<BackColor>web:MediumGreen</BackColor>
+													<Picture>
+														<xr:Abs>Picture.png</xr:Abs>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+														<xr:TransparentPixel x="335" y="15"/>
+													</Picture>
+													<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+													<ExtendedTooltip name="ДобавитьФорму3РасширеннаяПодсказка" id="249"/>
+												</Button>
+												<Button name="ДобавитьСтраницу" id="170">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.ДобавитьСтраницу</CommandName>
+													<Picture>
+														<xr:Abs>Picture.png</xr:Abs>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+														<xr:TransparentPixel x="335" y="15"/>
+													</Picture>
+													<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+													<ExtendedTooltip name="ДобавитьСтраницуРасширеннаяПодсказка" id="171"/>
+												</Button>
+												<LabelDecoration name="Декорация3" id="206">
+													<VerticalStretch>true</VerticalStretch>
+													<ContextMenu name="Декорация3КонтекстноеМеню" id="207"/>
+													<ExtendedTooltip name="Декорация3РасширеннаяПодсказка" id="208"/>
+												</LabelDecoration>
+												<Button name="ВидимостьПодсказокКоманд2" id="209">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.ВидимостьПодсказокКоманд</CommandName>
+													<Picture>
+														<xr:Abs>Picture.png</xr:Abs>
+														<xr:LoadTransparent>false</xr:LoadTransparent>
+													</Picture>
+													<ExtendedTooltip name="ВидимостьПодсказокКоманд2РасширеннаяПодсказка" id="210"/>
+												</Button>
+												<Button name="СкрытьЭскиз2" id="388">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.СкрытьЭскиз</CommandName>
+													<Picture>
+														<xr:Ref>StdPicture.Back</xr:Ref>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+													</Picture>
+													<ExtendedTooltip name="СкрытьЭскиз2РасширеннаяПодсказка" id="389"/>
+												</Button>
+											</ChildItems>
+										</Page>
+										<Page name="ГруппаКоманды_КоманднаяПанель" id="130">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа команды командная панель</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа команды командная панель</v8:content>
+												</v8:item>
+											</ToolTip>
+											<HorizontalSpacing>None</HorizontalSpacing>
+											<VerticalSpacing>None</VerticalSpacing>
+											<ExtendedTooltip name="ГруппаКоманды_КоманднаяПанельРасширеннаяПодсказка" id="131"/>
+											<ChildItems>
+												<Button name="ДобавитьФорму4" id="250">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.ДобавитьФорму</CommandName>
+													<BackColor>web:MediumGreen</BackColor>
+													<Picture>
+														<xr:Abs>Picture.png</xr:Abs>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+														<xr:TransparentPixel x="335" y="15"/>
+													</Picture>
+													<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+													<ExtendedTooltip name="ДобавитьФорму4РасширеннаяПодсказка" id="251"/>
+												</Button>
+												<Button name="ДобавитьПодменю" id="172">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.ДобавитьПодменю</CommandName>
+													<Picture>
+														<xr:Abs>Picture.png</xr:Abs>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+														<xr:TransparentPixel x="335" y="15"/>
+													</Picture>
+													<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+													<ExtendedTooltip name="ДобавитьПодменюРасширеннаяПодсказка" id="173"/>
+												</Button>
+												<Button name="ДобавитьГруппуКнопок" id="174">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.ДобавитьГруппуКнопок</CommandName>
+													<Picture>
+														<xr:Abs>Picture.png</xr:Abs>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+														<xr:TransparentPixel x="335" y="15"/>
+													</Picture>
+													<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+													<ExtendedTooltip name="ДобавитьГруппуКнопокРасширеннаяПодсказка" id="175"/>
+												</Button>
+												<Button name="ДобавитьКнопку" id="176">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.ДобавитьКнопкуКоманднойПанели</CommandName>
+													<Picture>
+														<xr:Abs>Picture.png</xr:Abs>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+														<xr:TransparentPixel x="335" y="15"/>
+													</Picture>
+													<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+													<ExtendedTooltip name="ДобавитьКнопкуРасширеннаяПодсказка" id="177"/>
+												</Button>
+												<Button name="ДобавитьГиперссылку1" id="188">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.ДобавитьГиперссылкуКоманднойПанели</CommandName>
+													<Picture>
+														<xr:Abs>Picture.png</xr:Abs>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+														<xr:TransparentPixel x="431" y="15"/>
+													</Picture>
+													<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+													<ExtendedTooltip name="ДобавитьГиперссылку1РасширеннаяПодсказка" id="189"/>
+												</Button>
+												<LabelDecoration name="Декорация4" id="211">
+													<VerticalStretch>true</VerticalStretch>
+													<ContextMenu name="Декорация4КонтекстноеМеню" id="212"/>
+													<ExtendedTooltip name="Декорация4РасширеннаяПодсказка" id="213"/>
+												</LabelDecoration>
+												<Button name="ВидимостьПодсказокКоманд3" id="217">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.ВидимостьПодсказокКоманд</CommandName>
+													<Picture>
+														<xr:Abs>Picture.png</xr:Abs>
+														<xr:LoadTransparent>false</xr:LoadTransparent>
+													</Picture>
+													<ExtendedTooltip name="ВидимостьПодсказокКоманд3РасширеннаяПодсказка" id="218"/>
+												</Button>
+												<Button name="СкрытьЭскиз3" id="390">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.СкрытьЭскиз</CommandName>
+													<Picture>
+														<xr:Ref>StdPicture.Back</xr:Ref>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+													</Picture>
+													<ExtendedTooltip name="СкрытьЭскиз3РасширеннаяПодсказка" id="391"/>
+												</Button>
+											</ChildItems>
+										</Page>
+										<Page name="ГруппаКоманды_Таблица" id="132">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа команды таблица</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа команды таблица</v8:content>
+												</v8:item>
+											</ToolTip>
+											<HorizontalSpacing>None</HorizontalSpacing>
+											<VerticalSpacing>None</VerticalSpacing>
+											<ExtendedTooltip name="ГруппаКоманды_ТаблицаРасширеннаяПодсказка" id="133"/>
+											<ChildItems>
+												<Button name="ДобавитьФорму5" id="252">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.ДобавитьФорму</CommandName>
+													<BackColor>web:MediumGreen</BackColor>
+													<Picture>
+														<xr:Abs>Picture.png</xr:Abs>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+														<xr:TransparentPixel x="335" y="15"/>
+													</Picture>
+													<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+													<ExtendedTooltip name="ДобавитьФорму5РасширеннаяПодсказка" id="253"/>
+												</Button>
+												<Button name="ДобавитьКолонку" id="178">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.ДобавитьКолонку</CommandName>
+													<Picture>
+														<xr:Abs>Picture.png</xr:Abs>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+														<xr:TransparentPixel x="335" y="15"/>
+													</Picture>
+													<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+													<ExtendedTooltip name="ДобавитьКолонкуРасширеннаяПодсказка" id="179"/>
+												</Button>
+												<Button name="ДобавитьГруппуКолонок1" id="244">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.ДобавитьГруппуКолонок</CommandName>
+													<Picture>
+														<xr:Abs>Picture.png</xr:Abs>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+														<xr:TransparentPixel x="335" y="15"/>
+													</Picture>
+													<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+													<ExtendedTooltip name="ДобавитьГруппуКолонок1РасширеннаяПодсказка" id="245"/>
+												</Button>
+												<Button name="ДобавитьКонтекстноеМеню" id="246">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.ДобавитьКонтекстноеМеню</CommandName>
+													<Picture>
+														<xr:Abs>Picture.png</xr:Abs>
+														<xr:LoadTransparent>false</xr:LoadTransparent>
+													</Picture>
+													<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+													<ExtendedTooltip name="ДобавитьКонтекстноеМенюРасширеннаяПодсказка" id="247"/>
+												</Button>
+												<LabelDecoration name="Декорация5" id="219">
+													<VerticalStretch>true</VerticalStretch>
+													<ContextMenu name="Декорация5КонтекстноеМеню" id="220"/>
+													<ExtendedTooltip name="Декорация5РасширеннаяПодсказка" id="221"/>
+												</LabelDecoration>
+												<Button name="ВидимостьПодсказокКоманд4" id="222">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.ВидимостьПодсказокКоманд</CommandName>
+													<Picture>
+														<xr:Abs>Picture.png</xr:Abs>
+														<xr:LoadTransparent>false</xr:LoadTransparent>
+													</Picture>
+													<ExtendedTooltip name="ВидимостьПодсказокКоманд4РасширеннаяПодсказка" id="223"/>
+												</Button>
+												<Button name="СкрытьЭскиз4" id="392">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.СкрытьЭскиз</CommandName>
+													<Picture>
+														<xr:Ref>StdPicture.Back</xr:Ref>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+													</Picture>
+													<ExtendedTooltip name="СкрытьЭскиз4РасширеннаяПодсказка" id="393"/>
+												</Button>
+											</ChildItems>
+										</Page>
+									</ChildItems>
+								</Pages>
+								<UsualGroup name="ГруппаДеревоПроектаСвойстваИСобытия" id="122">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа дерево проекта свойства и события</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа дерево проекта свойства и события</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаДеревоПроектаСвойстваИСобытияРасширеннаяПодсказка" id="123"/>
+									<ChildItems>
+										<Table name="ФормыИЭлементыУправления" id="1">
+											<Representation>Tree</Representation>
+											<RowSelectionMode>Row</RowSelectionMode>
+											<Header>false</Header>
+											<AutoInsertNewRow>true</AutoInsertNewRow>
+											<EnableStartDrag>true</EnableStartDrag>
+											<EnableDrag>true</EnableDrag>
 											<FileDragMode>AsFile</FileDragMode>
-											<DataPath>СвойстваФормИЭлементовУправления</DataPath>
-											<SearchStringLocation>CommandBar</SearchStringLocation>
-											<SearchControlLocation>CommandBar</SearchControlLocation>
-											<RowFilter xsi:nil="true"/>
-											<ContextMenu name="СвойстваФормИЭлементовУправленияКонтекстноеМеню" id="18"/>
-											<AutoCommandBar name="СвойстваФормИЭлементовУправленияКоманднаяПанель" id="19">
+											<DataPath>ФормыИЭлементыУправления</DataPath>
+											<RowPictureDataPath>ФормыИЭлементыУправления.ИндексКартинки</RowPictureDataPath>
+											<RowsPicture>
+												<xr:Abs>RowsPicture.png</xr:Abs>
+												<xr:LoadTransparent>false</xr:LoadTransparent>
+											</RowsPicture>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Формы и элементы управления</v8:content>
+												</v8:item>
+											</Title>
+											<TreeSpecialSearch>false</TreeSpecialSearch>
+											<ContextMenu name="ФормыИЭлементыУправленияКонтекстноеМеню" id="2">
+												<Autofill>false</Autofill>
+											</ContextMenu>
+											<AutoCommandBar name="ФормыИЭлементыУправленияКоманднаяПанель" id="3">
 												<Autofill>false</Autofill>
 												<ChildItems>
-													<Button name="СвойстваФормИЭлементовУправленияДобавить" id="382">
-														<Type>CommandBarButton</Type>
-														<CommandName>Form.Item.СвойстваФормИЭлементовУправления.StandardCommand.Add</CommandName>
-														<ExtendedTooltip name="СвойстваФормИЭлементовУправленияДобавитьРасширеннаяПодсказка" id="383"/>
-													</Button>
-													<ButtonGroup name="ГруппаКнопокРежимРедактированияСвойств" id="358">
+													<ButtonGroup name="ГруппаПеремещения" id="62">
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
-																<v8:content>Группа кнопок режим редактирования свойств</v8:content>
+																<v8:content>Группа перемещения</v8:content>
 															</v8:item>
 														</Title>
 														<ToolTip>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
-																<v8:content>Группа кнопок режим редактирования свойств</v8:content>
+																<v8:content>Группа перемещения</v8:content>
 															</v8:item>
 														</ToolTip>
 														<Representation>Compact</Representation>
-														<ExtendedTooltip name="ГруппаКнопокРежимРедактированияСвойствРасширеннаяПодсказка" id="359"/>
+														<ExtendedTooltip name="ГруппаПеремещенияРасширеннаяПодсказка" id="63"/>
 														<ChildItems>
-															<Button name="СохранитьСвойстваВФайл" id="360">
+															<Button name="ПереместитьВверх" id="64">
 																<Type>CommandBarButton</Type>
-																<CommandName>Form.Command.СохранитьСвойстваВФайл</CommandName>
-																<ExtendedTooltip name="СохранитьСвойстваВФайлРасширеннаяПодсказка" id="361"/>
+																<CommandName>Form.Command.ПереместитьВверх</CommandName>
+																<ExtendedTooltip name="ПереместитьВверхРасширеннаяПодсказка" id="65"/>
 															</Button>
-															<Button name="ЗагрузитьСвойстваИзФайла" id="362">
+															<Button name="ПереместитьВниз" id="66">
 																<Type>CommandBarButton</Type>
-																<CommandName>Form.Command.ЗагрузитьСвойстваИзФайла</CommandName>
-																<ExtendedTooltip name="ЗагрузитьСвойстваИзФайлаРасширеннаяПодсказка" id="363"/>
+																<CommandName>Form.Command.ПереместитьВниз</CommandName>
+																<ExtendedTooltip name="ПереместитьВнизРасширеннаяПодсказка" id="67"/>
 															</Button>
 														</ChildItems>
 													</ButtonGroup>
+													<Button name="НастройкиПроекта" id="194">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.НастройкиПроекта</CommandName>
+														<ExtendedTooltip name="НастройкиПроектаРасширеннаяПодсказка" id="195"/>
+													</Button>
+													<Button name="ОткрытьПрототип" id="70">
+														<Type>CommandBarButton</Type>
+														<DefaultButton>true</DefaultButton>
+														<CommandName>Form.Command.ОткрытьПрототип</CommandName>
+														<BackColor>web:Khaki</BackColor>
+														<Picture>
+															<xr:Abs>Picture.png</xr:Abs>
+															<xr:LoadTransparent>false</xr:LoadTransparent>
+														</Picture>
+														<ExtendedTooltip name="ОткрытьПрототипРасширеннаяПодсказка" id="71"/>
+													</Button>
 												</ChildItems>
 											</AutoCommandBar>
-											<ExtendedTooltip name="СвойстваФормИЭлементовУправленияРасширеннаяПодсказка" id="20"/>
-											<SearchStringAddition name="СвойстваФормИЭлементовУправленияСтрокаПоиска" id="21">
+											<ExtendedTooltip name="ФормыИЭлементыУправленияРасширеннаяПодсказка" id="4"/>
+											<SearchStringAddition name="ФормыИЭлементыУправленияСтрокаПоиска" id="5">
 												<AdditionSource>
-													<Item>СвойстваФормИЭлементовУправления</Item>
+													<Item>ФормыИЭлементыУправления</Item>
 													<Type>SearchStringRepresentation</Type>
 												</AdditionSource>
-												<ContextMenu name="СвойстваФормИЭлементовУправленияСтрокаПоискаКонтекстноеМеню" id="22"/>
-												<ExtendedTooltip name="СвойстваФормИЭлементовУправленияСтрокаПоискаРасширеннаяПодсказка" id="23"/>
+												<ContextMenu name="ФормыИЭлементыУправленияСтрокаПоискаКонтекстноеМеню" id="6"/>
+												<ExtendedTooltip name="ФормыИЭлементыУправленияСтрокаПоискаРасширеннаяПодсказка" id="7"/>
 											</SearchStringAddition>
-											<ViewStatusAddition name="СвойстваФормИЭлементовУправленияСостояниеПросмотра" id="24">
+											<ViewStatusAddition name="ФормыИЭлементыУправленияСостояниеПросмотра" id="8">
 												<AdditionSource>
-													<Item>СвойстваФормИЭлементовУправления</Item>
+													<Item>ФормыИЭлементыУправления</Item>
 													<Type>ViewStatusRepresentation</Type>
 												</AdditionSource>
-												<ContextMenu name="СвойстваФормИЭлементовУправленияСостояниеПросмотраКонтекстноеМеню" id="25"/>
-												<ExtendedTooltip name="СвойстваФормИЭлементовУправленияСостояниеПросмотраРасширеннаяПодсказка" id="26"/>
+												<ContextMenu name="ФормыИЭлементыУправленияСостояниеПросмотраКонтекстноеМеню" id="9"/>
+												<ExtendedTooltip name="ФормыИЭлементыУправленияСостояниеПросмотраРасширеннаяПодсказка" id="10"/>
 											</ViewStatusAddition>
-											<SearchControlAddition name="СвойстваФормИЭлементовУправленияУправлениеПоиском" id="27">
+											<SearchControlAddition name="ФормыИЭлементыУправленияУправлениеПоиском" id="11">
 												<AdditionSource>
-													<Item>СвойстваФормИЭлементовУправления</Item>
+													<Item>ФормыИЭлементыУправления</Item>
 													<Type>SearchControl</Type>
 												</AdditionSource>
-												<ContextMenu name="СвойстваФормИЭлементовУправленияУправлениеПоискомКонтекстноеМеню" id="28"/>
-												<ExtendedTooltip name="СвойстваФормИЭлементовУправленияУправлениеПоискомРасширеннаяПодсказка" id="29"/>
+												<ContextMenu name="ФормыИЭлементыУправленияУправлениеПоискомКонтекстноеМеню" id="12"/>
+												<ExtendedTooltip name="ФормыИЭлементыУправленияУправлениеПоискомРасширеннаяПодсказка" id="13"/>
 											</SearchControlAddition>
 											<Events>
-												<Event name="OnStartEdit">СвойстваФормИЭлементовУправленияПриНачалеРедактирования</Event>
+												<Event name="OnActivateRow">ФормыИЭлементыУправленияПриАктивизацииСтроки</Event>
+												<Event name="Drag">ФормыИЭлементыУправленияПеретаскивание</Event>
+												<Event name="DragEnd">ФормыИЭлементыУправленияОкончаниеПеретаскивания</Event>
 											</Events>
 											<ChildItems>
-												<InputField name="СвойствоПредставление" id="109">
-													<DataPath>СвойстваФормИЭлементовУправления.СвойствоПредставление</DataPath>
-													<Title>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>Свойство</v8:content>
-														</v8:item>
-													</Title>
+												<InputField name="Заголовок" id="106">
+													<DataPath>ФормыИЭлементыУправления.Заголовок</DataPath>
+													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
-													<FixingInTable>Left</FixingInTable>
-													<ContextMenu name="СвойствоПредставлениеКонтекстноеМеню" id="110"/>
-													<ExtendedTooltip name="СвойствоПредставлениеРасширеннаяПодсказка" id="111"/>
+													<ContextMenu name="ЗаголовокКонтекстноеМеню" id="107"/>
+													<ExtendedTooltip name="ЗаголовокРасширеннаяПодсказка" id="108"/>
 												</InputField>
-												<InputField name="Свойство" id="379">
-													<DataPath>СвойстваФормИЭлементовУправления.Свойство</DataPath>
-													<Visible>false</Visible>
+											</ChildItems>
+										</Table>
+										<Pages name="ГруппаСвойстваИСобытия" id="79">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа свойства и события</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа свойства и события</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ExtendedTooltip name="ГруппаСвойстваИСобытияРасширеннаяПодсказка" id="80"/>
+											<ChildItems>
+												<Page name="ГруппаСвойстваФормИЭлементовУправления" id="81">
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>Свойство (значение)</v8:content>
-														</v8:item>
-													</Title>
-													<EditMode>EnterOnInput</EditMode>
-													<ContextMenu name="СвойствоКонтекстноеМеню" id="380"/>
-													<ExtendedTooltip name="СвойствоРасширеннаяПодсказка" id="381"/>
-												</InputField>
-												<InputField name="Значение" id="112">
-													<DataPath>СвойстваФормИЭлементовУправления.ЗначениеПредставление</DataPath>
-													<CellHyperlink>true</CellHyperlink>
-													<AutoCellHeight>true</AutoCellHeight>
-													<ChooseType>false</ChooseType>
-													<IncompleteChoiceMode>OnActivate</IncompleteChoiceMode>
-													<ContextMenu name="ЗначениеКонтекстноеМеню" id="113"/>
-													<ExtendedTooltip name="ЗначениеРасширеннаяПодсказка" id="114"/>
-													<Events>
-														<Event name="OnChange">ЗначениеПриИзменении</Event>
-														<Event name="StartChoice">ЗначениеНачалоВыбора</Event>
-													</Events>
-												</InputField>
-												<ColumnGroup name="ГруппаКолонокРежимРедактированияСвойств" id="254">
-													<Visible>false</Visible>
-													<Title>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>Группа колонок режим редактирования свойств</v8:content>
+															<v8:content>Свойства</v8:content>
 														</v8:item>
 													</Title>
 													<ToolTip>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>Группа колонок режим редактирования свойств</v8:content>
+															<v8:content>Группа свойства форм и элементов управления</v8:content>
 														</v8:item>
 													</ToolTip>
-													<Group>Horizontal</Group>
-													<ExtendedTooltip name="ГруппаКолонокРежимРедактированияСвойствРасширеннаяПодсказка" id="255"/>
+													<ExtendedTooltip name="ГруппаСвойстваФормИЭлементовУправленияРасширеннаяПодсказка" id="82"/>
 													<ChildItems>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ФормаКлиентскогоПриложения" id="256">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ФормаКлиентскогоПриложения</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ФормаКлиентскогоПриложенияКонтекстноеМеню" id="257"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ФормаКлиентскогоПриложенияРасширеннаяПодсказка" id="258"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ГруппаКнопок" id="259">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ГруппаФормы_ГруппаКнопок</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ГруппаКнопокКонтекстноеМеню" id="260"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ГруппаКнопокРасширеннаяПодсказка" id="261"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ГруппаКолонок" id="262">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ГруппаФормы_ГруппаКолонок</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ГруппаКолонокКонтекстноеМеню" id="263"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ГруппаКолонокРасширеннаяПодсказка" id="264"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_КоманднаяПанель" id="265">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ГруппаФормы_КоманднаяПанель</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_КоманднаяПанельКонтекстноеМеню" id="266"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_КоманднаяПанельРасширеннаяПодсказка" id="267"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_КонтекстноеМеню" id="268">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ГруппаФормы_КонтекстноеМеню</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_КонтекстноеМенюКонтекстноеМеню" id="269"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_КонтекстноеМенюРасширеннаяПодсказка" id="270"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ОбычнаяГруппа" id="271">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ГруппаФормы_ОбычнаяГруппа</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ОбычнаяГруппаКонтекстноеМеню" id="272"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ОбычнаяГруппаРасширеннаяПодсказка" id="273"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_Подменю" id="274">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ГруппаФормы_Подменю</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ПодменюКонтекстноеМеню" id="275"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ПодменюРасширеннаяПодсказка" id="276"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_Страница" id="277">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ГруппаФормы_Страница</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_СтраницаКонтекстноеМеню" id="278"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_СтраницаРасширеннаяПодсказка" id="279"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_Страницы" id="280">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ГруппаФормы_Страницы</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_СтраницыКонтекстноеМеню" id="281"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_СтраницыРасширеннаяПодсказка" id="282"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_Строка" id="364">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеВвода_Строка</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_СтрокаКонтекстноеМеню" id="365"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_СтрокаРасширеннаяПодсказка" id="366"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_Число" id="367">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеВвода_Число</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_ЧислоКонтекстноеМеню" id="368"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_ЧислоРасширеннаяПодсказка" id="369"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_Булево" id="370">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеВвода_Булево</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_БулевоКонтекстноеМеню" id="371"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_БулевоРасширеннаяПодсказка" id="372"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_Дата" id="373">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеВвода_Дата</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_ДатаКонтекстноеМеню" id="374"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_ДатаРасширеннаяПодсказка" id="375"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_СтандартныйПериод" id="376">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеВвода_СтандартныйПериод</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_СтандартныйПериодКонтекстноеМеню" id="377"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_СтандартныйПериодРасширеннаяПодсказка" id="378"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеИндикатора" id="286">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеИндикатора</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеИндикатораКонтекстноеМеню" id="287"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеИндикатораРасширеннаяПодсказка" id="288"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеКалендаря" id="289">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеКалендаря</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеКалендаряКонтекстноеМеню" id="290"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеКалендаряРасширеннаяПодсказка" id="291"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеКартинки" id="292">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеКартинки</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеКартинкиКонтекстноеМеню" id="293"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеКартинкиРасширеннаяПодсказка" id="294"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеНадписи" id="295">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеНадписи</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеНадписиКонтекстноеМеню" id="296"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеНадписиРасширеннаяПодсказка" id="297"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеПереключателя" id="298">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеПереключателя</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеПереключателяКонтекстноеМеню" id="299"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеПереключателяРасширеннаяПодсказка" id="300"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеПериода" id="301">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеПериода</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеПериодаКонтекстноеМеню" id="302"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеПериодаРасширеннаяПодсказка" id="303"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеПолосыРегулирования" id="304">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеПолосыРегулирования</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеПолосыРегулированияКонтекстноеМеню" id="305"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеПолосыРегулированияРасширеннаяПодсказка" id="306"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеТабличногоДокумента" id="307">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеТабличногоДокумента</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеТабличногоДокументаКонтекстноеМеню" id="308"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеТабличногоДокументаРасширеннаяПодсказка" id="309"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеТекстовогоДокумента" id="310">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеТекстовогоДокумента</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеТекстовогоДокументаКонтекстноеМеню" id="311"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеТекстовогоДокументаРасширеннаяПодсказка" id="312"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеФлажка" id="313">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеФлажка</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеФлажкаКонтекстноеМеню" id="314"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеФлажкаРасширеннаяПодсказка" id="315"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеФорматированногоДокумента" id="316">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеФорматированногоДокумента</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеФорматированногоДокументаКонтекстноеМеню" id="317"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеФорматированногоДокументаРасширеннаяПодсказка" id="318"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_ОбычнаяКнопка" id="319">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_КнопкаФормы_ОбычнаяКнопка</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_ОбычнаяКнопкаКонтекстноеМеню" id="320"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_ОбычнаяКнопкаРасширеннаяПодсказка" id="321"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_КнопкаКоманднойПанели" id="322">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_КнопкаФормы_КнопкаКоманднойПанели</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_КнопкаКоманднойПанелиКонтекстноеМеню" id="323"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_КнопкаКоманднойПанелиРасширеннаяПодсказка" id="324"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_Гиперссылка" id="325">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_КнопкаФормы_Гиперссылка</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_ГиперссылкаКонтекстноеМеню" id="326"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_ГиперссылкаРасширеннаяПодсказка" id="327"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_ГиперссылкаКоманднойПанели" id="328">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_КнопкаФормы_ГиперссылкаКоманднойПанели</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_ГиперссылкаКоманднойПанелиКонтекстноеМеню" id="329"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_ГиперссылкаКоманднойПанелиРасширеннаяПодсказка" id="330"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ТаблицаФормы_ТаблицаЗначений" id="331">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ТаблицаФормы_ТаблицаЗначений</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ТаблицаФормы_ТаблицаЗначенийКонтекстноеМеню" id="332"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ТаблицаФормы_ТаблицаЗначенийРасширеннаяПодсказка" id="333"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ТаблицаФормы_ДеревоЗначений" id="334">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ТаблицаФормы_ДеревоЗначений</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ТаблицаФормы_ДеревоЗначенийКонтекстноеМеню" id="335"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ТаблицаФормы_ДеревоЗначенийРасширеннаяПодсказка" id="336"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ДекорацияФормы_Картинка" id="337">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ДекорацияФормы_Картинка</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ДекорацияФормы_КартинкаКонтекстноеМеню" id="338"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ДекорацияФормы_КартинкаРасширеннаяПодсказка" id="339"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ДекорацияФормы_Надпись" id="340">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ДекорацияФормы_Надпись</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ДекорацияФормы_НадписьКонтекстноеМеню" id="341"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ДекорацияФормы_НадписьРасширеннаяПодсказка" id="342"/>
-														</CheckBoxField>
-														<InputField name="СвойстваФормИЭлементовУправленияДанныеВыбора_Родитель_КоманднаяПанель" id="343">
-															<DataPath>СвойстваФормИЭлементовУправления.ДанныеВыбора_Родитель_КоманднаяПанель</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияДанныеВыбора_Родитель_КоманднаяПанельКонтекстноеМеню" id="344"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияДанныеВыбора_Родитель_КоманднаяПанельРасширеннаяПодсказка" id="345"/>
-														</InputField>
-														<InputField name="СвойстваФормИЭлементовУправленияДанныеВыбора_Родитель_Страницы" id="346">
-															<DataPath>СвойстваФормИЭлементовУправления.ДанныеВыбора_Родитель_Страницы</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияДанныеВыбора_Родитель_СтраницыКонтекстноеМеню" id="347"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияДанныеВыбора_Родитель_СтраницыРасширеннаяПодсказка" id="348"/>
-														</InputField>
-														<InputField name="СвойстваФормИЭлементовУправленияДанныеВыбора_Родитель_Подменю" id="349">
-															<DataPath>СвойстваФормИЭлементовУправления.ДанныеВыбора_Родитель_Подменю</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияДанныеВыбора_Родитель_ПодменюКонтекстноеМеню" id="350"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияДанныеВыбора_Родитель_ПодменюРасширеннаяПодсказка" id="351"/>
-														</InputField>
-														<InputField name="СвойстваФормИЭлементовУправленияДанныеВыбора" id="352">
-															<DataPath>СвойстваФормИЭлементовУправления.ДанныеВыбора</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияДанныеВыбораКонтекстноеМеню" id="353"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияДанныеВыбораРасширеннаяПодсказка" id="354"/>
+														<Table name="СвойстваФормИЭлементовУправления" id="17">
+															<Representation>List</Representation>
+															<SelectionMode>SingleRow</SelectionMode>
+															<AutoAddIncomplete>false</AutoAddIncomplete>
+															<AutoMarkIncomplete>false</AutoMarkIncomplete>
+															<SearchOnInput>Use</SearchOnInput>
+															<FileDragMode>AsFile</FileDragMode>
+															<DataPath>СвойстваФормИЭлементовУправления</DataPath>
+															<SearchStringLocation>CommandBar</SearchStringLocation>
+															<SearchControlLocation>CommandBar</SearchControlLocation>
+															<RowFilter xsi:nil="true"/>
+															<ContextMenu name="СвойстваФормИЭлементовУправленияКонтекстноеМеню" id="18"/>
+															<AutoCommandBar name="СвойстваФормИЭлементовУправленияКоманднаяПанель" id="19">
+																<Autofill>false</Autofill>
+																<ChildItems>
+																	<Button name="СвойстваФормИЭлементовУправленияДобавить" id="382">
+																		<Type>CommandBarButton</Type>
+																		<CommandName>Form.Item.СвойстваФормИЭлементовУправления.StandardCommand.Add</CommandName>
+																		<ExtendedTooltip name="СвойстваФормИЭлементовУправленияДобавитьРасширеннаяПодсказка" id="383"/>
+																	</Button>
+																	<ButtonGroup name="ГруппаКнопокРежимРедактированияСвойств" id="358">
+																		<Title>
+																			<v8:item>
+																				<v8:lang>ru</v8:lang>
+																				<v8:content>Группа кнопок режим редактирования свойств</v8:content>
+																			</v8:item>
+																		</Title>
+																		<ToolTip>
+																			<v8:item>
+																				<v8:lang>ru</v8:lang>
+																				<v8:content>Группа кнопок режим редактирования свойств</v8:content>
+																			</v8:item>
+																		</ToolTip>
+																		<Representation>Compact</Representation>
+																		<ExtendedTooltip name="ГруппаКнопокРежимРедактированияСвойствРасширеннаяПодсказка" id="359"/>
+																		<ChildItems>
+																			<Button name="СохранитьСвойстваВФайл" id="360">
+																				<Type>CommandBarButton</Type>
+																				<CommandName>Form.Command.СохранитьСвойстваВФайл</CommandName>
+																				<ExtendedTooltip name="СохранитьСвойстваВФайлРасширеннаяПодсказка" id="361"/>
+																			</Button>
+																			<Button name="ЗагрузитьСвойстваИзФайла" id="362">
+																				<Type>CommandBarButton</Type>
+																				<CommandName>Form.Command.ЗагрузитьСвойстваИзФайла</CommandName>
+																				<ExtendedTooltip name="ЗагрузитьСвойстваИзФайлаРасширеннаяПодсказка" id="363"/>
+																			</Button>
+																		</ChildItems>
+																	</ButtonGroup>
+																</ChildItems>
+															</AutoCommandBar>
+															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияРасширеннаяПодсказка" id="20"/>
+															<SearchStringAddition name="СвойстваФормИЭлементовУправленияСтрокаПоиска" id="21">
+																<AdditionSource>
+																	<Item>СвойстваФормИЭлементовУправления</Item>
+																	<Type>SearchStringRepresentation</Type>
+																</AdditionSource>
+																<ContextMenu name="СвойстваФормИЭлементовУправленияСтрокаПоискаКонтекстноеМеню" id="22"/>
+																<ExtendedTooltip name="СвойстваФормИЭлементовУправленияСтрокаПоискаРасширеннаяПодсказка" id="23"/>
+															</SearchStringAddition>
+															<ViewStatusAddition name="СвойстваФормИЭлементовУправленияСостояниеПросмотра" id="24">
+																<AdditionSource>
+																	<Item>СвойстваФормИЭлементовУправления</Item>
+																	<Type>ViewStatusRepresentation</Type>
+																</AdditionSource>
+																<ContextMenu name="СвойстваФормИЭлементовУправленияСостояниеПросмотраКонтекстноеМеню" id="25"/>
+																<ExtendedTooltip name="СвойстваФормИЭлементовУправленияСостояниеПросмотраРасширеннаяПодсказка" id="26"/>
+															</ViewStatusAddition>
+															<SearchControlAddition name="СвойстваФормИЭлементовУправленияУправлениеПоиском" id="27">
+																<AdditionSource>
+																	<Item>СвойстваФормИЭлементовУправления</Item>
+																	<Type>SearchControl</Type>
+																</AdditionSource>
+																<ContextMenu name="СвойстваФормИЭлементовУправленияУправлениеПоискомКонтекстноеМеню" id="28"/>
+																<ExtendedTooltip name="СвойстваФормИЭлементовУправленияУправлениеПоискомРасширеннаяПодсказка" id="29"/>
+															</SearchControlAddition>
 															<Events>
-																<Event name="StartChoice">СвойстваФормИЭлементовУправленияДанныеВыбораНачалоВыбора</Event>
+																<Event name="OnStartEdit">СвойстваФормИЭлементовУправленияПриНачалеРедактирования</Event>
 															</Events>
-														</InputField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_Пусто" id="355">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_Пусто</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПустоКонтекстноеМеню" id="356"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПустоРасширеннаяПодсказка" id="357"/>
-														</CheckBoxField>
+															<ChildItems>
+																<InputField name="СвойствоПредставление" id="109">
+																	<DataPath>СвойстваФормИЭлементовУправления.СвойствоПредставление</DataPath>
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Свойство</v8:content>
+																		</v8:item>
+																	</Title>
+																	<EditMode>EnterOnInput</EditMode>
+																	<FixingInTable>Left</FixingInTable>
+																	<ContextMenu name="СвойствоПредставлениеКонтекстноеМеню" id="110"/>
+																	<ExtendedTooltip name="СвойствоПредставлениеРасширеннаяПодсказка" id="111"/>
+																</InputField>
+																<InputField name="Свойство" id="379">
+																	<DataPath>СвойстваФормИЭлементовУправления.Свойство</DataPath>
+																	<Visible>false</Visible>
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Свойство (значение)</v8:content>
+																		</v8:item>
+																	</Title>
+																	<EditMode>EnterOnInput</EditMode>
+																	<ContextMenu name="СвойствоКонтекстноеМеню" id="380"/>
+																	<ExtendedTooltip name="СвойствоРасширеннаяПодсказка" id="381"/>
+																</InputField>
+																<InputField name="Значение" id="112">
+																	<DataPath>СвойстваФормИЭлементовУправления.ЗначениеПредставление</DataPath>
+																	<CellHyperlink>true</CellHyperlink>
+																	<AutoCellHeight>true</AutoCellHeight>
+																	<ChooseType>false</ChooseType>
+																	<IncompleteChoiceMode>OnActivate</IncompleteChoiceMode>
+																	<ContextMenu name="ЗначениеКонтекстноеМеню" id="113"/>
+																	<ExtendedTooltip name="ЗначениеРасширеннаяПодсказка" id="114"/>
+																	<Events>
+																		<Event name="OnChange">ЗначениеПриИзменении</Event>
+																		<Event name="StartChoice">ЗначениеНачалоВыбора</Event>
+																	</Events>
+																</InputField>
+																<ColumnGroup name="ГруппаКолонокРежимРедактированияСвойств" id="254">
+																	<Visible>false</Visible>
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Группа колонок режим редактирования свойств</v8:content>
+																		</v8:item>
+																	</Title>
+																	<ToolTip>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Группа колонок режим редактирования свойств</v8:content>
+																		</v8:item>
+																	</ToolTip>
+																	<Group>Horizontal</Group>
+																	<ExtendedTooltip name="ГруппаКолонокРежимРедактированияСвойствРасширеннаяПодсказка" id="255"/>
+																	<ChildItems>
+																		<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ФормаКлиентскогоПриложения" id="256">
+																			<DataPath>СвойстваФормИЭлементовУправления.Отбор_ФормаКлиентскогоПриложения</DataPath>
+																			<EditMode>EnterOnInput</EditMode>
+																			<CheckBoxType>Auto</CheckBoxType>
+																			<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ФормаКлиентскогоПриложенияКонтекстноеМеню" id="257"/>
+																			<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ФормаКлиентскогоПриложенияРасширеннаяПодсказка" id="258"/>
+																		</CheckBoxField>
+																		<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ГруппаКнопок" id="259">
+																			<DataPath>СвойстваФормИЭлементовУправления.Отбор_ГруппаФормы_ГруппаКнопок</DataPath>
+																			<EditMode>EnterOnInput</EditMode>
+																			<CheckBoxType>Auto</CheckBoxType>
+																			<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ГруппаКнопокКонтекстноеМеню" id="260"/>
+																			<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ГруппаКнопокРасширеннаяПодсказка" id="261"/>
+																		</CheckBoxField>
+																		<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ГруппаКолонок" id="262">
+																			<DataPath>СвойстваФормИЭлементовУправления.Отбор_ГруппаФормы_ГруппаКолонок</DataPath>
+																			<EditMode>EnterOnInput</EditMode>
+																			<CheckBoxType>Auto</CheckBoxType>
+																			<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ГруппаКолонокКонтекстноеМеню" id="263"/>
+																			<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ГруппаКолонокРасширеннаяПодсказка" id="264"/>
+																		</CheckBoxField>
+																		<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_КоманднаяПанель" id="265">
+																			<DataPath>СвойстваФормИЭлементовУправления.Отбор_ГруппаФормы_КоманднаяПанель</DataPath>
+																			<EditMode>EnterOnInput</EditMode>
+																			<CheckBoxType>Auto</CheckBoxType>
+																			<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_КоманднаяПанельКонтекстноеМеню" id="266"/>
+																			<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_КоманднаяПанельРасширеннаяПодсказка" id="267"/>
+																		</CheckBoxField>
+																		<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_КонтекстноеМеню" id="268">
+																			<DataPath>СвойстваФормИЭлементовУправления.Отбор_ГруппаФормы_КонтекстноеМеню</DataPath>
+																			<EditMode>EnterOnInput</EditMode>
+																			<CheckBoxType>Auto</CheckBoxType>
+																			<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_КонтекстноеМенюКонтекстноеМеню" id="269"/>
+																			<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_КонтекстноеМенюРасширеннаяПодсказка" id="270"/>
+																		</CheckBoxField>
+																		<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ОбычнаяГруппа" id="271">
+																			<DataPath>СвойстваФормИЭлементовУправления.Отбор_ГруппаФормы_ОбычнаяГруппа</DataPath>
+																			<EditMode>EnterOnInput</EditMode>
+																			<CheckBoxType>Auto</CheckBoxType>
+																			<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ОбычнаяГруппаКонтекстноеМеню" id="272"/>
+																			<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ОбычнаяГруппаРасширеннаяПодсказка" id="273"/>
+																		</CheckBoxField>
+																		<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_Подменю" id="274">
+																			<DataPath>СвойстваФормИЭлементовУправления.Отбор_ГруппаФормы_Подменю</DataPath>
+																			<EditMode>EnterOnInput</EditMode>
+																			<CheckBoxType>Auto</CheckBoxType>
+																			<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ПодменюКонтекстноеМеню" id="275"/>
+																			<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ПодменюРасширеннаяПодсказка" id="276"/>
+																		</CheckBoxField>
+																		<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_Страница" id="277">
+																			<DataPath>СвойстваФормИЭлементовУправления.Отбор_ГруппаФормы_Страница</DataPath>
+																			<EditMode>EnterOnInput</EditMode>
+																			<CheckBoxType>Auto</CheckBoxType>
+																			<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_СтраницаКонтекстноеМеню" id="278"/>
+																			<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_СтраницаРасширеннаяПодсказка" id="279"/>
+																		</CheckBoxField>
+																		<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_Страницы" id="280">
+																			<DataPath>СвойстваФормИЭлементовУправления.Отбор_ГруппаФормы_Страницы</DataPath>
+																			<EditMode>EnterOnInput</EditMode>
+																			<CheckBoxType>Auto</CheckBoxType>
+																			<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_СтраницыКонтекстноеМеню" id="281"/>
+																			<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_СтраницыРасширеннаяПодсказка" id="282"/>
+																		</CheckBoxField>
+																		<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_Строка" id="364">
+																			<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеВвода_Строка</DataPath>
+																			<EditMode>EnterOnInput</EditMode>
+																			<CheckBoxType>Auto</CheckBoxType>
+																			<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_СтрокаКонтекстноеМеню" id="365"/>
+																			<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_СтрокаРасширеннаяПодсказка" id="366"/>
+																		</CheckBoxField>
+																		<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_Число" id="367">
+																			<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеВвода_Число</DataPath>
+																			<EditMode>EnterOnInput</EditMode>
+																			<CheckBoxType>Auto</CheckBoxType>
+																			<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_ЧислоКонтекстноеМеню" id="368"/>
+																			<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_ЧислоРасширеннаяПодсказка" id="369"/>
+																		</CheckBoxField>
+																		<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_Булево" id="370">
+																			<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеВвода_Булево</DataPath>
+																			<EditMode>EnterOnInput</EditMode>
+																			<CheckBoxType>Auto</CheckBoxType>
+																			<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_БулевоКонтекстноеМеню" id="371"/>
+																			<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_БулевоРасширеннаяПодсказка" id="372"/>
+																		</CheckBoxField>
+																		<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_Дата" id="373">
+																			<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеВвода_Дата</DataPath>
+																			<EditMode>EnterOnInput</EditMode>
+																			<CheckBoxType>Auto</CheckBoxType>
+																			<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_ДатаКонтекстноеМеню" id="374"/>
+																			<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_ДатаРасширеннаяПодсказка" id="375"/>
+																		</CheckBoxField>
+																		<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_СтандартныйПериод" id="376">
+																			<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеВвода_СтандартныйПериод</DataPath>
+																			<EditMode>EnterOnInput</EditMode>
+																			<CheckBoxType>Auto</CheckBoxType>
+																			<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_СтандартныйПериодКонтекстноеМеню" id="377"/>
+																			<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_СтандартныйПериодРасширеннаяПодсказка" id="378"/>
+																		</CheckBoxField>
+																		<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеИндикатора" id="286">
+																			<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеИндикатора</DataPath>
+																			<EditMode>EnterOnInput</EditMode>
+																			<CheckBoxType>Auto</CheckBoxType>
+																			<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеИндикатораКонтекстноеМеню" id="287"/>
+																			<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеИндикатораРасширеннаяПодсказка" id="288"/>
+																		</CheckBoxField>
+																		<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеКалендаря" id="289">
+																			<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеКалендаря</DataPath>
+																			<EditMode>EnterOnInput</EditMode>
+																			<CheckBoxType>Auto</CheckBoxType>
+																			<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеКалендаряКонтекстноеМеню" id="290"/>
+																			<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеКалендаряРасширеннаяПодсказка" id="291"/>
+																		</CheckBoxField>
+																		<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеКартинки" id="292">
+																			<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеКартинки</DataPath>
+																			<EditMode>EnterOnInput</EditMode>
+																			<CheckBoxType>Auto</CheckBoxType>
+																			<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеКартинкиКонтекстноеМеню" id="293"/>
+																			<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеКартинкиРасширеннаяПодсказка" id="294"/>
+																		</CheckBoxField>
+																		<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеНадписи" id="295">
+																			<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеНадписи</DataPath>
+																			<EditMode>EnterOnInput</EditMode>
+																			<CheckBoxType>Auto</CheckBoxType>
+																			<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеНадписиКонтекстноеМеню" id="296"/>
+																			<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеНадписиРасширеннаяПодсказка" id="297"/>
+																		</CheckBoxField>
+																		<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеПереключателя" id="298">
+																			<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеПереключателя</DataPath>
+																			<EditMode>EnterOnInput</EditMode>
+																			<CheckBoxType>Auto</CheckBoxType>
+																			<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеПереключателяКонтекстноеМеню" id="299"/>
+																			<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеПереключателяРасширеннаяПодсказка" id="300"/>
+																		</CheckBoxField>
+																		<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеПериода" id="301">
+																			<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеПериода</DataPath>
+																			<EditMode>EnterOnInput</EditMode>
+																			<CheckBoxType>Auto</CheckBoxType>
+																			<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеПериодаКонтекстноеМеню" id="302"/>
+																			<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеПериодаРасширеннаяПодсказка" id="303"/>
+																		</CheckBoxField>
+																		<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеПолосыРегулирования" id="304">
+																			<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеПолосыРегулирования</DataPath>
+																			<EditMode>EnterOnInput</EditMode>
+																			<CheckBoxType>Auto</CheckBoxType>
+																			<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеПолосыРегулированияКонтекстноеМеню" id="305"/>
+																			<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеПолосыРегулированияРасширеннаяПодсказка" id="306"/>
+																		</CheckBoxField>
+																		<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеТабличногоДокумента" id="307">
+																			<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеТабличногоДокумента</DataPath>
+																			<EditMode>EnterOnInput</EditMode>
+																			<CheckBoxType>Auto</CheckBoxType>
+																			<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеТабличногоДокументаКонтекстноеМеню" id="308"/>
+																			<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеТабличногоДокументаРасширеннаяПодсказка" id="309"/>
+																		</CheckBoxField>
+																		<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеТекстовогоДокумента" id="310">
+																			<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеТекстовогоДокумента</DataPath>
+																			<EditMode>EnterOnInput</EditMode>
+																			<CheckBoxType>Auto</CheckBoxType>
+																			<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеТекстовогоДокументаКонтекстноеМеню" id="311"/>
+																			<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеТекстовогоДокументаРасширеннаяПодсказка" id="312"/>
+																		</CheckBoxField>
+																		<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеФлажка" id="313">
+																			<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеФлажка</DataPath>
+																			<EditMode>EnterOnInput</EditMode>
+																			<CheckBoxType>Auto</CheckBoxType>
+																			<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеФлажкаКонтекстноеМеню" id="314"/>
+																			<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеФлажкаРасширеннаяПодсказка" id="315"/>
+																		</CheckBoxField>
+																		<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеФорматированногоДокумента" id="316">
+																			<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеФорматированногоДокумента</DataPath>
+																			<EditMode>EnterOnInput</EditMode>
+																			<CheckBoxType>Auto</CheckBoxType>
+																			<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеФорматированногоДокументаКонтекстноеМеню" id="317"/>
+																			<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеФорматированногоДокументаРасширеннаяПодсказка" id="318"/>
+																		</CheckBoxField>
+																		<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_ОбычнаяКнопка" id="319">
+																			<DataPath>СвойстваФормИЭлементовУправления.Отбор_КнопкаФормы_ОбычнаяКнопка</DataPath>
+																			<EditMode>EnterOnInput</EditMode>
+																			<CheckBoxType>Auto</CheckBoxType>
+																			<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_ОбычнаяКнопкаКонтекстноеМеню" id="320"/>
+																			<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_ОбычнаяКнопкаРасширеннаяПодсказка" id="321"/>
+																		</CheckBoxField>
+																		<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_КнопкаКоманднойПанели" id="322">
+																			<DataPath>СвойстваФормИЭлементовУправления.Отбор_КнопкаФормы_КнопкаКоманднойПанели</DataPath>
+																			<EditMode>EnterOnInput</EditMode>
+																			<CheckBoxType>Auto</CheckBoxType>
+																			<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_КнопкаКоманднойПанелиКонтекстноеМеню" id="323"/>
+																			<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_КнопкаКоманднойПанелиРасширеннаяПодсказка" id="324"/>
+																		</CheckBoxField>
+																		<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_Гиперссылка" id="325">
+																			<DataPath>СвойстваФормИЭлементовУправления.Отбор_КнопкаФормы_Гиперссылка</DataPath>
+																			<EditMode>EnterOnInput</EditMode>
+																			<CheckBoxType>Auto</CheckBoxType>
+																			<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_ГиперссылкаКонтекстноеМеню" id="326"/>
+																			<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_ГиперссылкаРасширеннаяПодсказка" id="327"/>
+																		</CheckBoxField>
+																		<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_ГиперссылкаКоманднойПанели" id="328">
+																			<DataPath>СвойстваФормИЭлементовУправления.Отбор_КнопкаФормы_ГиперссылкаКоманднойПанели</DataPath>
+																			<EditMode>EnterOnInput</EditMode>
+																			<CheckBoxType>Auto</CheckBoxType>
+																			<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_ГиперссылкаКоманднойПанелиКонтекстноеМеню" id="329"/>
+																			<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_ГиперссылкаКоманднойПанелиРасширеннаяПодсказка" id="330"/>
+																		</CheckBoxField>
+																		<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ТаблицаФормы_ТаблицаЗначений" id="331">
+																			<DataPath>СвойстваФормИЭлементовУправления.Отбор_ТаблицаФормы_ТаблицаЗначений</DataPath>
+																			<EditMode>EnterOnInput</EditMode>
+																			<CheckBoxType>Auto</CheckBoxType>
+																			<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ТаблицаФормы_ТаблицаЗначенийКонтекстноеМеню" id="332"/>
+																			<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ТаблицаФормы_ТаблицаЗначенийРасширеннаяПодсказка" id="333"/>
+																		</CheckBoxField>
+																		<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ТаблицаФормы_ДеревоЗначений" id="334">
+																			<DataPath>СвойстваФормИЭлементовУправления.Отбор_ТаблицаФормы_ДеревоЗначений</DataPath>
+																			<EditMode>EnterOnInput</EditMode>
+																			<CheckBoxType>Auto</CheckBoxType>
+																			<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ТаблицаФормы_ДеревоЗначенийКонтекстноеМеню" id="335"/>
+																			<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ТаблицаФормы_ДеревоЗначенийРасширеннаяПодсказка" id="336"/>
+																		</CheckBoxField>
+																		<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ДекорацияФормы_Картинка" id="337">
+																			<DataPath>СвойстваФормИЭлементовУправления.Отбор_ДекорацияФормы_Картинка</DataPath>
+																			<EditMode>EnterOnInput</EditMode>
+																			<CheckBoxType>Auto</CheckBoxType>
+																			<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ДекорацияФормы_КартинкаКонтекстноеМеню" id="338"/>
+																			<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ДекорацияФормы_КартинкаРасширеннаяПодсказка" id="339"/>
+																		</CheckBoxField>
+																		<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ДекорацияФормы_Надпись" id="340">
+																			<DataPath>СвойстваФормИЭлементовУправления.Отбор_ДекорацияФормы_Надпись</DataPath>
+																			<EditMode>EnterOnInput</EditMode>
+																			<CheckBoxType>Auto</CheckBoxType>
+																			<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ДекорацияФормы_НадписьКонтекстноеМеню" id="341"/>
+																			<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ДекорацияФормы_НадписьРасширеннаяПодсказка" id="342"/>
+																		</CheckBoxField>
+																		<InputField name="СвойстваФормИЭлементовУправленияДанныеВыбора_Родитель_КоманднаяПанель" id="343">
+																			<DataPath>СвойстваФормИЭлементовУправления.ДанныеВыбора_Родитель_КоманднаяПанель</DataPath>
+																			<EditMode>EnterOnInput</EditMode>
+																			<ContextMenu name="СвойстваФормИЭлементовУправленияДанныеВыбора_Родитель_КоманднаяПанельКонтекстноеМеню" id="344"/>
+																			<ExtendedTooltip name="СвойстваФормИЭлементовУправленияДанныеВыбора_Родитель_КоманднаяПанельРасширеннаяПодсказка" id="345"/>
+																		</InputField>
+																		<InputField name="СвойстваФормИЭлементовУправленияДанныеВыбора_Родитель_Страницы" id="346">
+																			<DataPath>СвойстваФормИЭлементовУправления.ДанныеВыбора_Родитель_Страницы</DataPath>
+																			<EditMode>EnterOnInput</EditMode>
+																			<ContextMenu name="СвойстваФормИЭлементовУправленияДанныеВыбора_Родитель_СтраницыКонтекстноеМеню" id="347"/>
+																			<ExtendedTooltip name="СвойстваФормИЭлементовУправленияДанныеВыбора_Родитель_СтраницыРасширеннаяПодсказка" id="348"/>
+																		</InputField>
+																		<InputField name="СвойстваФормИЭлементовУправленияДанныеВыбора_Родитель_Подменю" id="349">
+																			<DataPath>СвойстваФормИЭлементовУправления.ДанныеВыбора_Родитель_Подменю</DataPath>
+																			<EditMode>EnterOnInput</EditMode>
+																			<ContextMenu name="СвойстваФормИЭлементовУправленияДанныеВыбора_Родитель_ПодменюКонтекстноеМеню" id="350"/>
+																			<ExtendedTooltip name="СвойстваФормИЭлементовУправленияДанныеВыбора_Родитель_ПодменюРасширеннаяПодсказка" id="351"/>
+																		</InputField>
+																		<InputField name="СвойстваФормИЭлементовУправленияДанныеВыбора" id="352">
+																			<DataPath>СвойстваФормИЭлементовУправления.ДанныеВыбора</DataPath>
+																			<EditMode>EnterOnInput</EditMode>
+																			<ContextMenu name="СвойстваФормИЭлементовУправленияДанныеВыбораКонтекстноеМеню" id="353"/>
+																			<ExtendedTooltip name="СвойстваФормИЭлементовУправленияДанныеВыбораРасширеннаяПодсказка" id="354"/>
+																			<Events>
+																				<Event name="StartChoice">СвойстваФормИЭлементовУправленияДанныеВыбораНачалоВыбора</Event>
+																			</Events>
+																		</InputField>
+																		<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_Пусто" id="355">
+																			<DataPath>СвойстваФормИЭлементовУправления.Отбор_Пусто</DataPath>
+																			<EditMode>EnterOnInput</EditMode>
+																			<CheckBoxType>Auto</CheckBoxType>
+																			<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПустоКонтекстноеМеню" id="356"/>
+																			<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПустоРасширеннаяПодсказка" id="357"/>
+																		</CheckBoxField>
+																	</ChildItems>
+																</ColumnGroup>
+															</ChildItems>
+														</Table>
 													</ChildItems>
-												</ColumnGroup>
+												</Page>
+												<Page name="ГруппаСобытияФормИЭлементовУправления" id="83">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>События</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа события форм и элементов управления</v8:content>
+														</v8:item>
+													</ToolTip>
+													<ExtendedTooltip name="ГруппаСобытияФормИЭлементовУправленияРасширеннаяПодсказка" id="84"/>
+													<ChildItems>
+														<Table name="СобытияФормИЭлементовУправления" id="85">
+															<Representation>List</Representation>
+															<CommandBarLocation>None</CommandBarLocation>
+															<AutoInsertNewRow>true</AutoInsertNewRow>
+															<EnableStartDrag>true</EnableStartDrag>
+															<EnableDrag>true</EnableDrag>
+															<FileDragMode>AsFile</FileDragMode>
+															<DataPath>СобытияФормИЭлементовУправления</DataPath>
+															<RowFilter xsi:nil="true"/>
+															<ContextMenu name="СобытияФормИЭлементовУправленияКонтекстноеМеню" id="86"/>
+															<AutoCommandBar name="СобытияФормИЭлементовУправленияКоманднаяПанель" id="87"/>
+															<ExtendedTooltip name="СобытияФормИЭлементовУправленияРасширеннаяПодсказка" id="88"/>
+															<SearchStringAddition name="СобытияФормИЭлементовУправленияСтрокаПоиска" id="89">
+																<AdditionSource>
+																	<Item>СобытияФормИЭлементовУправления</Item>
+																	<Type>SearchStringRepresentation</Type>
+																</AdditionSource>
+																<ContextMenu name="СобытияФормИЭлементовУправленияСтрокаПоискаКонтекстноеМеню" id="90"/>
+																<ExtendedTooltip name="СобытияФормИЭлементовУправленияСтрокаПоискаРасширеннаяПодсказка" id="91"/>
+															</SearchStringAddition>
+															<ViewStatusAddition name="СобытияФормИЭлементовУправленияСостояниеПросмотра" id="92">
+																<AdditionSource>
+																	<Item>СобытияФормИЭлементовУправления</Item>
+																	<Type>ViewStatusRepresentation</Type>
+																</AdditionSource>
+																<ContextMenu name="СобытияФормИЭлементовУправленияСостояниеПросмотраКонтекстноеМеню" id="93"/>
+																<ExtendedTooltip name="СобытияФормИЭлементовУправленияСостояниеПросмотраРасширеннаяПодсказка" id="94"/>
+															</ViewStatusAddition>
+															<SearchControlAddition name="СобытияФормИЭлементовУправленияУправлениеПоиском" id="95">
+																<AdditionSource>
+																	<Item>СобытияФормИЭлементовУправления</Item>
+																	<Type>SearchControl</Type>
+																</AdditionSource>
+																<ContextMenu name="СобытияФормИЭлементовУправленияУправлениеПоискомКонтекстноеМеню" id="96"/>
+																<ExtendedTooltip name="СобытияФормИЭлементовУправленияУправлениеПоискомРасширеннаяПодсказка" id="97"/>
+															</SearchControlAddition>
+															<ChildItems>
+																<InputField name="СобытияИмя" id="98">
+																	<DataPath>СобытияФормИЭлементовУправления.Имя</DataPath>
+																	<EditMode>EnterOnInput</EditMode>
+																	<ContextMenu name="СобытияИмяКонтекстноеМеню" id="99"/>
+																	<ExtendedTooltip name="СобытияИмяРасширеннаяПодсказка" id="100"/>
+																</InputField>
+															</ChildItems>
+														</Table>
+													</ChildItems>
+												</Page>
 											</ChildItems>
-										</Table>
+										</Pages>
 									</ChildItems>
-								</Page>
-								<Page name="ГруппаСобытияФормИЭлементовУправления" id="83">
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>События</v8:content>
-										</v8:item>
-									</Title>
-									<ToolTip>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Группа события форм и элементов управления</v8:content>
-										</v8:item>
-									</ToolTip>
-									<ExtendedTooltip name="ГруппаСобытияФормИЭлементовУправленияРасширеннаяПодсказка" id="84"/>
-									<ChildItems>
-										<Table name="СобытияФормИЭлементовУправления" id="85">
-											<Representation>List</Representation>
-											<CommandBarLocation>None</CommandBarLocation>
-											<AutoInsertNewRow>true</AutoInsertNewRow>
-											<EnableStartDrag>true</EnableStartDrag>
-											<EnableDrag>true</EnableDrag>
-											<FileDragMode>AsFile</FileDragMode>
-											<DataPath>СобытияФормИЭлементовУправления</DataPath>
-											<RowFilter xsi:nil="true"/>
-											<ContextMenu name="СобытияФормИЭлементовУправленияКонтекстноеМеню" id="86"/>
-											<AutoCommandBar name="СобытияФормИЭлементовУправленияКоманднаяПанель" id="87"/>
-											<ExtendedTooltip name="СобытияФормИЭлементовУправленияРасширеннаяПодсказка" id="88"/>
-											<SearchStringAddition name="СобытияФормИЭлементовУправленияСтрокаПоиска" id="89">
-												<AdditionSource>
-													<Item>СобытияФормИЭлементовУправления</Item>
-													<Type>SearchStringRepresentation</Type>
-												</AdditionSource>
-												<ContextMenu name="СобытияФормИЭлементовУправленияСтрокаПоискаКонтекстноеМеню" id="90"/>
-												<ExtendedTooltip name="СобытияФормИЭлементовУправленияСтрокаПоискаРасширеннаяПодсказка" id="91"/>
-											</SearchStringAddition>
-											<ViewStatusAddition name="СобытияФормИЭлементовУправленияСостояниеПросмотра" id="92">
-												<AdditionSource>
-													<Item>СобытияФормИЭлементовУправления</Item>
-													<Type>ViewStatusRepresentation</Type>
-												</AdditionSource>
-												<ContextMenu name="СобытияФормИЭлементовУправленияСостояниеПросмотраКонтекстноеМеню" id="93"/>
-												<ExtendedTooltip name="СобытияФормИЭлементовУправленияСостояниеПросмотраРасширеннаяПодсказка" id="94"/>
-											</ViewStatusAddition>
-											<SearchControlAddition name="СобытияФормИЭлементовУправленияУправлениеПоиском" id="95">
-												<AdditionSource>
-													<Item>СобытияФормИЭлементовУправления</Item>
-													<Type>SearchControl</Type>
-												</AdditionSource>
-												<ContextMenu name="СобытияФормИЭлементовУправленияУправлениеПоискомКонтекстноеМеню" id="96"/>
-												<ExtendedTooltip name="СобытияФормИЭлементовУправленияУправлениеПоискомРасширеннаяПодсказка" id="97"/>
-											</SearchControlAddition>
-											<ChildItems>
-												<InputField name="СобытияИмя" id="98">
-													<DataPath>СобытияФормИЭлементовУправления.Имя</DataPath>
-													<EditMode>EnterOnInput</EditMode>
-													<ContextMenu name="СобытияИмяКонтекстноеМеню" id="99"/>
-													<ExtendedTooltip name="СобытияИмяРасширеннаяПодсказка" id="100"/>
-												</InputField>
-											</ChildItems>
-										</Table>
-									</ChildItems>
-								</Page>
+								</UsualGroup>
 							</ChildItems>
-						</Pages>
+						</UsualGroup>
 					</ChildItems>
-				</UsualGroup>
+				</Page>
+				<Page name="ГруппаСкрытыйРежим" id="396">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа скрытый режим</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа скрытый режим</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаСкрытыйРежимРасширеннаяПодсказка" id="397"/>
+					<ChildItems>
+						<Button name="РазвернутьЭскиз" id="400">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.РазвернутьЭскиз</CommandName>
+							<Picture>
+								<xr:Ref>StdPicture.Forward</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ExtendedTooltip name="РазвернутьЭскизРасширеннаяПодсказка" id="401"/>
+						</Button>
+					</ChildItems>
+				</Page>
 			</ChildItems>
-		</UsualGroup>
+		</Pages>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -2865,6 +2971,38 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ЗагрузитьСвойстваИзФайла</Action>
+		</Command>
+		<Command name="СкрытьЭскиз" id="38">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Скрыть эскиз</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Скрыть эскиз</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СкрытьЭскиз</Action>
+			<Representation>Picture</Representation>
+		</Command>
+		<Command name="РазвернутьЭскиз" id="39">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Развернуть эскиз</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Развернуть эскиз</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>РазвернутьЭскиз</Action>
+			<Representation>Picture</Representation>
 		</Command>
 	</Commands>
 </Form>
