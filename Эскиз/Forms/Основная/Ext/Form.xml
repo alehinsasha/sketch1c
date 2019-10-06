@@ -738,6 +738,13 @@
 											<TreeSpecialSearch>false</TreeSpecialSearch>
 											<ContextMenu name="ФормыИЭлементыУправленияКонтекстноеМеню" id="2">
 												<Autofill>false</Autofill>
+												<ChildItems>
+													<Button name="УдалитьФормуЭлементУправления" id="402">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.УдалитьФормуЭлементУправления</CommandName>
+														<ExtendedTooltip name="УдалитьФормуЭлементУправленияРасширеннаяПодсказка" id="403"/>
+													</Button>
+												</ChildItems>
 											</ContextMenu>
 											<AutoCommandBar name="ФормыИЭлементыУправленияКоманднаяПанель" id="3">
 												<Autofill>false</Autofill>
@@ -814,6 +821,7 @@
 												<ExtendedTooltip name="ФормыИЭлементыУправленияУправлениеПоискомРасширеннаяПодсказка" id="13"/>
 											</SearchControlAddition>
 											<Events>
+												<Event name="BeforeDeleteRow">ФормыИЭлементыУправленияПередУдалением</Event>
 												<Event name="OnActivateRow">ФормыИЭлементыУправленияПриАктивизацииСтроки</Event>
 												<Event name="Drag">ФормыИЭлементыУправленияПеретаскивание</Event>
 												<Event name="DragEnd">ФормыИЭлементыУправленияОкончаниеПеретаскивания</Event>
@@ -1349,14 +1357,14 @@
 					</ToolTip>
 					<ExtendedTooltip name="ГруппаСкрытыйРежимРасширеннаяПодсказка" id="397"/>
 					<ChildItems>
-						<Button name="РазвернутьЭскиз" id="400">
+						<Button name="ПоказатьЭскиз" id="400">
 							<Type>UsualButton</Type>
-							<CommandName>Form.Command.РазвернутьЭскиз</CommandName>
+							<CommandName>Form.Command.ПоказатьЭскиз</CommandName>
 							<Picture>
 								<xr:Ref>StdPicture.Forward</xr:Ref>
 								<xr:LoadTransparent>true</xr:LoadTransparent>
 							</Picture>
-							<ExtendedTooltip name="РазвернутьЭскизРасширеннаяПодсказка" id="401"/>
+							<ExtendedTooltip name="ПоказатьЭскизРасширеннаяПодсказка" id="401"/>
 						</Button>
 					</ChildItems>
 				</Page>
@@ -2976,32 +2984,52 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Скрыть эскиз</v8:content>
+					<v8:content>Скрыть</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Скрыть эскиз</v8:content>
+					<v8:content>Скрыть</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>СкрытьЭскиз</Action>
 			<Representation>Picture</Representation>
 		</Command>
-		<Command name="РазвернутьЭскиз" id="39">
+		<Command name="ПоказатьЭскиз" id="39">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Развернуть эскиз</v8:content>
+					<v8:content>Показать</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Развернуть эскиз</v8:content>
+					<v8:content>Показать</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>РазвернутьЭскиз</Action>
+			<Action>ПоказатьЭскиз</Action>
+			<Representation>Picture</Representation>
+		</Command>
+		<Command name="УдалитьФормуЭлементУправления" id="40">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Delete</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>УдалитьФормуЭлементУправления</Action>
 			<Representation>Picture</Representation>
 		</Command>
 	</Commands>
