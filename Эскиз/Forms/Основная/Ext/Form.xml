@@ -2520,24 +2520,6 @@
 			<Action>ДобавитьНадпись</Action>
 			<Representation>Picture</Representation>
 		</Command>
-		<Command name="Удалить" id="8">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Удалить</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Удалить</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Picture>
-				<xr:Ref>StdPicture.Delete</xr:Ref>
-				<xr:LoadTransparent>true</xr:LoadTransparent>
-			</Picture>
-		</Command>
 		<Command name="ПереместитьВверх" id="9">
 			<Title>
 				<v8:item>
