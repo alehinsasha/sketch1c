@@ -1254,6 +1254,15 @@
 																			<ContextMenu name="СвойстваФормИЭлементовУправленияДанныеВыбора_Родитель_ПодменюКонтекстноеМеню" id="350"/>
 																			<ExtendedTooltip name="СвойстваФормИЭлементовУправленияДанныеВыбора_Родитель_ПодменюРасширеннаяПодсказка" id="351"/>
 																		</InputField>
+																		<InputField name="СвойстваФормИЭлементовУправленияДанныеВыбора_ГруппаКолонок" id="410">
+																			<DataPath>СвойстваФормИЭлементовУправления.ДанныеВыбора_ГруппаКолонок</DataPath>
+																			<EditMode>EnterOnInput</EditMode>
+																			<ContextMenu name="СвойстваФормИЭлементовУправленияДанныеВыбора_ГруппаКолонокКонтекстноеМеню" id="411"/>
+																			<ExtendedTooltip name="СвойстваФормИЭлементовУправленияДанныеВыбора_ГруппаКолонокРасширеннаяПодсказка" id="412"/>
+																			<Events>
+																				<Event name="StartChoice">СвойстваФормИЭлементовУправленияДанныеВыбора_ГруппаКолонокНачалоВыбора</Event>
+																			</Events>
+																		</InputField>
 																		<InputField name="СвойстваФормИЭлементовУправленияДанныеВыбора" id="352">
 																			<DataPath>СвойстваФормИЭлементовУправления.ДанныеВыбора</DataPath>
 																			<EditMode>EnterOnInput</EditMode>
@@ -2329,6 +2338,17 @@
 					</Title>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ДанныеВыбора_ГруппаКолонок" id="16">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ДанныеВыбора_ГруппаКолонок</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>v8:ValueListType</v8:Type>
 					</Type>
 				</Column>
 			</Columns>
