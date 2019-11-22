@@ -18,14 +18,14 @@
 		<CheckBoxField name="ЗагружатьСвойстваИзФайла" id="6">
 			<DataPath>ЗагружатьСвойстваИзФайла</DataPath>
 			<TitleLocation>Right</TitleLocation>
-			<CheckBoxType>Switcher</CheckBoxType>
+			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="ЗагружатьСвойстваИзФайлаКонтекстноеМеню" id="7"/>
 			<ExtendedTooltip name="ЗагружатьСвойстваИзФайлаРасширеннаяПодсказка" id="8"/>
 		</CheckBoxField>
 		<CheckBoxField name="РежимРедактированияСвойств" id="9">
 			<DataPath>РежимРедактированияСвойств</DataPath>
 			<TitleLocation>Right</TitleLocation>
-			<CheckBoxType>Switcher</CheckBoxType>
+			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="РежимРедактированияСвойствКонтекстноеМеню" id="10"/>
 			<ExtendedTooltip name="РежимРедактированияСвойствРасширеннаяПодсказка" id="11"/>
 		</CheckBoxField>
