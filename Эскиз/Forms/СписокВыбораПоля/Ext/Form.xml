@@ -23,6 +23,7 @@
 					<HorizontalLines>false</HorizontalLines>
 					<VerticalLines>false</VerticalLines>
 					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<FileDragMode>AsFile</FileDragMode>
 					<DataPath>СписокВыбора</DataPath>
 					<RowPictureDataPath>СписокВыбора.Picture</RowPictureDataPath>
 					<CommandSet>
