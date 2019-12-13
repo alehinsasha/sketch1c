@@ -31,6 +31,8 @@
 			<Form>ДанныеВыбораСвойства</Form>
 			<Form>СписокВыбораПоля</Form>
 			<Form>Роли</Form>
+			<Form>МенеджерФайлов_8_3_6</Form>
+			<Form>МенеджерФайлов_8_3_15</Form>
 			<Template>Свойства</Template>
 		</ChildObjects>
 	</ExternalDataProcessor>
