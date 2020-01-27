@@ -4874,7 +4874,7 @@
               </extInfo>
             </items>
             <items xsi:type="form:FormField">
-              <name>СобытияДествие</name>
+              <name>СобытияДействие</name>
               <id>404</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -4883,7 +4883,7 @@
               </userVisible>
               <dataPath xsi:type="form:MultiLanguageDataPath">
                 <paths xsi:type="form:DataPath">
-                  <segments>СобытияФормИЭлементовУправления.Дествие</segments>
+                  <segments>СобытияФормИЭлементовУправления.Действие</segments>
                 </paths>
               </dataPath>
               <extendedTooltip>
@@ -6727,10 +6727,10 @@
       </edit>
     </columns>
     <columns>
-      <name>Дествие</name>
+      <name>Действие</name>
       <title>
         <key>ru</key>
-        <value>Дествие</value>
+        <value>Действие</value>
       </title>
       <id>2</id>
       <valueType>
