@@ -5873,6 +5873,76 @@
         <common>true</common>
       </edit>
     </columns>
+    <columns>
+      <name>ГоризонтальноеПоложениеПодчиненных</name>
+      <title>
+        <key>ru</key>
+        <value>Горизонтальное положение подчиненных</value>
+      </title>
+      <id>44</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ВертикальноеПоложениеПодчиненных</name>
+      <title>
+        <key>ru</key>
+        <value>Вертикальное положение подчиненных</value>
+      </title>
+      <id>45</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>РастягиватьПоГоризонтали</name>
+      <title>
+        <key>ru</key>
+        <value>Растягивать по горизонтали</value>
+      </title>
+      <id>46</id>
+      <valueType>
+        <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>РастягиватьПоВертикали</name>
+      <title>
+        <key>ru</key>
+        <value>Растягивать по вертикали</value>
+      </title>
+      <id>47</id>
+      <valueType>
+        <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
   </attributes>
   <attributes>
     <name>СвойстваФормИЭлементовУправления</name>
