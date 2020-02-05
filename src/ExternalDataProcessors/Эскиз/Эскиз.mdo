@@ -96,4 +96,11 @@
     </synonym>
     <templateType>TextDocument</templateType>
   </templates>
+  <templates uuid="23b2d357-c22f-4a6d-849a-f158e011320d">
+    <name>ОбрабатываемыеСвойства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обрабатываемые свойства</value>
+    </synonym>
+  </templates>
 </mdclass:ExternalDataProcessor>
