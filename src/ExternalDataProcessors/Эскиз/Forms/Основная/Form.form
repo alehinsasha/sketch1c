@@ -2517,6 +2517,7 @@
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <wrap>true</wrap>
+                <multiLine>true</multiLine>
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
@@ -2635,6 +2636,7 @@
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <wrap>true</wrap>
+                <multiLine>true</multiLine>
                 <incompleteChoiceMode>OnActivate</incompleteChoiceMode>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
