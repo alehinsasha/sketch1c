@@ -5661,10 +5661,10 @@
       </edit>
     </columns>
     <columns>
-      <name>ОтображениеГруппыКнопок</name>
+      <name>Отображение</name>
       <title>
         <key>ru</key>
-        <value>Отображение группы кнопок</value>
+        <value>Отображение</value>
       </title>
       <id>18</id>
       <valueType>
@@ -5937,6 +5937,42 @@
       <id>47</id>
       <valueType>
         <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ВертикальноеПоложениеВГруппе</name>
+      <title>
+        <key>ru</key>
+        <value>Вертикальное положение в группе</value>
+      </title>
+      <id>48</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ГоризонтальноеПоложениеВГруппе</name>
+      <title>
+        <key>ru</key>
+        <value>Горизонтальное положение в группе</value>
+      </title>
+      <id>49</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
       </valueType>
       <view>
         <common>true</common>
