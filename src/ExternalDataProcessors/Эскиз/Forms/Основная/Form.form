@@ -2630,10 +2630,6 @@
               <showInFooter>true</showInFooter>
               <extInfo xsi:type="form:InputFieldExtInfo">
                 <handlers>
-                  <event>StartChoice</event>
-                  <name>ЗначениеНачалоВыбора</name>
-                </handlers>
-                <handlers>
                   <event>AutoComplete</event>
                   <name>ЗначениеАвтоПодбор</name>
                 </handlers>
