@@ -30,13 +30,13 @@
 			</column>
 		</columnsItem>
 		<columnsItem>
-			<index>4</index>
+			<index>3</index>
 			<column>
 				<formatIndex>4</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
-			<index>3</index>
+			<index>4</index>
 			<column>
 				<formatIndex>5</formatIndex>
 			</column>
@@ -48,7 +48,7 @@
 			</column>
 		</columnsItem>
 		<columnsItem>
-			<index>8</index>
+			<index>6</index>
 			<column>
 				<formatIndex>7</formatIndex>
 			</column>
@@ -60,7 +60,7 @@
 			</column>
 		</columnsItem>
 		<columnsItem>
-			<index>6</index>
+			<index>8</index>
 			<column>
 				<formatIndex>9</formatIndex>
 			</column>
@@ -39992,6 +39992,11 @@
 		<h>1</h>
 	</merge>
 	<merge>
+		<r>0</r>
+		<c>2</c>
+		<w>13</w>
+	</merge>
+	<merge>
 		<r>2</r>
 		<c>0</c>
 		<h>3</h>
@@ -40011,11 +40016,6 @@
 		<c>0</c>
 		<h>1</h>
 	</merge>
-	<merge>
-		<r>0</r>
-		<c>2</c>
-		<w>13</w>
-	</merge>
 	<line width="1" gap="false">
 		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
 	</line>
@@ -40031,22 +40031,22 @@
 		<width>77</width>
 	</format>
 	<format>
-		<width>157</width>
+		<width>153</width>
 	</format>
 	<format>
-		<width>153</width>
+		<width>157</width>
 	</format>
 	<format>
 		<width>235</width>
 	</format>
 	<format>
-		<width>270</width>
+		<width>250</width>
 	</format>
 	<format>
 		<width>285</width>
 	</format>
 	<format>
-		<width>250</width>
+		<width>270</width>
 	</format>
 	<format>
 		<font>0</font>
