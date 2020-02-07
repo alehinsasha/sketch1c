@@ -2633,6 +2633,10 @@
                   <event>StartChoice</event>
                   <name>ЗначениеНачалоВыбора</name>
                 </handlers>
+                <handlers>
+                  <event>AutoComplete</event>
+                  <name>ЗначениеАвтоПодбор</name>
+                </handlers>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <wrap>true</wrap>
