@@ -198,7 +198,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ExternalDataProcessor.Эскиз</types>
+      <types>ExternalDataProcessorObject.Эскиз</types>
     </valueType>
     <view>
       <common>true</common>
