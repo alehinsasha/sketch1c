@@ -9,7 +9,7 @@
     <value>Эскиз</value>
   </synonym>
   <comment>Горизонтальный прототип</comment>
-  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="5e75f296-3024-4739-80a4-5d7cf151123f"/>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="a5dd7d22-968e-4ca5-b0e9-b02f017ddde1"/>
   <defaultForm>ExternalDataProcessor.Эскиз.Form.Основная</defaultForm>
   <forms uuid="f8ee46e3-2052-400b-9a6e-89e5488be588">
     <name>Основная</name>

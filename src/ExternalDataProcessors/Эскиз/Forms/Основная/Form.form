@@ -2465,61 +2465,6 @@
             </dataPath>
             <titleLocation>None</titleLocation>
             <items xsi:type="form:FormField">
-              <name>Свойство</name>
-              <id>379</id>
-              <title>
-                <key>ru</key>
-                <value>Свойство (значение)</value>
-              </title>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>СвойстваФормИЭлементовУправления.Свойство</segments>
-                </paths>
-              </dataPath>
-              <extendedTooltip>
-                <name>СвойствоРасширеннаяПодсказка</name>
-                <id>381</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <type>Label</type>
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:LabelDecorationExtInfo">
-                  <horizontalAlign>Left</horizontalAlign>
-                </extInfo>
-              </extendedTooltip>
-              <contextMenu>
-                <name>СвойствоКонтекстноеМеню</name>
-                <id>380</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <autoFill>true</autoFill>
-              </contextMenu>
-              <type>InputField</type>
-              <editMode>EnterOnInput</editMode>
-              <showInHeader>true</showInHeader>
-              <headerHorizontalAlign>Left</headerHorizontalAlign>
-              <showInFooter>true</showInFooter>
-              <extInfo xsi:type="form:InputFieldExtInfo">
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <wrap>true</wrap>
-                <chooseType>true</chooseType>
-                <typeDomainEnabled>true</typeDomainEnabled>
-                <textEdit>true</textEdit>
-              </extInfo>
-            </items>
-            <items xsi:type="form:FormField">
               <name>СвойствоПредставление</name>
               <id>109</id>
               <title>
@@ -2579,6 +2524,61 @@
               </extInfo>
             </items>
             <items xsi:type="form:FormField">
+              <name>Свойство</name>
+              <id>379</id>
+              <title>
+                <key>ru</key>
+                <value>Свойство (значение)</value>
+              </title>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <dataPath xsi:type="form:MultiLanguageDataPath">
+                <paths xsi:type="form:DataPath">
+                  <segments>СвойстваФормИЭлементовУправления.Свойство</segments>
+                </paths>
+              </dataPath>
+              <extendedTooltip>
+                <name>СвойствоРасширеннаяПодсказка</name>
+                <id>381</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <contextMenu>
+                <name>СвойствоКонтекстноеМеню</name>
+                <id>380</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <autoFill>true</autoFill>
+              </contextMenu>
+              <type>InputField</type>
+              <editMode>EnterOnInput</editMode>
+              <showInHeader>true</showInHeader>
+              <headerHorizontalAlign>Left</headerHorizontalAlign>
+              <showInFooter>true</showInFooter>
+              <extInfo xsi:type="form:InputFieldExtInfo">
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <wrap>true</wrap>
+                <chooseType>true</chooseType>
+                <typeDomainEnabled>true</typeDomainEnabled>
+                <textEdit>true</textEdit>
+              </extInfo>
+            </items>
+            <items xsi:type="form:FormField">
               <name>Значение</name>
               <id>112</id>
               <visible>true</visible>
@@ -2622,6 +2622,7 @@
               </contextMenu>
               <type>InputField</type>
               <horizontalAlign>Left</horizontalAlign>
+              <editMode>Enter</editMode>
               <cellHyperlink>true</cellHyperlink>
               <autoCellHeight>true</autoCellHeight>
               <showInHeader>true</showInHeader>
@@ -2635,12 +2636,7 @@
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <wrap>true</wrap>
-                <dropListButton>false</dropListButton>
-                <choiceButton>false</choiceButton>
-                <editFormat>
-                  <key>ru</key>
-                  <value>ЧН=0</value>
-                </editFormat>
+                <multiLine>true</multiLine>
                 <listChoiceMode>true</listChoiceMode>
                 <incompleteChoiceMode>OnActivate</incompleteChoiceMode>
                 <typeDomainEnabled>true</typeDomainEnabled>
@@ -5325,7 +5321,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ExternalDataProcessor.Эскиз</types>
+      <types>ExternalDataProcessorObject.Эскиз</types>
     </valueType>
     <view>
       <common>true</common>
@@ -5813,8 +5809,7 @@
       </title>
       <id>26</id>
       <valueType>
-        <types>String</types>
-        <stringQualifiers/>
+        <types>Boolean</types>
       </valueType>
       <view>
         <common>true</common>
