@@ -2630,13 +2630,14 @@
               <showInFooter>true</showInFooter>
               <extInfo xsi:type="form:InputFieldExtInfo">
                 <handlers>
-                  <event>AutoComplete</event>
-                  <name>ЗначениеАвтоПодбор</name>
+                  <event>StartChoice</event>
+                  <name>ЗначениеНачалоВыбора</name>
                 </handlers>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <wrap>true</wrap>
                 <multiLine>true</multiLine>
+                <listChoiceMode>true</listChoiceMode>
                 <incompleteChoiceMode>OnActivate</incompleteChoiceMode>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
@@ -4610,10 +4611,6 @@
               </userVisible>
               <horizontalAlign>Left</horizontalAlign>
             </autoCommandBar>
-            <handlers>
-              <event>OnStartEdit</event>
-              <name>СвойстваФормИЭлементовУправленияПриНачалеРедактирования</name>
-            </handlers>
             <searchStringAddition>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -5812,8 +5809,7 @@
       </title>
       <id>26</id>
       <valueType>
-        <types>String</types>
-        <stringQualifiers/>
+        <types>Boolean</types>
       </valueType>
       <view>
         <common>true</common>
