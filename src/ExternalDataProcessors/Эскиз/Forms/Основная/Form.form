@@ -2622,7 +2622,6 @@
               </contextMenu>
               <type>InputField</type>
               <horizontalAlign>Left</horizontalAlign>
-              <editMode>EnterOnInput</editMode>
               <cellHyperlink>true</cellHyperlink>
               <autoCellHeight>true</autoCellHeight>
               <showInHeader>true</showInHeader>
@@ -2630,28 +2629,8 @@
               <showInFooter>true</showInFooter>
               <extInfo xsi:type="form:InputFieldExtInfo">
                 <handlers>
-                  <event>EditTextChange</event>
-                  <name>ЗначениеИзменениеТекстаРедактирования</name>
-                </handlers>
-                <handlers>
-                  <event>AutoComplete</event>
-                  <name>ЗначениеАвтоПодбор</name>
-                </handlers>
-                <handlers>
                   <event>StartChoice</event>
                   <name>ЗначениеНачалоВыбора</name>
-                </handlers>
-                <handlers>
-                  <event>Opening</event>
-                  <name>ЗначениеОткрытие</name>
-                </handlers>
-                <handlers>
-                  <event>StartListChoice</event>
-                  <name>ЗначениеНачалоВыбораИзСписка</name>
-                </handlers>
-                <handlers>
-                  <event>ChoiceProcessing</event>
-                  <name>ЗначениеОбработкаВыбора</name>
                 </handlers>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -4636,10 +4615,6 @@
               </userVisible>
               <horizontalAlign>Left</horizontalAlign>
             </autoCommandBar>
-            <handlers>
-              <event>OnStartEdit</event>
-              <name>СвойстваФормИЭлементовУправленияПриНачалеРедактирования</name>
-            </handlers>
             <searchStringAddition>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -5350,7 +5325,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ExternalDataProcessorObject.Эскиз</types>
+      <types>ExternalDataProcessor.Эскиз</types>
     </valueType>
     <view>
       <common>true</common>
