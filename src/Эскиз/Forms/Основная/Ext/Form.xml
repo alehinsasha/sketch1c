@@ -916,7 +916,6 @@
 													<ContextMenu name="ЗначениеКонтекстноеМеню" id="113"/>
 													<ExtendedTooltip name="ЗначениеРасширеннаяПодсказка" id="114"/>
 													<Events>
-														<Event name="OnChange">ЗначениеПриИзменении</Event>
 														<Event name="StartChoice">ЗначениеНачалоВыбора</Event>
 													</Events>
 												</InputField>
