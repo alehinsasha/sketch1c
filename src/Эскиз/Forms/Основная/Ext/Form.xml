@@ -1794,6 +1794,28 @@
 						</v8:StringQualifiers>
 					</Type>
 				</Column>
+				<Column name="АвтоМаксимальнаяВысота" id="30">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Авто максимальная высота</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="АвтоМаксимальнаяШирина" id="31">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Авто максимальная ширина</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
 			</Columns>
 		</Attribute>
 		<Attribute name="СвойстваФормИЭлементовУправления" id="3">
@@ -2162,7 +2184,7 @@
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Отбор_ТаблицаФормы_ДеревоЗначений</v8:content>
+							<v8:content>Дерево значений</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
