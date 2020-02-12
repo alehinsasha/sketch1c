@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<Group>Horizontal</Group>
+	<CommandBarLocation>None</CommandBarLocation>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Pages name="ГруппаИсточникиКартинок" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа источники картинок</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа источники картинок</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаИсточникиКартинокРасширеннаяПодсказка" id="2"/>
+			<ChildItems>
+				<Page name="ГруппаИзБиблиотеки" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Из платформы</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа из библиотеки</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаИзБиблиотекиРасширеннаяПодсказка" id="6"/>
+					<ChildItems>
+						<Table name="КартинкиИзБиблиотеки" id="80">
+							<Representation>List</Representation>
+							<CommandBarLocation>None</CommandBarLocation>
+							<ChangeRowSet>false</ChangeRowSet>
+							<ChangeRowOrder>false</ChangeRowOrder>
+							<Header>false</Header>
+							<HorizontalLines>false</HorizontalLines>
+							<VerticalLines>false</VerticalLines>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<DataPath>КартинкиИзБиблиотеки</DataPath>
+							<RowPictureDataPath>КартинкиИзБиблиотеки.Picture</RowPictureDataPath>
+							<ContextMenu name="КартинкиИзБиблиотекиКонтекстноеМеню" id="81"/>
+							<AutoCommandBar name="КартинкиИзБиблиотекиКоманднаяПанель" id="82"/>
+							<ExtendedTooltip name="КартинкиИзБиблиотекиРасширеннаяПодсказка" id="83"/>
+							<SearchStringAddition name="КартинкиИзБиблиотекиСтрокаПоиска" id="84">
+								<AdditionSource>
+									<Item>КартинкиИзБиблиотеки</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КартинкиИзБиблиотекиСтрокаПоискаКонтекстноеМеню" id="85"/>
+								<ExtendedTooltip name="КартинкиИзБиблиотекиСтрокаПоискаРасширеннаяПодсказка" id="86"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="КартинкиИзБиблиотекиСостояниеПросмотра" id="87">
+								<AdditionSource>
+									<Item>КартинкиИзБиблиотеки</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КартинкиИзБиблиотекиСостояниеПросмотраКонтекстноеМеню" id="88"/>
+								<ExtendedTooltip name="КартинкиИзБиблиотекиСостояниеПросмотраРасширеннаяПодсказка" id="89"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="КартинкиИзБиблиотекиУправлениеПоиском" id="90">
+								<AdditionSource>
+									<Item>КартинкиИзБиблиотеки</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="КартинкиИзБиблиотекиУправлениеПоискомКонтекстноеМеню" id="91"/>
+								<ExtendedTooltip name="КартинкиИзБиблиотекиУправлениеПоискомРасширеннаяПодсказка" id="92"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="Selection">КартинкиИзБиблиотекиВыбор</Event>
+							</Events>
+							<ChildItems>
+								<InputField name="КартинкиИзБиблиотекиПредставление" id="93">
+									<DataPath>КартинкиИзБиблиотеки.Presentation</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="КартинкиИзБиблиотекиПредставлениеКонтекстноеМеню" id="94"/>
+									<ExtendedTooltip name="КартинкиИзБиблиотекиПредставлениеРасширеннаяПодсказка" id="95"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаИзКонфигурации" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Из конфигурации</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа из конфигурации</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаИзКонфигурацииРасширеннаяПодсказка" id="4"/>
+					<ChildItems>
+						<Table name="КартинкиИзКонфигурации" id="102">
+							<Representation>List</Representation>
+							<CommandBarLocation>None</CommandBarLocation>
+							<ChangeRowSet>false</ChangeRowSet>
+							<ChangeRowOrder>false</ChangeRowOrder>
+							<Header>false</Header>
+							<HorizontalLines>false</HorizontalLines>
+							<VerticalLines>false</VerticalLines>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<DataPath>КартинкиИзКонфигурации</DataPath>
+							<RowPictureDataPath>КартинкиИзКонфигурации.Picture</RowPictureDataPath>
+							<ContextMenu name="КартинкиИзКонфигурацииКонтекстноеМеню" id="103"/>
+							<AutoCommandBar name="КартинкиИзКонфигурацииКоманднаяПанель" id="104"/>
+							<ExtendedTooltip name="КартинкиИзКонфигурацииРасширеннаяПодсказка" id="105"/>
+							<SearchStringAddition name="КартинкиИзКонфигурацииСтрокаПоиска" id="106">
+								<AdditionSource>
+									<Item>КартинкиИзКонфигурации</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КартинкиИзКонфигурацииСтрокаПоискаКонтекстноеМеню" id="107"/>
+								<ExtendedTooltip name="КартинкиИзКонфигурацииСтрокаПоискаРасширеннаяПодсказка" id="108"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="КартинкиИзКонфигурацииСостояниеПросмотра" id="109">
+								<AdditionSource>
+									<Item>КартинкиИзКонфигурации</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КартинкиИзКонфигурацииСостояниеПросмотраКонтекстноеМеню" id="110"/>
+								<ExtendedTooltip name="КартинкиИзКонфигурацииСостояниеПросмотраРасширеннаяПодсказка" id="111"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="КартинкиИзКонфигурацииУправлениеПоиском" id="112">
+								<AdditionSource>
+									<Item>КартинкиИзКонфигурации</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="КартинкиИзКонфигурацииУправлениеПоискомКонтекстноеМеню" id="113"/>
+								<ExtendedTooltip name="КартинкиИзКонфигурацииУправлениеПоискомРасширеннаяПодсказка" id="114"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="Selection">КартинкиИзКонфигурацииВыбор</Event>
+							</Events>
+							<ChildItems>
+								<InputField name="КартинкиИзКонфигурацииПредставление" id="115">
+									<DataPath>КартинкиИзКонфигурации.Presentation</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="КартинкиИзКонфигурацииПредставлениеКонтекстноеМеню" id="116"/>
+									<ExtendedTooltip name="КартинкиИзКонфигурацииПредставлениеРасширеннаяПодсказка" id="117"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаИзКаталога" id="57">
+					<Enabled>false</Enabled>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Из каталога</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа из каталога</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаИзКаталогаРасширеннаяПодсказка" id="58"/>
+					<ChildItems>
+						<Table name="КартинкиИзКаталогаПроекта" id="59">
+							<Representation>List</Representation>
+							<CommandBarLocation>None</CommandBarLocation>
+							<ChangeRowSet>false</ChangeRowSet>
+							<ChangeRowOrder>false</ChangeRowOrder>
+							<Header>false</Header>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>КартинкиИзКаталогаПроекта</DataPath>
+							<ContextMenu name="КартинкиИзКаталогаПроектаКонтекстноеМеню" id="60"/>
+							<AutoCommandBar name="КартинкиИзКаталогаПроектаКоманднаяПанель" id="61"/>
+							<ExtendedTooltip name="КартинкиИзКаталогаПроектаРасширеннаяПодсказка" id="62"/>
+							<SearchStringAddition name="КартинкиИзКаталогаПроектаСтрокаПоиска" id="63">
+								<AdditionSource>
+									<Item>КартинкиИзКаталогаПроекта</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КартинкиИзКаталогаПроектаСтрокаПоискаКонтекстноеМеню" id="64"/>
+								<ExtendedTooltip name="КартинкиИзКаталогаПроектаСтрокаПоискаРасширеннаяПодсказка" id="65"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="КартинкиИзКаталогаПроектаСостояниеПросмотра" id="66">
+								<AdditionSource>
+									<Item>КартинкиИзКаталогаПроекта</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КартинкиИзКаталогаПроектаСостояниеПросмотраКонтекстноеМеню" id="67"/>
+								<ExtendedTooltip name="КартинкиИзКаталогаПроектаСостояниеПросмотраРасширеннаяПодсказка" id="68"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="КартинкиИзКаталогаПроектаУправлениеПоиском" id="69">
+								<AdditionSource>
+									<Item>КартинкиИзКаталогаПроекта</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="КартинкиИзКаталогаПроектаУправлениеПоискомКонтекстноеМеню" id="70"/>
+								<ExtendedTooltip name="КартинкиИзКаталогаПроектаУправлениеПоискомРасширеннаяПодсказка" id="71"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="Selection">КартинкиИзКаталогаПроектаВыбор</Event>
+							</Events>
+							<ChildItems>
+								<InputField name="КартинкиИзКаталогаПроектаПредставление" id="99">
+									<DataPath>КартинкиИзКаталогаПроекта.Presentation</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="КартинкиИзКаталогаПроектаПредставлениеКонтекстноеМеню" id="100"/>
+									<ExtendedTooltip name="КартинкиИзКаталогаПроектаПредставлениеРасширеннаяПодсказка" id="101"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+		<UsualGroup name="ГруппаКоманды" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа команды</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа команды</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаКомандыРасширеннаяПодсказка" id="8"/>
+			<ChildItems>
+				<Button name="ПрименитьКартинку" id="9">
+					<Type>UsualButton</Type>
+					<DefaultButton>true</DefaultButton>
+					<CommandName>Form.Command.ПрименитьКартинку</CommandName>
+					<ExtendedTooltip name="ПрименитьКартинкуРасширеннаяПодсказка" id="10"/>
+				</Button>
+				<Button name="ОтменитьИЗакрыть" id="11">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ОтменитьИЗакрыть</CommandName>
+					<ExtendedTooltip name="ОтменитьИЗакрытьРасширеннаяПодсказка" id="12"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="КартинкиИзКонфигурации" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Картинки из конфигурации</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+			<Settings xsi:type="v8:TypeDescription">
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Settings>
+		</Attribute>
+		<Attribute name="КартинкиИзКаталогаПроекта" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Картинки из каталога проекта</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+			<Settings xsi:type="v8:TypeDescription">
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Settings>
+		</Attribute>
+		<Attribute name="КартинкиИзБиблиотеки" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Картинки из библиотеки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+			<Settings xsi:type="v8:TypeDescription">
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Settings>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ПрименитьКартинку" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Применить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Применить картинку</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПрименитьКартинку</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ОтменитьИЗакрыть" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отменить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отменить и закрыть</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтменитьИЗакрыть</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+	</Commands>
+</Form>
