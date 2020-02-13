@@ -41,6 +41,7 @@
 						<Table name="КартинкиИзБиблиотеки" id="80">
 							<Representation>List</Representation>
 							<CommandBarLocation>None</CommandBarLocation>
+							<ReadOnly>true</ReadOnly>
 							<ChangeRowSet>false</ChangeRowSet>
 							<ChangeRowOrder>false</ChangeRowOrder>
 							<Header>false</Header>
@@ -108,6 +109,7 @@
 						<Table name="КартинкиИзКонфигурации" id="102">
 							<Representation>List</Representation>
 							<CommandBarLocation>None</CommandBarLocation>
+							<ReadOnly>true</ReadOnly>
 							<ChangeRowSet>false</ChangeRowSet>
 							<ChangeRowOrder>false</ChangeRowOrder>
 							<Header>false</Header>
@@ -176,6 +178,7 @@
 						<Table name="КартинкиИзКаталогаПроекта" id="59">
 							<Representation>List</Representation>
 							<CommandBarLocation>None</CommandBarLocation>
+							<ReadOnly>true</ReadOnly>
 							<ChangeRowSet>false</ChangeRowSet>
 							<ChangeRowOrder>false</ChangeRowOrder>
 							<Header>false</Header>
