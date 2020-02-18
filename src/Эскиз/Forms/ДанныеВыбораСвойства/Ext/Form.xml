@@ -60,13 +60,17 @@
 					<ChildItems>
 						<InputField name="ДанныеВыборкаЗначение" id="16">
 							<DataPath>ДанныеВыбора.Value</DataPath>
+							<HorizontalAlign>Left</HorizontalAlign>
 							<EditMode>EnterOnInput</EditMode>
+							<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
 							<ContextMenu name="ДанныеВыборкаЗначениеКонтекстноеМеню" id="17"/>
 							<ExtendedTooltip name="ДанныеВыборкаЗначениеРасширеннаяПодсказка" id="18"/>
 						</InputField>
 						<InputField name="ДанныеВыборкаПредставление" id="27">
 							<DataPath>ДанныеВыбора.Presentation</DataPath>
+							<HorizontalAlign>Left</HorizontalAlign>
 							<EditMode>EnterOnInput</EditMode>
+							<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
 							<ContextMenu name="ДанныеВыборкаПредставлениеКонтекстноеМеню" id="28"/>
 							<ExtendedTooltip name="ДанныеВыборкаПредставлениеРасширеннаяПодсказка" id="29"/>
 						</InputField>
