@@ -27,11 +27,13 @@
 			<Form>Основная</Form>
 			<Form>Проект</Form>
 			<Form>Прототип</Form>
+			<Form>Роли</Form>
 			<Form>НастройкиПроекта</Form>
 			<Form>ДанныеВыбораСвойства</Form>
-			<Form>ВводЗначения</Form>
+			<Form>ВводСтроки</Form>
+			<Form>ВводЧисла</Form>
+			<Form>ВводСпискаЗначений</Form>
 			<Form>ВыборКартинки</Form>
-			<Form>Роли</Form>
 			<Form>МенеджерФайлов_8_3_6</Form>
 			<Form>МенеджерФайлов_8_3_15</Form>
 			<Template>Свойства</Template>
