@@ -36,6 +36,7 @@
 							<v8:content>Группа из библиотеки</v8:content>
 						</v8:item>
 					</ToolTip>
+					<TitleDataPath>КартинкиИзБиблиотеки.RowsCount</TitleDataPath>
 					<ExtendedTooltip name="ГруппаИзБиблиотекиРасширеннаяПодсказка" id="6"/>
 					<ChildItems>
 						<Table name="КартинкиИзБиблиотеки" id="80">
@@ -104,6 +105,7 @@
 							<v8:content>Группа из конфигурации</v8:content>
 						</v8:item>
 					</ToolTip>
+					<TitleDataPath>КартинкиИзКонфигурации.RowsCount</TitleDataPath>
 					<ExtendedTooltip name="ГруппаИзКонфигурацииРасширеннаяПодсказка" id="4"/>
 					<ChildItems>
 						<Table name="КартинкиИзКонфигурации" id="102">
