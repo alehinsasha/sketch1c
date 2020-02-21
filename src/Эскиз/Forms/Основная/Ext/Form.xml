@@ -920,7 +920,6 @@
 													</Events>
 												</InputField>
 												<ColumnGroup name="ГруппаКолонокРежимРедактированияСвойств" id="254">
-													<Visible>false</Visible>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -936,6 +935,55 @@
 													<Group>Horizontal</Group>
 													<ExtendedTooltip name="ГруппаКолонокРежимРедактированияСвойствРасширеннаяПодсказка" id="255"/>
 													<ChildItems>
+														<InputField name="СвойстваФормИЭлементовУправленияВариантЗаполнения" id="420">
+															<DataPath>СвойстваФормИЭлементовУправления.ВариантЗаполнения</DataPath>
+															<EditMode>EnterOnInput</EditMode>
+															<ListChoiceMode>true</ListChoiceMode>
+															<ChooseType>false</ChooseType>
+															<ChoiceList>
+																<xr:Item>
+																	<xr:Presentation/>
+																	<xr:CheckState>0</xr:CheckState>
+																	<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																		<Presentation>
+																			<v8:item>
+																				<v8:lang>ru</v8:lang>
+																				<v8:content>Ввод значения</v8:content>
+																			</v8:item>
+																		</Presentation>
+																		<Value xsi:type="xs:string">ВводЗначение</Value>
+																	</xr:Value>
+																</xr:Item>
+																<xr:Item>
+																	<xr:Presentation/>
+																	<xr:CheckState>0</xr:CheckState>
+																	<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																		<Presentation>
+																			<v8:item>
+																				<v8:lang>ru</v8:lang>
+																				<v8:content>Ввод множества значений</v8:content>
+																			</v8:item>
+																		</Presentation>
+																		<Value xsi:type="xs:string">ВводМножестваЗначений</Value>
+																	</xr:Value>
+																</xr:Item>
+																<xr:Item>
+																	<xr:Presentation/>
+																	<xr:CheckState>0</xr:CheckState>
+																	<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																		<Presentation>
+																			<v8:item>
+																				<v8:lang>ru</v8:lang>
+																				<v8:content>Выбор из выпадающего списка</v8:content>
+																			</v8:item>
+																		</Presentation>
+																		<Value xsi:type="xs:string">ВыборИзВыпадающегоСписка</Value>
+																	</xr:Value>
+																</xr:Item>
+															</ChoiceList>
+															<ContextMenu name="СвойстваФормИЭлементовУправленияВариантЗаполненияКонтекстноеМеню" id="421"/>
+															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияВариантЗаполненияРасширеннаяПодсказка" id="422"/>
+														</InputField>
 														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ФормаКлиентскогоПриложения" id="256">
 															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ФормаКлиентскогоПриложения</DataPath>
 															<EditMode>EnterOnInput</EditMode>
@@ -943,97 +991,129 @@
 															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ФормаКлиентскогоПриложенияКонтекстноеМеню" id="257"/>
 															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ФормаКлиентскогоПриложенияРасширеннаяПодсказка" id="258"/>
 														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ОбычнаяГруппа" id="271">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ГруппаФормы_ОбычнаяГруппа</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ОбычнаяГруппаКонтекстноеМеню" id="272"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ОбычнаяГруппаРасширеннаяПодсказка" id="273"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ГруппаКнопок" id="259">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ГруппаФормы_ГруппаКнопок</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ГруппаКнопокКонтекстноеМеню" id="260"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ГруппаКнопокРасширеннаяПодсказка" id="261"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ГруппаКолонок" id="262">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ГруппаФормы_ГруппаКолонок</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ГруппаКолонокКонтекстноеМеню" id="263"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ГруппаКолонокРасширеннаяПодсказка" id="264"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_КоманднаяПанель" id="265">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ГруппаФормы_КоманднаяПанель</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_КоманднаяПанельКонтекстноеМеню" id="266"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_КоманднаяПанельРасширеннаяПодсказка" id="267"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_Подменю" id="274">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ГруппаФормы_Подменю</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ПодменюКонтекстноеМеню" id="275"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ПодменюРасширеннаяПодсказка" id="276"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_Страницы" id="280">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ГруппаФормы_Страницы</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_СтраницыКонтекстноеМеню" id="281"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_СтраницыРасширеннаяПодсказка" id="282"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_Страница" id="277">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ГруппаФормы_Страница</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_СтраницаКонтекстноеМеню" id="278"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_СтраницаРасширеннаяПодсказка" id="279"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_КонтекстноеМеню" id="268">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ГруппаФормы_КонтекстноеМеню</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_КонтекстноеМенюКонтекстноеМеню" id="269"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_КонтекстноеМенюРасширеннаяПодсказка" id="270"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_Строка" id="364">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеВвода_Строка</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_СтрокаКонтекстноеМеню" id="365"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_СтрокаРасширеннаяПодсказка" id="366"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_Число" id="367">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеВвода_Число</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_ЧислоКонтекстноеМеню" id="368"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_ЧислоРасширеннаяПодсказка" id="369"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_Булево" id="370">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеВвода_Булево</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_БулевоКонтекстноеМеню" id="371"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_БулевоРасширеннаяПодсказка" id="372"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_Дата" id="373">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеВвода_Дата</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_ДатаКонтекстноеМеню" id="374"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_ДатаРасширеннаяПодсказка" id="375"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_СтандартныйПериод" id="376">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеВвода_СтандартныйПериод</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_СтандартныйПериодКонтекстноеМеню" id="377"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_СтандартныйПериодРасширеннаяПодсказка" id="378"/>
-														</CheckBoxField>
+														<ColumnGroup name="ГруппаКалонокГруппы" id="416">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Группы</v8:content>
+																</v8:item>
+															</Title>
+															<Group>Horizontal</Group>
+															<ShowInHeader>true</ShowInHeader>
+															<ExtendedTooltip name="ГруппаКалонокГруппыРасширеннаяПодсказка" id="417"/>
+															<ChildItems>
+																<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ОбычнаяГруппа" id="271">
+																	<DataPath>СвойстваФормИЭлементовУправления.Отбор_ГруппаФормы_ОбычнаяГруппа</DataPath>
+																	<EditMode>EnterOnInput</EditMode>
+																	<CheckBoxType>Auto</CheckBoxType>
+																	<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ОбычнаяГруппаКонтекстноеМеню" id="272"/>
+																	<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ОбычнаяГруппаРасширеннаяПодсказка" id="273"/>
+																</CheckBoxField>
+																<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ГруппаКнопок" id="259">
+																	<DataPath>СвойстваФормИЭлементовУправления.Отбор_ГруппаФормы_ГруппаКнопок</DataPath>
+																	<EditMode>EnterOnInput</EditMode>
+																	<CheckBoxType>Auto</CheckBoxType>
+																	<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ГруппаКнопокКонтекстноеМеню" id="260"/>
+																	<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ГруппаКнопокРасширеннаяПодсказка" id="261"/>
+																</CheckBoxField>
+																<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ГруппаКолонок" id="262">
+																	<DataPath>СвойстваФормИЭлементовУправления.Отбор_ГруппаФормы_ГруппаКолонок</DataPath>
+																	<EditMode>EnterOnInput</EditMode>
+																	<CheckBoxType>Auto</CheckBoxType>
+																	<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ГруппаКолонокКонтекстноеМеню" id="263"/>
+																	<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ГруппаКолонокРасширеннаяПодсказка" id="264"/>
+																</CheckBoxField>
+																<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_КоманднаяПанель" id="265">
+																	<DataPath>СвойстваФормИЭлементовУправления.Отбор_ГруппаФормы_КоманднаяПанель</DataPath>
+																	<EditMode>EnterOnInput</EditMode>
+																	<CheckBoxType>Auto</CheckBoxType>
+																	<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_КоманднаяПанельКонтекстноеМеню" id="266"/>
+																	<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_КоманднаяПанельРасширеннаяПодсказка" id="267"/>
+																</CheckBoxField>
+																<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_Подменю" id="274">
+																	<DataPath>СвойстваФормИЭлементовУправления.Отбор_ГруппаФормы_Подменю</DataPath>
+																	<EditMode>EnterOnInput</EditMode>
+																	<CheckBoxType>Auto</CheckBoxType>
+																	<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ПодменюКонтекстноеМеню" id="275"/>
+																	<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ПодменюРасширеннаяПодсказка" id="276"/>
+																</CheckBoxField>
+																<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_Страницы" id="280">
+																	<DataPath>СвойстваФормИЭлементовУправления.Отбор_ГруппаФормы_Страницы</DataPath>
+																	<EditMode>EnterOnInput</EditMode>
+																	<CheckBoxType>Auto</CheckBoxType>
+																	<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_СтраницыКонтекстноеМеню" id="281"/>
+																	<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_СтраницыРасширеннаяПодсказка" id="282"/>
+																</CheckBoxField>
+																<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_Страница" id="277">
+																	<DataPath>СвойстваФормИЭлементовУправления.Отбор_ГруппаФормы_Страница</DataPath>
+																	<EditMode>EnterOnInput</EditMode>
+																	<CheckBoxType>Auto</CheckBoxType>
+																	<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_СтраницаКонтекстноеМеню" id="278"/>
+																	<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_СтраницаРасширеннаяПодсказка" id="279"/>
+																</CheckBoxField>
+																<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_КонтекстноеМеню" id="268">
+																	<DataPath>СвойстваФормИЭлементовУправления.Отбор_ГруппаФормы_КонтекстноеМеню</DataPath>
+																	<EditMode>EnterOnInput</EditMode>
+																	<CheckBoxType>Auto</CheckBoxType>
+																	<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_КонтекстноеМенюКонтекстноеМеню" id="269"/>
+																	<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_КонтекстноеМенюРасширеннаяПодсказка" id="270"/>
+																</CheckBoxField>
+															</ChildItems>
+														</ColumnGroup>
+														<ColumnGroup name="ГруппаПолеВвода" id="418">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Поле ввода</v8:content>
+																</v8:item>
+															</Title>
+															<ToolTip>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Группа поле ввода</v8:content>
+																</v8:item>
+															</ToolTip>
+															<Group>Horizontal</Group>
+															<ShowInHeader>true</ShowInHeader>
+															<ExtendedTooltip name="ГруппаПолеВводаРасширеннаяПодсказка" id="419"/>
+															<ChildItems>
+																<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_Строка" id="364">
+																	<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеВвода_Строка</DataPath>
+																	<EditMode>EnterOnInput</EditMode>
+																	<CheckBoxType>Auto</CheckBoxType>
+																	<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_СтрокаКонтекстноеМеню" id="365"/>
+																	<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_СтрокаРасширеннаяПодсказка" id="366"/>
+																</CheckBoxField>
+																<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_Число" id="367">
+																	<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеВвода_Число</DataPath>
+																	<EditMode>EnterOnInput</EditMode>
+																	<CheckBoxType>Auto</CheckBoxType>
+																	<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_ЧислоКонтекстноеМеню" id="368"/>
+																	<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_ЧислоРасширеннаяПодсказка" id="369"/>
+																</CheckBoxField>
+																<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_Булево" id="370">
+																	<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеВвода_Булево</DataPath>
+																	<EditMode>EnterOnInput</EditMode>
+																	<CheckBoxType>Auto</CheckBoxType>
+																	<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_БулевоКонтекстноеМеню" id="371"/>
+																	<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_БулевоРасширеннаяПодсказка" id="372"/>
+																</CheckBoxField>
+																<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_Дата" id="373">
+																	<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеВвода_Дата</DataPath>
+																	<EditMode>EnterOnInput</EditMode>
+																	<CheckBoxType>Auto</CheckBoxType>
+																	<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_ДатаКонтекстноеМеню" id="374"/>
+																	<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_ДатаРасширеннаяПодсказка" id="375"/>
+																</CheckBoxField>
+																<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_СтандартныйПериод" id="376">
+																	<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеВвода_СтандартныйПериод</DataPath>
+																	<EditMode>EnterOnInput</EditMode>
+																	<CheckBoxType>Auto</CheckBoxType>
+																	<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_СтандартныйПериодКонтекстноеМеню" id="377"/>
+																	<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_СтандартныйПериодРасширеннаяПодсказка" id="378"/>
+																</CheckBoxField>
+															</ChildItems>
+														</ColumnGroup>
 														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеИндикатора" id="286">
 															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ПолеФормы_ПолеИндикатора</DataPath>
 															<EditMode>EnterOnInput</EditMode>
@@ -1111,34 +1191,53 @@
 															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеПериодаКонтекстноеМеню" id="302"/>
 															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеПериодаРасширеннаяПодсказка" id="303"/>
 														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_ОбычнаяКнопка" id="319">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_КнопкаФормы_ОбычнаяКнопка</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_ОбычнаяКнопкаКонтекстноеМеню" id="320"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_ОбычнаяКнопкаРасширеннаяПодсказка" id="321"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_КнопкаКоманднойПанели" id="322">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_КнопкаФормы_КнопкаКоманднойПанели</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_КнопкаКоманднойПанелиКонтекстноеМеню" id="323"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_КнопкаКоманднойПанелиРасширеннаяПодсказка" id="324"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_Гиперссылка" id="325">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_КнопкаФормы_Гиперссылка</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_ГиперссылкаКонтекстноеМеню" id="326"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_ГиперссылкаРасширеннаяПодсказка" id="327"/>
-														</CheckBoxField>
-														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_ГиперссылкаКоманднойПанели" id="328">
-															<DataPath>СвойстваФормИЭлементовУправления.Отбор_КнопкаФормы_ГиперссылкаКоманднойПанели</DataPath>
-															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_ГиперссылкаКоманднойПанелиКонтекстноеМеню" id="329"/>
-															<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_ГиперссылкаКоманднойПанелиРасширеннаяПодсказка" id="330"/>
-														</CheckBoxField>
+														<ColumnGroup name="ГруппаКолонокКнопки" id="423">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Кнопки</v8:content>
+																</v8:item>
+															</Title>
+															<ToolTip>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Группа колонок кнопки</v8:content>
+																</v8:item>
+															</ToolTip>
+															<Group>Horizontal</Group>
+															<ShowInHeader>true</ShowInHeader>
+															<ExtendedTooltip name="ГруппаКолонокКнопкиРасширеннаяПодсказка" id="424"/>
+															<ChildItems>
+																<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_ОбычнаяКнопка" id="319">
+																	<DataPath>СвойстваФормИЭлементовУправления.Отбор_КнопкаФормы_ОбычнаяКнопка</DataPath>
+																	<EditMode>EnterOnInput</EditMode>
+																	<CheckBoxType>Auto</CheckBoxType>
+																	<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_ОбычнаяКнопкаКонтекстноеМеню" id="320"/>
+																	<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_ОбычнаяКнопкаРасширеннаяПодсказка" id="321"/>
+																</CheckBoxField>
+																<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_КнопкаКоманднойПанели" id="322">
+																	<DataPath>СвойстваФормИЭлементовУправления.Отбор_КнопкаФормы_КнопкаКоманднойПанели</DataPath>
+																	<EditMode>EnterOnInput</EditMode>
+																	<CheckBoxType>Auto</CheckBoxType>
+																	<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_КнопкаКоманднойПанелиКонтекстноеМеню" id="323"/>
+																	<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_КнопкаКоманднойПанелиРасширеннаяПодсказка" id="324"/>
+																</CheckBoxField>
+																<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_Гиперссылка" id="325">
+																	<DataPath>СвойстваФормИЭлементовУправления.Отбор_КнопкаФормы_Гиперссылка</DataPath>
+																	<EditMode>EnterOnInput</EditMode>
+																	<CheckBoxType>Auto</CheckBoxType>
+																	<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_ГиперссылкаКонтекстноеМеню" id="326"/>
+																	<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_ГиперссылкаРасширеннаяПодсказка" id="327"/>
+																</CheckBoxField>
+																<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_ГиперссылкаКоманднойПанели" id="328">
+																	<DataPath>СвойстваФормИЭлементовУправления.Отбор_КнопкаФормы_ГиперссылкаКоманднойПанели</DataPath>
+																	<EditMode>EnterOnInput</EditMode>
+																	<CheckBoxType>Auto</CheckBoxType>
+																	<ContextMenu name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_ГиперссылкаКоманднойПанелиКонтекстноеМеню" id="329"/>
+																	<ExtendedTooltip name="СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_ГиперссылкаКоманднойПанелиРасширеннаяПодсказка" id="330"/>
+																</CheckBoxField>
+															</ChildItems>
+														</ColumnGroup>
 														<CheckBoxField name="СвойстваФормИЭлементовУправленияОтбор_ТаблицаФормы_ТаблицаЗначений" id="331">
 															<DataPath>СвойстваФормИЭлементовУправления.Отбор_ТаблицаФормы_ТаблицаЗначений</DataPath>
 															<EditMode>EnterOnInput</EditMode>
@@ -2211,7 +2310,7 @@
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Кнопка командной панели</v8:content>
+							<v8:content>Кнопка в панели</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -2233,7 +2332,7 @@
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Гиперссылка командной панели</v8:content>
+							<v8:content>Гиперссылка в панели</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -2304,7 +2403,7 @@
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Поле ввода (строка)</v8:content>
+							<v8:content>Строка</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -2315,7 +2414,7 @@
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Поле ввода (число)</v8:content>
+							<v8:content>Число</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -2326,7 +2425,7 @@
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Поле ввода (булево)</v8:content>
+							<v8:content>Булево</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -2337,7 +2436,7 @@
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Поле ввода (дата)</v8:content>
+							<v8:content>Дата</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -2348,7 +2447,7 @@
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Поле ввода (стандартный период)</v8:content>
+							<v8:content>Стандартный период</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -2375,6 +2474,21 @@
 					</Title>
 					<Type>
 						<v8:Type>v8:ValueListType</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ВариантЗаполнения" id="37">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вариант заполнения</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
 					</Type>
 				</Column>
 			</Columns>
