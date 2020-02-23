@@ -596,6 +596,7 @@
 								</Button>
 								<Button name="ДобавитьКонтекстноеМеню_Таблица" id="246">
 									<Type>UsualButton</Type>
+									<Enabled>false</Enabled>
 									<CommandName>Form.Command.ДобавитьКонтекстноеМеню</CommandName>
 									<Picture>
 										<xr:Abs>Picture.png</xr:Abs>
