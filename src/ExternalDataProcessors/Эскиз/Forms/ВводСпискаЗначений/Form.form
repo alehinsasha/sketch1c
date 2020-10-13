@@ -407,10 +407,6 @@
     <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers>
-    <event>OnOpen</event>
-    <name>ПриОткрытии</name>
-  </handlers>
-  <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
@@ -425,7 +421,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ExternalDataProcessorObject.Эскиз</types>
+      <types>ExternalDataProcessor.Эскиз</types>
     </valueType>
     <view>
       <common>true</common>
