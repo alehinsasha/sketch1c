@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a531471a-564c-4197-8fd7-61f66d5f7180">
+  <producedTypes>
+    <objectType typeId="0c2a0d0f-e081-4208-8c8d-62529eaecea4" valueTypeId="408d96a3-1141-48c2-828e-1caa3c0b38f2"/>
+  </producedTypes>
+  <name>Эскиз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Эскиз</value>
+  </synonym>
+  <comment>Горизонтальный прототип</comment>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="f612dfca-aacd-4556-9840-3e494bba2232"/>
+  <defaultForm>ExternalDataProcessor.Эскиз.Form.Основная</defaultForm>
+  <forms uuid="59a196d7-c977-4d36-8b3e-f455dcfd4406">
+    <name>Основная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a7db4bca-f9a3-4dc8-bfd2-e8cf9ecfb24c">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="389441f4-2513-4753-a0fd-01a940e34415">
+    <name>Прототип</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прототип</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e36d948c-8adb-4227-a4b5-c5cf9dd8fb8d">
+    <name>Роли</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роли</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="557cbcc0-711b-4591-b27b-46b7e7c8bfbd">
+    <name>НастройкиПроекта</name>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b8516f1f-a22e-4fec-85a2-96522e6b1160">
+    <name>ДанныеВыбораСвойства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные выбора свойства</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="43fdf645-0c0e-44c9-b450-fa863807d9eb">
+    <name>ВводСтроки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод строки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c076c04e-ecb3-4b94-8e39-95a2ad23d5bc">
+    <name>ВводЧисла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод числа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c22fd789-3c54-4631-bb96-152e691936b4">
+    <name>ВводСпискаЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод списка значений</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="44d7f783-9c71-422b-9ca1-067452c520f9">
+    <name>ВыборКартинки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор картинки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d47248c4-f12d-42aa-b4d6-91c3031734e1">
+    <name>МенеджерФайлов_8_3_6</name>
+    <synonym>
+      <key>ru</key>
+      <value>Менеджер файлов 8.3.6</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a031bfac-16a9-4a32-a52f-1dab5f345851">
+    <name>МенеджерФайлов_8_3_15</name>
+    <synonym>
+      <key>ru</key>
+      <value>Менеджер файлов 8.3.15</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="300bf2cf-e7e7-47d6-bf1d-14ec6a95f727">
+    <name>Свойства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойства</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="e6e3cd55-12ae-461e-a444-c43bcc9abf75">
+    <name>ОбрабатываемыеСвойства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обрабатываемые свойства</value>
+    </synonym>
+  </templates>
+  <templates uuid="996aaee8-a924-468c-b363-2d1ca248ce63">
+    <name>ФормыИЭлементыУправления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формы и элементы управления</value>
+    </synonym>
+  </templates>
+  <templates uuid="669bf5b8-44a3-48bf-bbc6-e70f5c8098e9">
+    <name>СвойстваФормИЭлементовУправления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойства форм и элементов управления</value>
+    </synonym>
+  </templates>
+</mdclass:ExternalDataProcessor>
