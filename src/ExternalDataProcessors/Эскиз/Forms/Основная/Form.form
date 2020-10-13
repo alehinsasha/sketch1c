@@ -5040,7 +5040,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ExternalDataProcessorObject.Эскиз</types>
+      <types>ExternalDataProcessor.Эскиз</types>
     </valueType>
     <view>
       <common>true</common>
@@ -5447,28 +5447,6 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>СохранитьПроект</name>
-      </handler>
-    </action>
-    <representation>Picture</representation>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ДобавитьФорму</name>
-    <title>
-      <key>ru</key>
-      <value>Форму</value>
-    </title>
-    <id>1</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Форма</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ДобавитьФорму</name>
       </handler>
     </action>
     <representation>Picture</representation>
