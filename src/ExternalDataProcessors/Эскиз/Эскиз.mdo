@@ -115,6 +115,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="616c8708-bee9-48fc-989f-f53ef36cdba3">
+    <name>МенеджерНаборовЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Менеджер наборов значений</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="300bf2cf-e7e7-47d6-bf1d-14ec6a95f727">
     <name>Свойства</name>
     <synonym>
