@@ -21,10 +21,10 @@
     <usePurposes>MobileDevice</usePurposes>
   </forms>
   <forms uuid="a7db4bca-f9a3-4dc8-bfd2-e8cf9ecfb24c">
-    <name>Проект</name>
+    <name>МенеджерПрототипов</name>
     <synonym>
       <key>ru</key>
-      <value>Проект</value>
+      <value>Менеджер прототипов</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
