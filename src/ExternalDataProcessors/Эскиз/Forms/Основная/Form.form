@@ -1,157 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
-  <items xsi:type="form:FormGroup">
-    <name>ГруппаРаботаСФайломПроекта</name>
-    <id>42</id>
-    <items xsi:type="form:FormField">
-      <name>РасположениеПроекта</name>
-      <id>39</id>
-      <titleFont xsi:type="core:FontRef">
-        <font>Style.NormalTextFont</font>
-        <height>9.0</height>
-        <bold>true</bold>
-        <italic>false</italic>
-        <underline>false</underline>
-        <strikeout>false</strikeout>
-      </titleFont>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>РасположениеПроекта</segments>
-        </paths>
-      </dataPath>
-      <extendedTooltip>
-        <name>РасположениеПроектаРасширеннаяПодсказка</name>
-        <id>41</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>РасположениеПроектаКонтекстноеМеню</name>
-        <id>40</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>InputField</type>
-      <editMode>Enter</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <handlers>
-          <event>StartChoice</event>
-          <name>ВыбратьПроект</name>
-        </handlers>
-        <handlers>
-          <event>Opening</event>
-          <name>ОткрытьПроект</name>
-        </handlers>
-        <handlers>
-          <event>Clearing</event>
-          <name>РасположениеПроектаОчистка</name>
-        </handlers>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <choiceButton>true</choiceButton>
-        <choiceButtonPicture xsi:type="core:PictureRef">
-          <picture>StdPicture.OpenFile</picture>
-        </choiceButtonPicture>
-        <clearButton>true</clearButton>
-        <openButton>true</openButton>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-      </extInfo>
-    </items>
-    <items xsi:type="form:Button">
-      <name>СохранитьПроект</name>
-      <id>44</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <extendedTooltip>
-        <name>СохранитьПроектРасширеннаяПодсказка</name>
-        <id>45</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <type>UsualButton</type>
-      <commandName>Form.Command.СохранитьПроект</commandName>
-      <representation>Auto</representation>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <placementArea>UserCmds</placementArea>
-      <representationInContextMenu>Auto</representationInContextMenu>
-      <shapeRepresentation>None</shapeRepresentation>
-    </items>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <title>
-      <key>ru</key>
-      <value>Группа работа с файлом проекта</value>
-    </title>
-    <toolTip>
-      <key>ru</key>
-      <value>Группа работа с файлом проекта</value>
-    </toolTip>
-    <horizontalStretch>true</horizontalStretch>
-    <extendedTooltip>
-      <name>ГруппаРаботаСФайломПроектаРасширеннаяПодсказка</name>
-      <id>43</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <type>UsualGroup</type>
-    <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>AlwaysHorizontal</group>
-      <horizontalSpacing>Half</horizontalSpacing>
-      <showLeftMargin>true</showLeftMargin>
-      <united>true</united>
-      <backColor xsi:type="core:ColorRef">
-        <color>Style.ToolTipBackColor</color>
-      </backColor>
-      <throughAlign>Auto</throughAlign>
-      <currentRowUse>Auto</currentRowUse>
-    </extInfo>
-  </items>
   <items xsi:type="form:FormField">
     <name>Роль</name>
     <id>72</id>
@@ -4948,7 +4796,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:Button">
-      <name>НастройкиПроекта</name>
+      <name>НастройкиИнструмента</name>
       <id>194</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -4956,7 +4804,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>НастройкиПроектаРасширеннаяПодсказка</name>
+        <name>НастройкиИнструментаРасширеннаяПодсказка</name>
         <id>195</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -4970,7 +4818,7 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Command.НастройкиПроекта</commandName>
+      <commandName>Form.Command.НастройкиИнструмента</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -5224,24 +5072,6 @@
     </columns>
   </attributes>
   <attributes>
-    <name>РасположениеПроекта</name>
-    <title>
-      <key>ru</key>
-      <value>Проект</value>
-    </title>
-    <id>4</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
     <name>Роль</name>
     <title>
       <key>ru</key>
@@ -5428,31 +5258,6 @@
     </edit>
   </attributes>
   <formCommands>
-    <name>СохранитьПроект</name>
-    <title>
-      <key>ru</key>
-      <value>Сохранить</value>
-    </title>
-    <id>4</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Сохранить проект</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.Write</picture>
-    </picture>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>СохранитьПроект</name>
-      </handler>
-    </action>
-    <representation>Picture</representation>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
     <name>ДобавитьГруппу</name>
     <title>
       <key>ru</key>
@@ -5633,10 +5438,10 @@
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>НастройкиПроекта</name>
+    <name>НастройкиИнструмента</name>
     <title>
       <key>ru</key>
-      <value>Настройки проекта</value>
+      <value>Настройки инструмента</value>
     </title>
     <id>12</id>
     <toolTip>
