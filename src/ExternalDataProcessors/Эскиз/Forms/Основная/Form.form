@@ -4969,6 +4969,24 @@
         <common>true</common>
       </edit>
     </columns>
+    <columns>
+      <name>РасположениеФайла</name>
+      <title>
+        <key>ru</key>
+        <value>Расположение файла</value>
+      </title>
+      <id>12</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
   </attributes>
   <attributes>
     <name>СвойстваФормИЭлементовУправления</name>
