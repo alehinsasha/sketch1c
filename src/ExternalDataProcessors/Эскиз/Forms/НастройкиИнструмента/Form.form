@@ -2,7 +2,7 @@
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <title>
     <key>ru</key>
-    <value>Настройки проекта</value>
+    <value>Настройки</value>
   </title>
   <items xsi:type="form:FormField">
     <name>ЗагружатьСвойстваИзФайла</name>
