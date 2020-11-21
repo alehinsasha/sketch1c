@@ -88,6 +88,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="a0c7fb1e-9534-4749-9201-63794bbe5a97">
+    <name>ВыборФормы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор формы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <forms uuid="44d7f783-9c71-422b-9ca1-067452c520f9">
     <name>ВыборКартинки</name>
     <synonym>
