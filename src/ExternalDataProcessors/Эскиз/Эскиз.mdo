@@ -148,18 +148,18 @@
       <value>Обрабатываемые свойства</value>
     </synonym>
   </templates>
-  <templates uuid="996aaee8-a924-468c-b363-2d1ca248ce63">
-    <name>ФормыИЭлементыУправления</name>
-    <synonym>
-      <key>ru</key>
-      <value>Формы и элементы управления</value>
-    </synonym>
-  </templates>
   <templates uuid="669bf5b8-44a3-48bf-bbc6-e70f5c8098e9">
     <name>СвойстваФормИЭлементовУправления</name>
     <synonym>
       <key>ru</key>
       <value>Свойства форм и элементов управления</value>
+    </synonym>
+  </templates>
+  <templates uuid="6acd83fd-b403-49fe-82b1-b368c899f3a1">
+    <name>ФормыИЭлементыУправления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формы и элементы управления</value>
     </synonym>
   </templates>
 </mdclass:ExternalDataProcessor>
