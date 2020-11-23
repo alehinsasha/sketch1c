@@ -141,13 +141,6 @@
     </synonym>
     <templateType>TextDocument</templateType>
   </templates>
-  <templates uuid="e6e3cd55-12ae-461e-a444-c43bcc9abf75">
-    <name>ОбрабатываемыеСвойства</name>
-    <synonym>
-      <key>ru</key>
-      <value>Обрабатываемые свойства</value>
-    </synonym>
-  </templates>
   <templates uuid="669bf5b8-44a3-48bf-bbc6-e70f5c8098e9">
     <name>СвойстваФормИЭлементовУправления</name>
     <synonym>
