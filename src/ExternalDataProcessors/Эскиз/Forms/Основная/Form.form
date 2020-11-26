@@ -2032,7 +2032,7 @@
               <name>ГруппаКолонокРежимРедактированияСвойств</name>
               <id>254</id>
               <items xsi:type="form:FormField">
-                <name>СвойстваФормИЭлементовУправленияВариантЗаполнения</name>
+                <name>ВариантЗаполнения</name>
                 <id>420</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -2040,7 +2040,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>СвойстваФормИЭлементовУправленияВариантЗаполненияРасширеннаяПодсказка</name>
+                  <name>ВариантЗаполненияРасширеннаяПодсказка</name>
                   <id>422</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -2055,7 +2055,7 @@
                   </extInfo>
                 </extendedTooltip>
                 <contextMenu>
-                  <name>СвойстваФормИЭлементовУправленияВариантЗаполненияКонтекстноеМеню</name>
+                  <name>ВариантЗаполненияКонтекстноеМеню</name>
                   <id>421</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -2133,16 +2133,16 @@
                 </extInfo>
               </items>
               <items xsi:type="form:FormField">
-                <name>СвойстваФормИЭлементовУправленияОтбор_ФормаКлиентскогоПриложения</name>
-                <id>256</id>
+                <name>Отбор_ФормаКлиентскогоПриложения</name>
+                <id>443</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ФормаКлиентскогоПриложенияРасширеннаяПодсказка</name>
-                  <id>258</id>
+                  <name>Отбор_ФормаКлиентскогоПриложенияРасширеннаяПодсказка</name>
+                  <id>445</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -2156,8 +2156,8 @@
                   </extInfo>
                 </extendedTooltip>
                 <contextMenu>
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ФормаКлиентскогоПриложенияКонтекстноеМеню</name>
-                  <id>257</id>
+                  <name>Отбор_ФормаКлиентскогоПриложенияКонтекстноеМеню</name>
+                  <id>444</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -2165,18 +2165,16 @@
                   </userVisible>
                   <autoFill>true</autoFill>
                 </contextMenu>
-                <type>CheckBoxField</type>
                 <editMode>EnterOnInput</editMode>
                 <showInHeader>true</showInHeader>
                 <headerHorizontalAlign>Left</headerHorizontalAlign>
                 <showInFooter>true</showInFooter>
-                <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
               </items>
               <items xsi:type="form:FormGroup">
                 <name>ГруппаКалонокГруппы</name>
                 <id>416</id>
                 <items xsi:type="form:FormField">
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ОбычнаяГруппа</name>
+                  <name>Отбор_ГруппаФормы_ОбычнаяГруппа</name>
                   <id>271</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -2184,7 +2182,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ОбычнаяГруппаРасширеннаяПодсказка</name>
+                    <name>Отбор_ГруппаФормы_ОбычнаяГруппаРасширеннаяПодсказка</name>
                     <id>273</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2199,7 +2197,7 @@
                     </extInfo>
                   </extendedTooltip>
                   <contextMenu>
-                    <name>СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ОбычнаяГруппаКонтекстноеМеню</name>
+                    <name>Отбор_ГруппаФормы_ОбычнаяГруппаКонтекстноеМеню</name>
                     <id>272</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2216,7 +2214,7 @@
                   <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
                 </items>
                 <items xsi:type="form:FormField">
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ГруппаКнопок</name>
+                  <name>Отбор_ГруппаФормы_ГруппаКнопок</name>
                   <id>259</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -2224,7 +2222,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ГруппаКнопокРасширеннаяПодсказка</name>
+                    <name>Отбор_ГруппаФормы_ГруппаКнопокРасширеннаяПодсказка</name>
                     <id>261</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2239,7 +2237,7 @@
                     </extInfo>
                   </extendedTooltip>
                   <contextMenu>
-                    <name>СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ГруппаКнопокКонтекстноеМеню</name>
+                    <name>Отбор_ГруппаФормы_ГруппаКнопокКонтекстноеМеню</name>
                     <id>260</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2256,7 +2254,7 @@
                   <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
                 </items>
                 <items xsi:type="form:FormField">
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ГруппаКолонок</name>
+                  <name>Отбор_ГруппаФормы_ГруппаКолонок</name>
                   <id>262</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -2264,7 +2262,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ГруппаКолонокРасширеннаяПодсказка</name>
+                    <name>Отбор_ГруппаФормы_ГруппаКолонокРасширеннаяПодсказка</name>
                     <id>264</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2279,7 +2277,7 @@
                     </extInfo>
                   </extendedTooltip>
                   <contextMenu>
-                    <name>СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ГруппаКолонокКонтекстноеМеню</name>
+                    <name>Отбор_ГруппаФормы_ГруппаКолонокКонтекстноеМеню</name>
                     <id>263</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2296,7 +2294,7 @@
                   <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
                 </items>
                 <items xsi:type="form:FormField">
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_КоманднаяПанель</name>
+                  <name>Отбор_ГруппаФормы_КоманднаяПанель</name>
                   <id>265</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -2304,7 +2302,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_КоманднаяПанельРасширеннаяПодсказка</name>
+                    <name>Отбор_ГруппаФормы_КоманднаяПанельРасширеннаяПодсказка</name>
                     <id>267</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2319,7 +2317,7 @@
                     </extInfo>
                   </extendedTooltip>
                   <contextMenu>
-                    <name>СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_КоманднаяПанельКонтекстноеМеню</name>
+                    <name>Отбор_ГруппаФормы_КоманднаяПанельКонтекстноеМеню</name>
                     <id>266</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2336,7 +2334,7 @@
                   <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
                 </items>
                 <items xsi:type="form:FormField">
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_Подменю</name>
+                  <name>Отбор_ГруппаФормы_Подменю</name>
                   <id>274</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -2344,7 +2342,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ПодменюРасширеннаяПодсказка</name>
+                    <name>Отбор_ГруппаФормы_ПодменюРасширеннаяПодсказка</name>
                     <id>276</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2359,7 +2357,7 @@
                     </extInfo>
                   </extendedTooltip>
                   <contextMenu>
-                    <name>СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_ПодменюКонтекстноеМеню</name>
+                    <name>Отбор_ГруппаФормы_ПодменюКонтекстноеМеню</name>
                     <id>275</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2376,7 +2374,7 @@
                   <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
                 </items>
                 <items xsi:type="form:FormField">
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_Страницы</name>
+                  <name>Отбор_ГруппаФормы_Страницы</name>
                   <id>280</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -2384,7 +2382,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_СтраницыРасширеннаяПодсказка</name>
+                    <name>Отбор_ГруппаФормы_СтраницыРасширеннаяПодсказка</name>
                     <id>282</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2399,7 +2397,7 @@
                     </extInfo>
                   </extendedTooltip>
                   <contextMenu>
-                    <name>СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_СтраницыКонтекстноеМеню</name>
+                    <name>Отбор_ГруппаФормы_СтраницыКонтекстноеМеню</name>
                     <id>281</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2416,7 +2414,7 @@
                   <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
                 </items>
                 <items xsi:type="form:FormField">
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_Страница</name>
+                  <name>Отбор_ГруппаФормы_Страница</name>
                   <id>277</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -2424,7 +2422,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_СтраницаРасширеннаяПодсказка</name>
+                    <name>Отбор_ГруппаФормы_СтраницаРасширеннаяПодсказка</name>
                     <id>279</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2439,7 +2437,7 @@
                     </extInfo>
                   </extendedTooltip>
                   <contextMenu>
-                    <name>СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_СтраницаКонтекстноеМеню</name>
+                    <name>Отбор_ГруппаФормы_СтраницаКонтекстноеМеню</name>
                     <id>278</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2456,7 +2454,7 @@
                   <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
                 </items>
                 <items xsi:type="form:FormField">
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_КонтекстноеМеню</name>
+                  <name>Отбор_ГруппаФормы_КонтекстноеМеню</name>
                   <id>268</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -2464,7 +2462,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_КонтекстноеМенюРасширеннаяПодсказка</name>
+                    <name>Отбор_ГруппаФормы_КонтекстноеМенюРасширеннаяПодсказка</name>
                     <id>270</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2479,7 +2477,7 @@
                     </extInfo>
                   </extendedTooltip>
                   <contextMenu>
-                    <name>СвойстваФормИЭлементовУправленияОтбор_ГруппаФормы_КонтекстноеМенюКонтекстноеМеню</name>
+                    <name>Отбор_ГруппаФормы_КонтекстноеМенюКонтекстноеМеню</name>
                     <id>269</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2529,7 +2527,7 @@
                 <name>ГруппаПолеВвода</name>
                 <id>418</id>
                 <items xsi:type="form:FormField">
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_Строка</name>
+                  <name>Отбор_ПолеФормы_ПолеВвода_Строка</name>
                   <id>364</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -2537,7 +2535,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_СтрокаРасширеннаяПодсказка</name>
+                    <name>Отбор_ПолеФормы_ПолеВвода_СтрокаРасширеннаяПодсказка</name>
                     <id>366</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2552,7 +2550,7 @@
                     </extInfo>
                   </extendedTooltip>
                   <contextMenu>
-                    <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_СтрокаКонтекстноеМеню</name>
+                    <name>Отбор_ПолеФормы_ПолеВвода_СтрокаКонтекстноеМеню</name>
                     <id>365</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2569,7 +2567,7 @@
                   <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
                 </items>
                 <items xsi:type="form:FormField">
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_Число</name>
+                  <name>Отбор_ПолеФормы_ПолеВвода_Число</name>
                   <id>367</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -2577,7 +2575,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_ЧислоРасширеннаяПодсказка</name>
+                    <name>Отбор_ПолеФормы_ПолеВвода_ЧислоРасширеннаяПодсказка</name>
                     <id>369</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2592,7 +2590,7 @@
                     </extInfo>
                   </extendedTooltip>
                   <contextMenu>
-                    <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_ЧислоКонтекстноеМеню</name>
+                    <name>Отбор_ПолеФормы_ПолеВвода_ЧислоКонтекстноеМеню</name>
                     <id>368</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2609,7 +2607,7 @@
                   <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
                 </items>
                 <items xsi:type="form:FormField">
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_Булево</name>
+                  <name>Отбор_ПолеФормы_ПолеВвода_Булево</name>
                   <id>370</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -2617,7 +2615,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_БулевоРасширеннаяПодсказка</name>
+                    <name>Отбор_ПолеФормы_ПолеВвода_БулевоРасширеннаяПодсказка</name>
                     <id>372</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2632,7 +2630,7 @@
                     </extInfo>
                   </extendedTooltip>
                   <contextMenu>
-                    <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_БулевоКонтекстноеМеню</name>
+                    <name>Отбор_ПолеФормы_ПолеВвода_БулевоКонтекстноеМеню</name>
                     <id>371</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2649,7 +2647,7 @@
                   <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
                 </items>
                 <items xsi:type="form:FormField">
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_Дата</name>
+                  <name>Отбор_ПолеФормы_ПолеВвода_Дата</name>
                   <id>373</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -2657,7 +2655,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_ДатаРасширеннаяПодсказка</name>
+                    <name>Отбор_ПолеФормы_ПолеВвода_ДатаРасширеннаяПодсказка</name>
                     <id>375</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2672,7 +2670,7 @@
                     </extInfo>
                   </extendedTooltip>
                   <contextMenu>
-                    <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_ДатаКонтекстноеМеню</name>
+                    <name>Отбор_ПолеФормы_ПолеВвода_ДатаКонтекстноеМеню</name>
                     <id>374</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2689,7 +2687,7 @@
                   <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
                 </items>
                 <items xsi:type="form:FormField">
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_СтандартныйПериод</name>
+                  <name>Отбор_ПолеФормы_ПолеВвода_СтандартныйПериод</name>
                   <id>376</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -2697,7 +2695,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_СтандартныйПериодРасширеннаяПодсказка</name>
+                    <name>Отбор_ПолеФормы_ПолеВвода_СтандартныйПериодРасширеннаяПодсказка</name>
                     <id>378</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2712,7 +2710,7 @@
                     </extInfo>
                   </extendedTooltip>
                   <contextMenu>
-                    <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеВвода_СтандартныйПериодКонтекстноеМеню</name>
+                    <name>Отбор_ПолеФормы_ПолеВвода_СтандартныйПериодКонтекстноеМеню</name>
                     <id>377</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2766,7 +2764,7 @@
                 <name>ГруппаКолонокКнопки</name>
                 <id>423</id>
                 <items xsi:type="form:FormField">
-                  <name>СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_ОбычнаяКнопка</name>
+                  <name>Отбор_КнопкаФормы_ОбычнаяКнопка</name>
                   <id>319</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -2774,7 +2772,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_ОбычнаяКнопкаРасширеннаяПодсказка</name>
+                    <name>Отбор_КнопкаФормы_ОбычнаяКнопкаРасширеннаяПодсказка</name>
                     <id>321</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2789,7 +2787,7 @@
                     </extInfo>
                   </extendedTooltip>
                   <contextMenu>
-                    <name>СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_ОбычнаяКнопкаКонтекстноеМеню</name>
+                    <name>Отбор_КнопкаФормы_ОбычнаяКнопкаКонтекстноеМеню</name>
                     <id>320</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2806,7 +2804,7 @@
                   <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
                 </items>
                 <items xsi:type="form:FormField">
-                  <name>СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_КнопкаКоманднойПанели</name>
+                  <name>Отбор_КнопкаФормы_КнопкаКоманднойПанели</name>
                   <id>322</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -2814,7 +2812,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_КнопкаКоманднойПанелиРасширеннаяПодсказка</name>
+                    <name>Отбор_КнопкаФормы_КнопкаКоманднойПанелиРасширеннаяПодсказка</name>
                     <id>324</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2829,7 +2827,7 @@
                     </extInfo>
                   </extendedTooltip>
                   <contextMenu>
-                    <name>СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_КнопкаКоманднойПанелиКонтекстноеМеню</name>
+                    <name>Отбор_КнопкаФормы_КнопкаКоманднойПанелиКонтекстноеМеню</name>
                     <id>323</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2846,7 +2844,7 @@
                   <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
                 </items>
                 <items xsi:type="form:FormField">
-                  <name>СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_Гиперссылка</name>
+                  <name>Отбор_КнопкаФормы_Гиперссылка</name>
                   <id>325</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -2854,7 +2852,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_ГиперссылкаРасширеннаяПодсказка</name>
+                    <name>Отбор_КнопкаФормы_ГиперссылкаРасширеннаяПодсказка</name>
                     <id>327</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2869,7 +2867,7 @@
                     </extInfo>
                   </extendedTooltip>
                   <contextMenu>
-                    <name>СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_ГиперссылкаКонтекстноеМеню</name>
+                    <name>Отбор_КнопкаФормы_ГиперссылкаКонтекстноеМеню</name>
                     <id>326</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2886,7 +2884,7 @@
                   <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
                 </items>
                 <items xsi:type="form:FormField">
-                  <name>СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_ГиперссылкаКоманднойПанели</name>
+                  <name>Отбор_КнопкаФормы_ГиперссылкаКоманднойПанели</name>
                   <id>328</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -2894,7 +2892,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_ГиперссылкаКоманднойПанелиРасширеннаяПодсказка</name>
+                    <name>Отбор_КнопкаФормы_ГиперссылкаКоманднойПанелиРасширеннаяПодсказка</name>
                     <id>330</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2909,7 +2907,7 @@
                     </extInfo>
                   </extendedTooltip>
                   <contextMenu>
-                    <name>СвойстваФормИЭлементовУправленияОтбор_КнопкаФормы_ГиперссылкаКоманднойПанелиКонтекстноеМеню</name>
+                    <name>Отбор_КнопкаФормы_ГиперссылкаКоманднойПанелиКонтекстноеМеню</name>
                     <id>329</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2960,7 +2958,7 @@
                 </extInfo>
               </items>
               <items xsi:type="form:FormField">
-                <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеИндикатора</name>
+                <name>Отбор_ПолеФормы_ПолеИндикатора</name>
                 <id>286</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -2968,7 +2966,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеИндикатораРасширеннаяПодсказка</name>
+                  <name>Отбор_ПолеФормы_ПолеИндикатораРасширеннаяПодсказка</name>
                   <id>288</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -2983,7 +2981,7 @@
                   </extInfo>
                 </extendedTooltip>
                 <contextMenu>
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеИндикатораКонтекстноеМеню</name>
+                  <name>Отбор_ПолеФормы_ПолеИндикатораКонтекстноеМеню</name>
                   <id>287</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -3000,7 +2998,7 @@
                 <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
               </items>
               <items xsi:type="form:FormField">
-                <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеКалендаря</name>
+                <name>Отбор_ПолеФормы_ПолеКалендаря</name>
                 <id>289</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -3008,7 +3006,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеКалендаряРасширеннаяПодсказка</name>
+                  <name>Отбор_ПолеФормы_ПолеКалендаряРасширеннаяПодсказка</name>
                   <id>291</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -3023,7 +3021,7 @@
                   </extInfo>
                 </extendedTooltip>
                 <contextMenu>
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеКалендаряКонтекстноеМеню</name>
+                  <name>Отбор_ПолеФормы_ПолеКалендаряКонтекстноеМеню</name>
                   <id>290</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -3040,7 +3038,7 @@
                 <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
               </items>
               <items xsi:type="form:FormField">
-                <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеКартинки</name>
+                <name>Отбор_ПолеФормы_ПолеКартинки</name>
                 <id>292</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -3048,7 +3046,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеКартинкиРасширеннаяПодсказка</name>
+                  <name>Отбор_ПолеФормы_ПолеКартинкиРасширеннаяПодсказка</name>
                   <id>294</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -3063,7 +3061,7 @@
                   </extInfo>
                 </extendedTooltip>
                 <contextMenu>
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеКартинкиКонтекстноеМеню</name>
+                  <name>Отбор_ПолеФормы_ПолеКартинкиКонтекстноеМеню</name>
                   <id>293</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -3080,7 +3078,7 @@
                 <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
               </items>
               <items xsi:type="form:FormField">
-                <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеНадписи</name>
+                <name>Отбор_ПолеФормы_ПолеНадписи</name>
                 <id>295</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -3088,7 +3086,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеНадписиРасширеннаяПодсказка</name>
+                  <name>Отбор_ПолеФормы_ПолеНадписиРасширеннаяПодсказка</name>
                   <id>297</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -3103,7 +3101,7 @@
                   </extInfo>
                 </extendedTooltip>
                 <contextMenu>
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеНадписиКонтекстноеМеню</name>
+                  <name>Отбор_ПолеФормы_ПолеНадписиКонтекстноеМеню</name>
                   <id>296</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -3120,7 +3118,7 @@
                 <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
               </items>
               <items xsi:type="form:FormField">
-                <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеФлажка</name>
+                <name>Отбор_ПолеФормы_ПолеФлажка</name>
                 <id>313</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -3128,7 +3126,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеФлажкаРасширеннаяПодсказка</name>
+                  <name>Отбор_ПолеФормы_ПолеФлажкаРасширеннаяПодсказка</name>
                   <id>315</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -3143,7 +3141,7 @@
                   </extInfo>
                 </extendedTooltip>
                 <contextMenu>
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеФлажкаКонтекстноеМеню</name>
+                  <name>Отбор_ПолеФормы_ПолеФлажкаКонтекстноеМеню</name>
                   <id>314</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -3160,7 +3158,7 @@
                 <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
               </items>
               <items xsi:type="form:FormField">
-                <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеПереключателя</name>
+                <name>Отбор_ПолеФормы_ПолеПереключателя</name>
                 <id>298</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -3168,7 +3166,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеПереключателяРасширеннаяПодсказка</name>
+                  <name>Отбор_ПолеФормы_ПолеПереключателяРасширеннаяПодсказка</name>
                   <id>300</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -3183,7 +3181,7 @@
                   </extInfo>
                 </extendedTooltip>
                 <contextMenu>
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеПереключателяКонтекстноеМеню</name>
+                  <name>Отбор_ПолеФормы_ПолеПереключателяКонтекстноеМеню</name>
                   <id>299</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -3200,7 +3198,7 @@
                 <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
               </items>
               <items xsi:type="form:FormField">
-                <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеПолосыРегулирования</name>
+                <name>Отбор_ПолеФормы_ПолеПолосыРегулирования</name>
                 <id>304</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -3208,7 +3206,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеПолосыРегулированияРасширеннаяПодсказка</name>
+                  <name>Отбор_ПолеФормы_ПолеПолосыРегулированияРасширеннаяПодсказка</name>
                   <id>306</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -3223,7 +3221,7 @@
                   </extInfo>
                 </extendedTooltip>
                 <contextMenu>
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеПолосыРегулированияКонтекстноеМеню</name>
+                  <name>Отбор_ПолеФормы_ПолеПолосыРегулированияКонтекстноеМеню</name>
                   <id>305</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -3240,7 +3238,7 @@
                 <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
               </items>
               <items xsi:type="form:FormField">
-                <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеТабличногоДокумента</name>
+                <name>Отбор_ПолеФормы_ПолеТабличногоДокумента</name>
                 <id>307</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -3248,7 +3246,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеТабличногоДокументаРасширеннаяПодсказка</name>
+                  <name>Отбор_ПолеФормы_ПолеТабличногоДокументаРасширеннаяПодсказка</name>
                   <id>309</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -3263,7 +3261,7 @@
                   </extInfo>
                 </extendedTooltip>
                 <contextMenu>
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеТабличногоДокументаКонтекстноеМеню</name>
+                  <name>Отбор_ПолеФормы_ПолеТабличногоДокументаКонтекстноеМеню</name>
                   <id>308</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -3280,7 +3278,7 @@
                 <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
               </items>
               <items xsi:type="form:FormField">
-                <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеТекстовогоДокумента</name>
+                <name>Отбор_ПолеФормы_ПолеТекстовогоДокумента</name>
                 <id>310</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -3288,7 +3286,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеТекстовогоДокументаРасширеннаяПодсказка</name>
+                  <name>Отбор_ПолеФормы_ПолеТекстовогоДокументаРасширеннаяПодсказка</name>
                   <id>312</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -3303,7 +3301,7 @@
                   </extInfo>
                 </extendedTooltip>
                 <contextMenu>
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеТекстовогоДокументаКонтекстноеМеню</name>
+                  <name>Отбор_ПолеФормы_ПолеТекстовогоДокументаКонтекстноеМеню</name>
                   <id>311</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -3320,7 +3318,7 @@
                 <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
               </items>
               <items xsi:type="form:FormField">
-                <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеФорматированногоДокумента</name>
+                <name>Отбор_ПолеФормы_ПолеФорматированногоДокумента</name>
                 <id>316</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -3328,7 +3326,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеФорматированногоДокументаРасширеннаяПодсказка</name>
+                  <name>Отбор_ПолеФормы_ПолеФорматированногоДокументаРасширеннаяПодсказка</name>
                   <id>318</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -3343,7 +3341,7 @@
                   </extInfo>
                 </extendedTooltip>
                 <contextMenu>
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеФорматированногоДокументаКонтекстноеМеню</name>
+                  <name>Отбор_ПолеФормы_ПолеФорматированногоДокументаКонтекстноеМеню</name>
                   <id>317</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -3360,7 +3358,7 @@
                 <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
               </items>
               <items xsi:type="form:FormField">
-                <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеПериода</name>
+                <name>Отбор_ПолеФормы_ПолеПериода</name>
                 <id>301</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -3368,7 +3366,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеПериодаРасширеннаяПодсказка</name>
+                  <name>Отбор_ПолеФормы_ПолеПериодаРасширеннаяПодсказка</name>
                   <id>303</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -3383,7 +3381,7 @@
                   </extInfo>
                 </extendedTooltip>
                 <contextMenu>
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ПолеФормы_ПолеПериодаКонтекстноеМеню</name>
+                  <name>Отбор_ПолеФормы_ПолеПериодаКонтекстноеМеню</name>
                   <id>302</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -3400,7 +3398,7 @@
                 <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
               </items>
               <items xsi:type="form:FormField">
-                <name>СвойстваФормИЭлементовУправленияОтбор_ТаблицаФормы_ТаблицаЗначений</name>
+                <name>Отбор_ТаблицаФормы_ТаблицаЗначений</name>
                 <id>331</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -3408,7 +3406,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ТаблицаФормы_ТаблицаЗначенийРасширеннаяПодсказка</name>
+                  <name>Отбор_ТаблицаФормы_ТаблицаЗначенийРасширеннаяПодсказка</name>
                   <id>333</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -3423,7 +3421,7 @@
                   </extInfo>
                 </extendedTooltip>
                 <contextMenu>
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ТаблицаФормы_ТаблицаЗначенийКонтекстноеМеню</name>
+                  <name>Отбор_ТаблицаФормы_ТаблицаЗначенийКонтекстноеМеню</name>
                   <id>332</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -3440,7 +3438,7 @@
                 <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
               </items>
               <items xsi:type="form:FormField">
-                <name>СвойстваФормИЭлементовУправленияОтбор_ТаблицаФормы_ДеревоЗначений</name>
+                <name>Отбор_ТаблицаФормы_ДеревоЗначений</name>
                 <id>334</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -3448,7 +3446,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ТаблицаФормы_ДеревоЗначенийРасширеннаяПодсказка</name>
+                  <name>Отбор_ТаблицаФормы_ДеревоЗначенийРасширеннаяПодсказка</name>
                   <id>336</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -3463,7 +3461,7 @@
                   </extInfo>
                 </extendedTooltip>
                 <contextMenu>
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ТаблицаФормы_ДеревоЗначенийКонтекстноеМеню</name>
+                  <name>Отбор_ТаблицаФормы_ДеревоЗначенийКонтекстноеМеню</name>
                   <id>335</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -3480,7 +3478,7 @@
                 <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
               </items>
               <items xsi:type="form:FormField">
-                <name>СвойстваФормИЭлементовУправленияОтбор_ДекорацияФормы_Картинка</name>
+                <name>Отбор_ДекорацияФормы_Картинка</name>
                 <id>337</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -3488,7 +3486,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ДекорацияФормы_КартинкаРасширеннаяПодсказка</name>
+                  <name>Отбор_ДекорацияФормы_КартинкаРасширеннаяПодсказка</name>
                   <id>339</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -3503,7 +3501,7 @@
                   </extInfo>
                 </extendedTooltip>
                 <contextMenu>
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ДекорацияФормы_КартинкаКонтекстноеМеню</name>
+                  <name>Отбор_ДекорацияФормы_КартинкаКонтекстноеМеню</name>
                   <id>338</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -3520,7 +3518,7 @@
                 <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
               </items>
               <items xsi:type="form:FormField">
-                <name>СвойстваФормИЭлементовУправленияОтбор_ДекорацияФормы_Надпись</name>
+                <name>Отбор_ДекорацияФормы_Надпись</name>
                 <id>340</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -3528,7 +3526,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ДекорацияФормы_НадписьРасширеннаяПодсказка</name>
+                  <name>Отбор_ДекорацияФормы_НадписьРасширеннаяПодсказка</name>
                   <id>342</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -3543,7 +3541,7 @@
                   </extInfo>
                 </extendedTooltip>
                 <contextMenu>
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ДекорацияФормы_НадписьКонтекстноеМеню</name>
+                  <name>Отбор_ДекорацияФормы_НадписьКонтекстноеМеню</name>
                   <id>341</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -3560,7 +3558,7 @@
                 <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
               </items>
               <items xsi:type="form:FormField">
-                <name>СвойстваФормИЭлементовУправленияДанныеВыбора</name>
+                <name>ДанныеВыбора</name>
                 <id>352</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -3568,7 +3566,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>СвойстваФормИЭлементовУправленияДанныеВыбораРасширеннаяПодсказка</name>
+                  <name>ДанныеВыбораРасширеннаяПодсказка</name>
                   <id>354</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -3583,7 +3581,7 @@
                   </extInfo>
                 </extendedTooltip>
                 <contextMenu>
-                  <name>СвойстваФормИЭлементовУправленияДанныеВыбораКонтекстноеМеню</name>
+                  <name>ДанныеВыбораКонтекстноеМеню</name>
                   <id>353</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -3611,7 +3609,7 @@
                 </extInfo>
               </items>
               <items xsi:type="form:FormField">
-                <name>СвойстваФормИЭлементовУправленияДанныеВыбора_ГруппаКолонок</name>
+                <name>ДанныеВыбора_ГруппаКолонок</name>
                 <id>410</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -3619,7 +3617,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>СвойстваФормИЭлементовУправленияДанныеВыбора_ГруппаКолонокРасширеннаяПодсказка</name>
+                  <name>ДанныеВыбора_ГруппаКолонокРасширеннаяПодсказка</name>
                   <id>412</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -3634,7 +3632,7 @@
                   </extInfo>
                 </extendedTooltip>
                 <contextMenu>
-                  <name>СвойстваФормИЭлементовУправленияДанныеВыбора_ГруппаКолонокКонтекстноеМеню</name>
+                  <name>ДанныеВыбора_ГруппаКолонокКонтекстноеМеню</name>
                   <id>411</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -3662,7 +3660,7 @@
                 </extInfo>
               </items>
               <items xsi:type="form:FormField">
-                <name>СвойстваФормИЭлементовУправленияДанныеВыбора_Кнопка</name>
+                <name>ДанныеВыбора_Кнопка</name>
                 <id>413</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -3670,7 +3668,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>СвойстваФормИЭлементовУправленияДанныеВыбора_КнопкаРасширеннаяПодсказка</name>
+                  <name>ДанныеВыбора_КнопкаРасширеннаяПодсказка</name>
                   <id>415</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -3685,7 +3683,7 @@
                   </extInfo>
                 </extendedTooltip>
                 <contextMenu>
-                  <name>СвойстваФормИЭлементовУправленияДанныеВыбора_КнопкаКонтекстноеМеню</name>
+                  <name>ДанныеВыбора_КнопкаКонтекстноеМеню</name>
                   <id>414</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -3713,7 +3711,7 @@
                 </extInfo>
               </items>
               <items xsi:type="form:FormField">
-                <name>СвойстваФормИЭлементовУправленияОтбор_Пусто</name>
+                <name>Отбор_Пусто</name>
                 <id>355</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -3721,7 +3719,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ПустоРасширеннаяПодсказка</name>
+                  <name>Отбор_ПустоРасширеннаяПодсказка</name>
                   <id>357</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -3736,7 +3734,7 @@
                   </extInfo>
                 </extendedTooltip>
                 <contextMenu>
-                  <name>СвойстваФормИЭлементовУправленияОтбор_ПустоКонтекстноеМеню</name>
+                  <name>Отбор_ПустоКонтекстноеМеню</name>
                   <id>356</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -3752,6 +3750,7 @@
                 <showInFooter>true</showInFooter>
                 <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
               </items>
+              <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
                 <common>true</common>
@@ -5535,7 +5534,7 @@
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>НастройкиПроекта</name>
+        <name>НастройкиИнструмента</name>
       </handler>
     </action>
     <representation>Picture</representation>

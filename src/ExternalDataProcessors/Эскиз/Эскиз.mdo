@@ -155,4 +155,11 @@
       <value>Свойства форм и элементов управления</value>
     </synonym>
   </templates>
+  <templates uuid="c0c01cad-5302-409b-a760-25a8a41446d2">
+    <name>СвойстваФормИЭлементовУправленияЭлементы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойства форм и элементов управления элементы</value>
+    </synonym>
+  </templates>
 </mdclass:ExternalDataProcessor>
