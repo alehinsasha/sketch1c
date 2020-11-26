@@ -32,13 +32,13 @@
 		<columnsItem>
 			<index>2</index>
 			<column>
-				<formatIndex>1</formatIndex>
+				<formatIndex>4</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
 			<index>4</index>
 			<column>
-				<formatIndex>4</formatIndex>
+				<formatIndex>5</formatIndex>
 			</column>
 		</columnsItem>
 	</columns>
@@ -47,7 +47,7 @@
 		<row>
 			<c>
 				<c>
-					<f>5</f>
+					<f>6</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -58,7 +58,7 @@
 			</c>
 			<c>
 				<c>
-					<f>6</f>
+					<f>7</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -69,7 +69,7 @@
 			</c>
 			<c>
 				<c>
-					<f>7</f>
+					<f>8</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -80,7 +80,7 @@
 			</c>
 			<c>
 				<c>
-					<f>7</f>
+					<f>8</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -91,7 +91,7 @@
 			</c>
 			<c>
 				<c>
-					<f>7</f>
+					<f>8</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -383,7 +383,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Отбор_ГруппаФормы_ОбычнаяГруппа</v8:content>
+							<v8:content>Обычная группа</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -433,7 +433,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Отбор_ГруппаФормы_Подменю</v8:content>
+							<v8:content>Подменю</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -483,7 +483,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Отбор_ГруппаФормы_Страница</v8:content>
+							<v8:content>Страница</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -533,7 +533,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Отбор_ГруппаФормы_Страницы</v8:content>
+							<v8:content>Страницы</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -583,7 +583,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Отбор_ПолеФормы_ПолеИндикатора</v8:content>
+							<v8:content>Поле индикатора</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -633,7 +633,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Отбор_ПолеФормы_ПолеКалендаря</v8:content>
+							<v8:content>Поле календаря</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -683,7 +683,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Отбор_ПолеФормы_ПолеКартинки</v8:content>
+							<v8:content>Поле картинки</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -733,7 +733,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Отбор_ПолеФормы_ПолеНадписи</v8:content>
+							<v8:content>Поле надписи</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -783,7 +783,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Отбор_ПолеФормы_ПолеПереключателя</v8:content>
+							<v8:content>Поле переключателя</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -833,7 +833,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Отбор_ПолеФормы_ПолеПериода</v8:content>
+							<v8:content>Поле периода</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -883,7 +883,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Отбор_ПолеФормы_ПолеПолосыРегулирования</v8:content>
+							<v8:content>Поле полосы регулирования</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -933,7 +933,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Отбор_ПолеФормы_ПолеТабличногоДокумента</v8:content>
+							<v8:content>Поле табличного документа</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -983,7 +983,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Отбор_ПолеФормы_ПолеТекстовогоДокумента</v8:content>
+							<v8:content>Поле текстового документа</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -1033,7 +1033,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Отбор_ПолеФормы_ПолеФлажка</v8:content>
+							<v8:content>Поле флажка</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -1083,7 +1083,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Отбор_ПолеФормы_ПолеФорматированногоДокумента</v8:content>
+							<v8:content>Поле форматированного документа</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -1133,7 +1133,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Отбор_КнопкаФормы_ОбычнаяКнопка</v8:content>
+							<v8:content>Обычная кнопка</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -1183,7 +1183,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Отбор_КнопкаФормы_КнопкаКоманднойПанели</v8:content>
+							<v8:content>Кнопка командной панели</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -1233,7 +1233,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Отбор_КнопкаФормы_Гиперссылка</v8:content>
+							<v8:content>Гиперссылка</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -1283,7 +1283,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Отбор_КнопкаФормы_ГиперссылкаКоманднойПанели</v8:content>
+							<v8:content>Гиперссылка командной панели</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -1333,7 +1333,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Отбор_ТаблицаФормы_ТаблицаЗначений</v8:content>
+							<v8:content>Таблица значений</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -1383,7 +1383,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Отбор_ТаблицаФормы_ДеревоЗначений</v8:content>
+							<v8:content>Дерево значений</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -1433,7 +1433,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Отбор_ДекорацияФормы_Картинка</v8:content>
+							<v8:content>Картинка</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -1483,7 +1483,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Отбор_ДекорацияФормы_Надпись</v8:content>
+							<v8:content>Надпись</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -1583,7 +1583,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Отбор_ПолеФормы_ПолеВвода_Строка</v8:content>
+							<v8:content>Поле ввода (строка)</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -1633,7 +1633,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Отбор_ПолеФормы_ПолеВвода_Число</v8:content>
+							<v8:content>Поле ввода (число)</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -1683,7 +1683,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Отбор_ПолеФормы_ПолеВвода_Булево</v8:content>
+							<v8:content>Поле ввода (булево)</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -1733,7 +1733,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Отбор_ПолеФормы_ПолеВвода_Дата</v8:content>
+							<v8:content>Поле ввода (дата)</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -1783,7 +1783,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Отбор_ПолеФормы_ПолеВвода_СтандартныйПериод</v8:content>
+							<v8:content>Поле ввода (стандартный период)</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -1833,7 +1833,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ВариантЗаполнения</v8:content>
+							<v8:content>Вариант заполнения</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -1883,7 +1883,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ДанныеВыбора</v8:content>
+							<v8:content>Данные выбора</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -1894,7 +1894,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>СвойстваФормИЭлементовУправленияДанныеВыбораНачалоВыбора</v8:content>
+							<v8:content>СвойстваФормИЭлементовУправленияДанныеВыбора_НачалоВыбора</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -1943,7 +1943,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ДанныеВыбора_ГруппаКолонок</v8:content>
+							<v8:content>Данные выбора (руппа колонок)</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -2003,7 +2003,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ДанныеВыбора_Кнопка</v8:content>
+							<v8:content>Данные выбора (кнопка)</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -2064,6 +2064,9 @@
 	</format>
 	<format>
 		<width>602</width>
+	</format>
+	<format>
+		<width>257</width>
 	</format>
 	<format>
 		<width>333</width>
