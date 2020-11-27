@@ -28,10 +28,10 @@
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
-              <segments>ОткрытыеФормы.Реквизит1</segments>
+              <segments>ОткрытыеФормы.Заголовок</segments>
             </paths>
             <paths xsi:type="form:DataPath">
-              <segments>ОткрытыеФормы.Реквизит1</segments>
+              <segments>ОткрытыеФормы.Заголовок</segments>
             </paths>
           </dataPath>
           <extendedTooltip>
@@ -674,6 +674,14 @@
     </userVisible>
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
+  <handlers>
+    <event>OnOpen</event>
+    <name>ПриОткрытии</name>
+  </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>AlwaysHorizontal</group>
@@ -699,8 +707,30 @@
       <common>true</common>
     </edit>
     <columns>
-      <name>Реквизит1</name>
+      <name>Заголовок</name>
+      <title>
+        <key>ru</key>
+        <value>Заголовок</value>
+      </title>
       <id>2</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ИдентификаторФормы</name>
+      <title>
+        <key>ru</key>
+        <value>Идентификатор формы</value>
+      </title>
+      <id>5</id>
       <valueType>
         <types>String</types>
         <stringQualifiers/>
@@ -754,6 +784,11 @@
     <use>
       <common>true</common>
     </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>Применить</name>
+      </handler>
+    </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
