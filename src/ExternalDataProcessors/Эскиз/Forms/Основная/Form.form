@@ -4119,11 +4119,54 @@
         <items xsi:type="form:FormGroup">
           <name>ГруппаСобытияФормИЭлементовУправления</name>
           <id>83</id>
+          <items xsi:type="form:Decoration">
+            <name>Декорация1</name>
+            <id>443</id>
+            <title>
+              <key>ru</key>
+              <value>&lt;color #ff0000>Данная функциональность&lt;/>&lt;color #ff0000> пока ещё &lt;/>&lt;color #ff0000>в&lt;/>&lt;color #ff0000> &lt;/>&lt;color #ff0000>разработке, узнать&lt;/>&lt;color #ff0000> &lt;/>&lt;color #ff0000>текущий&lt;/>&lt;color #ff0000> &lt;/>&lt;color #ff0000>статус&lt;/>&lt;color #ff0000> &lt;/>&lt;color #ff0000>или&lt;/>&lt;color #ff0000> &lt;/>&lt;color #ff0000>добавить&lt;/>&lt;color #ff0000> &lt;/>&lt;color #ff0000>пожеланий&lt;/>&lt;color #ff0000> &lt;/>&lt;color #ff0000>можно&lt;/> &lt;link https://github.com/alehinsasha/sketch1c/issues/4>здесь&lt;/>.</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>Декорация1РасширеннаяПодсказка</name>
+              <id>445</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>Декорация1КонтекстноеМеню</name>
+              <id>444</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <formatted>true</formatted>
+            <type>Label</type>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </items>
           <items xsi:type="form:Table">
             <name>СобытияФормИЭлементовУправления</name>
             <id>85</id>
             <visible>true</visible>
-            <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
@@ -4636,6 +4679,11 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <backColor xsi:type="core:ColorDef">
+          <red>255</red>
+          <green>204</green>
+          <blue>153</blue>
+        </backColor>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <items xsi:type="form:Button">
@@ -5319,10 +5367,10 @@
     </settingsSavedData>
   </attributes>
   <attributes>
-    <name>ОтключитьАктивизациюЭлементаВПрототипе</name>
+    <name>АктивироватьТекущийЭлементВПрототипе</name>
     <title>
       <key>ru</key>
-      <value>Отключить активизацию элемента в прототипе</value>
+      <value>Активировать текущий элемент в прототипе</value>
     </title>
     <id>11</id>
     <valueType>
