@@ -4629,6 +4629,7 @@
           <blue>153</blue>
         </backColor>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InCommandBar</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
         <name>ЗагрузитьПрототипИзКаталога</name>
@@ -4659,6 +4660,7 @@
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InCommandBar</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
         <name>СохранитьПрототип</name>
@@ -4689,6 +4691,7 @@
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InCommandBar</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
         <name>УдалитьФормуЭлементУправления</name>
@@ -4719,6 +4722,7 @@
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InCommandBar</locationInCommandBar>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -4784,6 +4788,7 @@
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InCommandBar</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
         <name>ПереместитьВниз</name>
@@ -4814,6 +4819,7 @@
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InCommandBar</locationInCommandBar>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -4876,6 +4882,7 @@
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
+      <locationInCommandBar>InCommandBar</locationInCommandBar>
     </items>
     <items xsi:type="form:Button">
       <name>ОткрытьПрототип</name>
@@ -4911,18 +4918,81 @@
       </backColor>
       <picture xsi:type="form:FormPicture"/>
       <representationInContextMenu>Auto</representationInContextMenu>
+      <locationInCommandBar>InCommandBar</locationInCommandBar>
     </items>
-    <items xsi:type="form:Button">
-      <name>ЗагрузитьПрототипИзФормыКонфигурации</name>
-      <id>439</id>
+    <items xsi:type="form:FormGroup">
+      <name>ФормаГруппа1</name>
+      <id>446</id>
+      <items xsi:type="form:Button">
+        <name>ЗагрузитьПрототипИзОткрытойФормы</name>
+        <id>441</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ЗагрузитьПрототипИзОткрытойФормыРасширеннаяПодсказка</name>
+          <id>442</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.ЗагрузитьПрототипИзОткрытойФормы</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
+      </items>
+      <items xsi:type="form:Button">
+        <name>ЗагрузитьПрототипИзФормыКонфигурации</name>
+        <id>439</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ЗагрузитьПрототипИзФормыКонфигурацииРасширеннаяПодсказка</name>
+          <id>440</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.ЗагрузитьПрототипИзФормыКонфигурации</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
+      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ЗагрузитьПрототипИзФормыКонфигурацииРасширеннаяПодсказка</name>
-        <id>440</id>
+        <name>ФормаГруппа1РасширеннаяПодсказка</name>
+        <id>447</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -4935,44 +5005,7 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Command.ЗагрузитьПрототипИзФормыКонфигурации</commandName>
-      <representation>Auto</representation>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <placementArea>UserCmds</placementArea>
-      <representationInContextMenu>Auto</representationInContextMenu>
-      <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
-    </items>
-    <items xsi:type="form:Button">
-      <name>ЗагрузитьПрототипИзОткрытойФормы</name>
-      <id>441</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <extendedTooltip>
-        <name>ЗагрузитьПрототипИзОткрытойФормыРасширеннаяПодсказка</name>
-        <id>442</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <commandName>Form.Command.ЗагрузитьПрототипИзОткрытойФормы</commandName>
-      <representation>Auto</representation>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <placementArea>UserCmds</placementArea>
-      <representationInContextMenu>Auto</representationInContextMenu>
-      <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
+      <extInfo xsi:type="form:ButtonGroupExtInfo"/>
     </items>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -5502,7 +5535,7 @@
     <name>ПереместитьВверх</name>
     <title>
       <key>ru</key>
-      <value>Вверх</value>
+      <value>Переместить вверх</value>
     </title>
     <id>9</id>
     <toolTip>
