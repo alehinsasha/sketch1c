@@ -38,15 +38,6 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="e36d948c-8adb-4227-a4b5-c5cf9dd8fb8d">
-    <name>Роли</name>
-    <synonym>
-      <key>ru</key>
-      <value>Роли</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
   <forms uuid="557cbcc0-711b-4591-b27b-46b7e7c8bfbd">
     <name>НастройкиИнструмента</name>
     <usePurposes>PersonalComputer</usePurposes>
